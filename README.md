@@ -4,7 +4,7 @@ A generally ignorant attempt at programming machines that learn.
 
 ## [Practical Machine Learning Tutorial with Python](https://pythonprogramming.net/machine-learning-tutorial-python-introduction/)
 
-Will be following the above-linked tutorial for the purpose of applying machine learning to my financial data.
+Will be following the above-linked tutorial for the purpose of applying machine learning to my financial data. This will be done via a series of iPython Notebooks.
 
 ### [Regression](https://pythonprogramming.net/regression-introduction-machine-learning-tutorial/)
 
