@@ -12,6 +12,7 @@ scikit-learn = "*"
 matplotlib = "*"
 pandas = "*"
 quandl = "*"
+jupyter = {extras = ["notebook"],version = "*"}
 
 [requires]
 python_version = "3.7"
