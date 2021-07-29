@@ -1,8 +1,8 @@
 #!/bin/bash
 
 divisor=0
-input=input/input00.txt
 sum=0
+average=0.0
 
 while read -r line;
 do
@@ -12,6 +12,8 @@ do
     else
         sum=$((sum + line))
     fi
-done < $input
+done
 
-printf "${sum}"
+average=$((sum / divisor))
+
+printf "${average}"
