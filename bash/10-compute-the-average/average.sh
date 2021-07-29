@@ -13,6 +13,6 @@ do
     fi
 done
 
-average=$(bc -l <<< "${sum} / ${divisor}")
+average=$(bc -l <<< "scale=3; ${sum} / ${divisor}")
 
 printf "${average}"
