@@ -2,11 +2,10 @@
 
 divisor=0
 sum=0
-average=0.0
 
-while read -r line;
+while IFS= read -r line || [[ -n "$line" ]];
 do
-    if [[ $divisor == 0 ]];
+    if [[ $divisor == 0 ]]
     then
         divisor=$line
     else
