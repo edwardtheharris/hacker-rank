@@ -14,6 +14,6 @@ do
     fi
 done
 
-average=$((sum / divisor))
+average=$(bc -l <<< "${sum} / ${divisor}")
 
 printf "${average}"
