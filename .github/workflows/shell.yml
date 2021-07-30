@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [ main, 10-Bash---Compute-the-Average ]
   pull_request:
     branches: [ main ]
 
@@ -31,4 +31,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Test bash average
-        run: for i in 00 01 02 03 04 05 06; do bash average.sh < input/input${i}.txt; printf "\n"; done
+        run: |
+          cd bash/10-compute-the-average;
+          for i in 00 01 02 03 04 05 06; do bash average.sh < input/input${i}.txt; printf "\n"; done
