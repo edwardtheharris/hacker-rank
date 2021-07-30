@@ -9,10 +9,10 @@ do
     then
         divisor=$line
     else
-        sum=$((sum + line))
+        sum=$(bc -s <<< "${sum} + ${line}")
     fi
 done
 
-average=$(bc -l <<< "scale=3; ${sum} / ${divisor}")
+average=$(bc -s <<< "scale=3; ${sum} / ${divisor}")
 
 printf "${average}"
