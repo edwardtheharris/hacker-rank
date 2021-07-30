@@ -1,18 +1,7 @@
 #!/bin/bash
 
-divisor=0
-sum=0
+read -r divisor
+array=($(cat))
+array=${array[*]}
 
-while IFS= read -r line || [[ -n "$line" ]];
-do
-    if [[ $divisor == 0 ]]
-    then
-        divisor=$line
-    else
-        sum=$(bc -s <<< "${sum} + ${line}")
-    fi
-done
-
-average=$(bc -s <<< "scale=3; ${sum} / ${divisor}")
-
-echo "${average}"
+printf %.3f $(echo $((${array// /+}))/$divisor | bc -l)
