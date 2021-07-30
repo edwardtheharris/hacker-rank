@@ -15,4 +15,4 @@ done
 
 average=$(bc -s <<< "scale=3; ${sum} / ${divisor}")
 
-printf "${average}"
+echo "${average}"
