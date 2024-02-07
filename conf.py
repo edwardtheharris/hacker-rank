@@ -16,7 +16,11 @@ copyright = '2024, Xander Harris'
 
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-extensions = []
+extensions = [
+    'myst_parser',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.githubpages',
+]
 
 
 
