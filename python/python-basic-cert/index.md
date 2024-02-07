@@ -3,6 +3,6 @@ title: Python (Basic) Cert
 ---
 
 ```{toctree}
-multiset-implementation/index
-reverse-words-swap-cases/index
+implement_multiset/index
+reverse_and_swap/index
 ```
