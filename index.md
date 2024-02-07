@@ -13,6 +13,7 @@ title: Hacker Rank Challenges
 
 
 ```{toctree}
+bash/index
 python/index
 readme
 ```
