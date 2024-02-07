@@ -1,22 +1,20 @@
-#!/bin/python3
+#!/usr/bin/env python3
+"""This module implements a Multiset data structure."""
 
-import math
 import os
-import random
-import re
-import sys
-
 
 class Multiset:
+    """This class implements a multiset."""
+
     multiset = list()
 
     def add(self, val):
-        # adds one occurrence of val from the multiset, if any
+        """Add one occurrence of val from the multiset, if any."""
         self.multiset.append(val)
         return self.multiset
 
     def remove(self, val):
-        # removes one occurrence of val from the multiset, if any
+        """Removes one occurrence of val from the multiset, if any."""
         ret_val = self.multiset
         if self.multiset.count(val) == 0:
             pass
@@ -39,31 +37,32 @@ class Multiset:
 
 
 if __name__ == '__main__':
-    def performOperations(operations):
+    def perform_operations(ops_list):
+        """Perform operations with the multiset."""
         m = Multiset()
-        result = []
-        for op_str in operations:
+        ret_value = []
+        for op_str in ops_list:
             elems = op_str.split()
             if elems[0] == 'size':
-                result.append(len(m))
+                ret_value.append(len(m))
             else:
                 op, val = elems[0], int(elems[1])
                 if op == 'query':
-                    result.append(val in m)
+                    ret_value.append(val in m)
                 elif op == 'add':
                     m.add(val)
                 elif op == 'remove':
                     m.remove(val)
-        return result
+        return ret_value
 
     q = int(input())
     operations = []
     for _ in range(q):
         operations.append(input())
 
-    result = performOperations(operations)
+    result = perform_operations(operations)
 
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = open(os.environ['OUTPUT_PATH'], 'w', encoding='utf-8')
     fptr.write('\n'.join(map(str, result)))
     fptr.write('\n')
     fptr.close()
