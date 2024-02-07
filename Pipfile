@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 sphinx-autobuild = "*"
+myst-parser = "*"
 
 [dev-packages]
 
