@@ -1,7 +1,7 @@
 #!/bin/bash
 
 read -r divisor
-array=($(cat))
-array=${array[*]}
+array=("$(cat)")
+array_string=${array[*]}
 
-printf %.3f $(echo $((${array// /+}))/$divisor | bc -l)
+printf "%.3f" "$(echo $((${array_string// /+}))/$divisor | bc -l)"
