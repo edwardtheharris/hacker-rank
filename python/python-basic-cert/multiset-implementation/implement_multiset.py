@@ -62,7 +62,6 @@ if __name__ == '__main__':
 
     result = perform_operations(operations)
 
-    fptr = open(os.environ['OUTPUT_PATH'], 'w', encoding='utf-8')
-    fptr.write('\n'.join(map(str, result)))
-    fptr.write('\n')
-    fptr.close()
+    with open(os.environ.get('OUTPUT_PATH'), 'w', encoding='utf-8') as fptr:
+        fptr.write('\n'.join(map(str, result)))
+        fptr.write('\n')
