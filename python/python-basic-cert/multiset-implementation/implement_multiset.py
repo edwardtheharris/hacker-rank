@@ -6,7 +6,7 @@ import os
 class Multiset:
     """This class implements a multiset."""
 
-    multiset = list()
+    multiset = []
 
     def add(self, val):
         """Add one occurrence of val from the multiset, if any."""
