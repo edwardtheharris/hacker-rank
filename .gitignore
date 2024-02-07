@@ -1,2 +1,2 @@
 *.code*
-*.lock
+_build/
