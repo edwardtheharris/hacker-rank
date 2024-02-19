@@ -11,9 +11,15 @@ And their related solutions, starting with Bash.
 The problem descriptions and their solution are
 in the bash directory.
 
+> Why don’t mermaids use Bash?
+> > Because they prefer a C-Shell.
+
 ## Python
 
 This code is in the Python directory.
+
+> Why do Python coders make terrible spies?
+> > They’re always leaving traces.
 
 ## Full documentation
 
