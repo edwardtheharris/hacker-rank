@@ -21,3 +21,5 @@ If you're interested in having me fix your computers for money, or you're
 just a genuine masochist, you may find the complete documentation for the code
 in this repository on
 [the GitHub Pages site](https://edwardtheharris.github.io/hacker-rank/).
+
+Thanks for your time!
