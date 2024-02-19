@@ -37,6 +37,7 @@ html_theme = 'alabaster'
 myst_title_to_header = True
 project = 'Hacker Rank Challenges'
 release = '0.0.1'
+show_authors=True
 source_suffix = {
     '.md': 'markdown'
 }
