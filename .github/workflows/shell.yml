@@ -1,36 +1,47 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the workflow will run
+###
+# ```{rubric} ShellCheck
+# ```
+# ---
+# For most shell projects ShellCheck is sufficient for ensuring legible code of
+# decent quality.
+#
+# ```{literalinclude} ./.github/workflows/shell.yml
+# :caption: .github/workflows/shell.yml#name
+# :language: yaml
+# :start-at: "name: ShellCheck\n"
+# :end-before: "###\n"
+# ```
+name: ShellCheck
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: [ "main" ]
   workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+###
+# ```{rubric} ShellCheck Jobs
+# ```
+# ---
+# Define the jobs that run in the ShellCheck workflow. Might like to add some
+# reporting to the PR on the results from these at some point.
+#
+# ```{literalinclude} ./.github/workflows/shell.yml
+# :caption: .github/workflows/shell.yml#jobs
+# :language: yaml
+# :start-at: "jobs:\n"
+# ```
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
+      - uses: actions/checkout@main
       - name: Run a one-line script
         run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
       - name: Test bash average
         run: |
           cd bash/10-compute-the-average;
           for i in 00 01 02 03 04 05 06; do bash average.sh < input/input${i}.txt; printf "\n"; done
+      - name: Run ShellCheck with action
+        uses: ludeeus/action-shellcheck@master
+      - name: Run ShellCheck
+        run: shellcheck --format checkstyle -a -x bash/10-compute-the-average/*.sh

@@ -1,7 +1,8 @@
 #!/bin/bash
 
-read -r divisor
-array=("$(cat)")
-array_string=${array[*]}
+# read -r -a numbers
+# read -r -a numbers
 
-printf "%.3f" "$(echo $((${array_string// /+}))/$divisor | bc -l)"
+echo "hello, averages!"
+
+# printf %.3f $(echo $((${array// /+}))/$divisor | bc -l)
