@@ -1,7 +1,14 @@
 ---
+abstract: Given an array of integers, find the sum of its elements.
 authors: Xander Harris
+date: 2024-02-19
 title: Simple Array Sum
 ---
+
+```{note}
+This was adapted from the Hacker Rank challenge available
+[here](https://www.hackerrank.com/challenges/simple-array-sum/problem).
+```
 
 Given an array of integers, find the sum of its elements.
 
@@ -14,7 +21,9 @@ the sum of the array elements as an integer.
 
 `simple_array_sum`{l=python} has the following parameter(s):
 
-:var ar list: an array of integersInput Format
+- `list(ar)`{l=python} an array of integers
+
+## Input Format
 
 The first line contains an integer, $n$, denoting the size of the array.
 The second line contains $n$ space-separated integers representing the array's
@@ -45,7 +54,20 @@ Print the sum of the array's elements as a single integer.
 
 We print the sum of the array's elements: $1 + 2 + 3 + 4 + 10 + 11 = 31$.
 
-```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
+## Python Solution
+
+```{eval-rst}
+.. currentmodule:: simple_array_sum
+
+.. automodule:: simple_array_sum
+```
+
+### `simple_array_sum`{l=python}
+
+```{literalinclude} simple_array_sum.py
+:language: python
+:start-at: "def simple_array_sum(ar_list):\n"
+:end-before: "if"
 ```
 
 ### SCM
@@ -53,10 +75,7 @@ We print the sum of the array's elements: $1 + 2 + 3 + 4 + 10 + 11 = 31$.
 Available in the related
 [GitHub issue](https://github.com/edwardtheharris/hacker-rank/issues/6).
 
----
-
-## Python Solution
-
-```{eval-rst}
-.. automodule:: simple_array_sum
+````{figure} /_static/img/simple_array_sum/solved.jpeg
+```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
 ```
+````
