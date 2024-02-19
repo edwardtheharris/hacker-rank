@@ -16,6 +16,11 @@ sys.path.append(os.path.abspath('python/python-basic-cert/implement_multiset'))
 sys.path.append(os.path.abspath('python/simple_array_sum'))
 
 author = 'Xander Harris'
+autoyaml_root = "."
+autoyaml_doc_delimiter = "###"
+autoyaml_comment = "#"
+autoyaml_level = 10
+autoyaml_safe_loader = True
 copyright = '2024, Xander Harris'
 
 # -- General configuration ---------------------------------------------------
@@ -27,12 +32,14 @@ exclude_patterns = [
     '.DS_Store',
     '.venv/*'
 ]
+
 extensions = [
     'myst_parser',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.githubpages',
     'sphinx.ext.intersphinx',
+    'sphinxcontrib.autoyaml',
 ]
 
 # -- Options for HTML output -------------------------------------------------
