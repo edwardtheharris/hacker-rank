@@ -1,6 +1,7 @@
-#!/bin/python3
+#!/usr/bin/env python3
+"""A simple module that prints the sum of an array of integers."""
 
-import math
+import Pathlib
 import os
 import random
 import re
@@ -13,19 +14,18 @@ import sys
 # The function accepts INTEGER_ARRAY ar as parameter.
 #
 
-def simple_array_sum(ar):
-    # Write your code here
-
+def simple_array_sum(ar_list):
+    """Sum the contents of an array."""
+    ret_value = sum(ar_list[1:])
+    return ret_value
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
     ar_count = int(input().strip())
 
     ar = list(map(int, input().rstrip().split()))
 
     result = simple_array_sum(ar)
 
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    fpath = Pathlib.Path(os.environ.get('OUTPUT_PATH'))
+    with fpath.open('w', encoding='utf-8') as f_handle:
+        f_handle.write(str(result) + '\n')

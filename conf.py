@@ -21,7 +21,12 @@ copyright = '2024, Xander Harris'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = [
+    '_build',
+    'Thumbs.db',
+    '.DS_Store',
+    '.venv/'
+]
 extensions = [
     'myst_parser',
     'sphinx.ext.autodoc',
