@@ -11,21 +11,35 @@
 import os
 import sys
 
-sys.path.append(os.path.abspath('python/python-basic-cert/reverse-words-swap-cases'))
-sys.path.append(os.path.abspath('python/python-basic-cert/multiset-implementation'))
+sys.path.append(os.path.abspath('python/python-basic-cert/reverse_and_swap'))
+sys.path.append(os.path.abspath('python/python-basic-cert/implement_multiset'))
+sys.path.append(os.path.abspath('python/simple_array_sum'))
 
 author = 'Xander Harris'
+autoyaml_root = "."
+autoyaml_doc_delimiter = "###"
+autoyaml_comment = "#"
+autoyaml_level = 10
+autoyaml_safe_loader = True
 copyright = '2024, Xander Harris'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+exclude_patterns = [
+    '_build',
+    'Thumbs.db',
+    '.DS_Store',
+    '.venv/*'
+]
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 extensions = [
     'myst_parser',
     'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
     'sphinx.ext.githubpages',
+    'sphinx.ext.intersphinx',
+    'sphinxcontrib.autoyaml',
 ]
 
 # -- Options for HTML output -------------------------------------------------
@@ -54,6 +68,7 @@ myst_enable_extensions = [
 myst_title_to_header = True
 project = 'Hacker Rank Challenges'
 release = '0.0.1'
+show_authors=True
 source_suffix = {
     '.md': 'markdown'
 }
