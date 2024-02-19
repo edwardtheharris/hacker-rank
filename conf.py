@@ -47,7 +47,7 @@ extensions = [
 
 html_static_path = ['_static']
 html_theme = 'alabaster'
-
+myst_dmath_double_inline=True
 myst_enable_extensions = [
     "amsmath",
     "attrs_block",
