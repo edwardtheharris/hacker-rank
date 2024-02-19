@@ -54,7 +54,7 @@ Print the sum of the array's elements as a single integer.
 
 We print the sum of the array's elements: $1 + 2 + 3 + 4 + 10 + 11 = 31$.
 
-## Python Solution
+## Python Solution Docs
 
 ```{eval-rst}
 .. currentmodule:: simple_array_sum
@@ -63,12 +63,12 @@ We print the sum of the array's elements: $1 + 2 + 3 + 4 + 10 + 11 = 31$.
    :members:
 ```
 
-### `simple_array_sum`{l=python}
+### simple array sum
+
+- [simple_array_sum.py](simple_array_sum.py)
 
 ```{literalinclude} simple_array_sum.py
 :language: python
-:start-at: "def simple_array_sum(ar_list):\n"
-:end-before: "if"
 ```
 
 ### SCM
