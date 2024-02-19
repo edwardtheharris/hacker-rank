@@ -21,7 +21,9 @@ class ScoreCompare:
         elif a_int < b_int:
             self.scores[1] += 1
 
-
+    def report_score(self):
+        """Report the current score."""
+        return self.scores
 
 def compare_triplets(a_trip, b_trip):
     """Compare sets of triplets to provide a score.
