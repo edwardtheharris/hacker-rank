@@ -116,3 +116,22 @@ Thus, we return the array $[1, 1]$.
   receives two points.
 
 The return array is $[2, 1]$.
+
+## Python Solution
+
+```{eval-rst}
+.. currentmodule:: compare_the_triplets
+
+.. automodule:: compare_the_triplets
+   :members:
+```
+
+### SCM
+
+Available in the related
+[GitHub issue](https://github.com/edwardtheharris/hacker-rank/issues/6).
+
+````{figure} /_static/img/compare_the_triplets/solved.jpeg
+```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
+```
+````

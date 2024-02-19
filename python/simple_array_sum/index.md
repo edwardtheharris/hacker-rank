@@ -60,6 +60,7 @@ We print the sum of the array's elements: $1 + 2 + 3 + 4 + 10 + 11 = 31$.
 .. currentmodule:: simple_array_sum
 
 .. automodule:: simple_array_sum
+   :members:
 ```
 
 ### `simple_array_sum`{l=python}
