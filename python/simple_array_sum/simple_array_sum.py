@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """A simple module that prints the sum of an array of integers."""
 
-import Pathlib
+import pathlib
 import os
-import random
-import re
-import sys
+# import random
+# import re
+# import sys
 
 #
 # Complete the 'simple_array_sum' function below.
@@ -26,6 +26,6 @@ if __name__ == '__main__':
 
     result = simple_array_sum(ar)
 
-    fpath = Pathlib.Path(os.environ.get('OUTPUT_PATH'))
+    fpath = pathlib.Path(os.environ.get('OUTPUT_PATH'))
     with fpath.open('w', encoding='utf-8') as f_handle:
         f_handle.write(str(result) + '\n')

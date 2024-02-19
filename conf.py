@@ -25,7 +25,7 @@ exclude_patterns = [
     '_build',
     'Thumbs.db',
     '.DS_Store',
-    '.venv/'
+    '.venv/*'
 ]
 extensions = [
     'myst_parser',

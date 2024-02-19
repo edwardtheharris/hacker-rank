@@ -52,3 +52,11 @@ We print the sum of the array's elements: $1 + 2 + 3 + 4 + 10 + 11 = 31$.
 
 Available in the related
 [GitHub issue](https://github.com/edwardtheharris/hacker-rank/issues/6).
+
+---
+
+## Python Solution
+
+```{eval-rst}
+.. automodule:: simple_array_sum
+```
