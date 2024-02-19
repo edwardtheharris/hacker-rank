@@ -11,8 +11,9 @@
 import os
 import sys
 
-sys.path.append(os.path.abspath('python/python-basic-cert/reverse-words-swap-cases'))
-sys.path.append(os.path.abspath('python/python-basic-cert/multiset-implementation'))
+sys.path.append(os.path.abspath('python/python-basic-cert/reverse_and_swap'))
+sys.path.append(os.path.abspath('python/python-basic-cert/implement_multiset'))
+sys.path.append(os.path.abspath('python/simple_array_sum'))
 
 author = 'Xander Harris'
 copyright = '2024, Xander Harris'
@@ -20,12 +21,13 @@ copyright = '2024, Xander Harris'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 extensions = [
     'myst_parser',
     'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
     'sphinx.ext.githubpages',
+    'sphinx.ext.intersphinx',
 ]
 
 # -- Options for HTML output -------------------------------------------------
@@ -34,6 +36,23 @@ extensions = [
 html_static_path = ['_static']
 html_theme = 'alabaster'
 
+myst_enable_extensions = [
+    "amsmath",
+    "attrs_block",
+    "attrs_inline",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",
+]
 myst_title_to_header = True
 project = 'Hacker Rank Challenges'
 release = '0.0.1'
