@@ -5,7 +5,12 @@ import os
 import pathlib
 
 class ScoreCompare:
-    """Define a ScoreCompare object."""
+    """Define a ScoreCompare object.
+
+    :attribute list a: An empty list.
+    :attribute list b: Another empty list.
+    :attribute list scores: A list with two values initialized to 0.
+    """
     a = []
     b = []
     scores = [0, 0]
@@ -15,7 +20,11 @@ class ScoreCompare:
         self.b = b_list
 
     def compare(self, a_int, b_int):
-        """Compare values for two integers."""
+        """Compare values for two integers.
+
+        :param int a_int: An integer value
+        :param int b_int: Another integer value
+        """
         if a_int > b_int:
             self.scores[0] += 1
         elif a_int < b_int:

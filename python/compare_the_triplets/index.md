@@ -117,7 +117,7 @@ Thus, we return the array $[1, 1]$.
 
 The return array is $[2, 1]$.
 
-## Python Solution
+## Python Solution Docs
 
 ```{eval-rst}
 .. currentmodule:: compare_the_triplets
@@ -126,7 +126,9 @@ The return array is $[2, 1]$.
    :members:
 ```
 
-### `compare_the_triplets`{l=python}
+### compare the triplets
+
+- [compare_the_triplets.py](compare_the_triplets.py)
 
 ```{literalinclude} compare_the_triplets.py
 :language: python
