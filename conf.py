@@ -33,7 +33,24 @@ extensions = [
 
 html_static_path = ['_static']
 html_theme = 'alabaster'
-
+myst_dmath_double_inline=True
+myst_enable_extensions = [
+    "amsmath",
+    "attrs_block",
+    "attrs_inline",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",
+]
 myst_title_to_header = True
 project = 'Hacker Rank Challenges'
 release = '0.0.1'
