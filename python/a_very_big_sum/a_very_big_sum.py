@@ -18,9 +18,12 @@ def a_very_big_sum(ar_to_sum):
     :param list ar_to_sum: A list of integers to add up.
     :return: The sum of the integers contained in the array.
     """
-    ret_sum = 0
-    for value in ar_to_sum:
-        ret_sum = ret_sum + value
+    try:
+        ret_sum = 0
+        for value in ar_to_sum:
+            ret_sum = ret_sum + value
+    except TypeError as type_error:
+        raise TypeError("Please supply numeric values.") from type_error
     return ret_sum
 
 if __name__ == '__main__':

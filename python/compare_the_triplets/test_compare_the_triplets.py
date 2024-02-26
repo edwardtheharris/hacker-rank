@@ -1,4 +1,9 @@
-""""Test module for compare the triplets."""
+""""Test module for compare the triplets.
+
+Because this particular challenge was solved using an object and the author
+is far too lazy to bother with pytest session scope the values
+in the PyTest session are cumulative.
+"""
 
 import pytest
 from compare_the_triplets.compare_the_triplets import ScoreCompare
