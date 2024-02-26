@@ -19,7 +19,10 @@ def simple_array_sum(ar_list):
 
     :param list ar_list: A list of integers to sum.
     """
-    ret_value = sum(ar_list)
+    try:
+        ret_value = sum(ar_list)
+    except TypeError as type_error:
+        raise TypeError("Please input only numeric values.") from type_error
     return ret_value
 
 if __name__ == '__main__':

@@ -8,6 +8,7 @@ sphinx = "*"
 sphinx-autobuild = "*"
 sphinxcontrib-autoyaml = "*"
 myst-parser = {extras = ["linkify"], version = "*"}
+pipenv = "*"
 
 [dev-packages]
 pytest = "*"
