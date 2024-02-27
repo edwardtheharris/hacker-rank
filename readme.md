@@ -11,6 +11,21 @@ And their related solutions, starting with Bash.
 The problem descriptions and their solution are
 in the bash directory.
 
+> Why don’t mermaids use Bash?
+> > Because they prefer a C-Shell.
+
 ## Python
 
 This code is in the Python directory.
+
+> Why do Python coders make terrible spies?
+> > They’re always leaving traces.
+
+## Full documentation
+
+If you're interested in having me fix your computers for money, or you're
+just a genuine masochist, you may find the complete documentation for the code
+in this repository on
+[the GitHub Pages site](https://edwardtheharris.github.io/hacker-rank/).
+
+Thanks for your time!

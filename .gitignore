@@ -1,3 +1,7 @@
 *.code*
 _build/
 .venv/
+*.pyc
+__pycache__/
+.tmp/
+.vscode/
