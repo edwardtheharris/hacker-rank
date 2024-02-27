@@ -13,3 +13,5 @@ pipenv = "*"
 [dev-packages]
 pytest = "*"
 pytest-sphinx = "*"
+pylint = "*"
+pytest-pylint = "*"
