@@ -4,6 +4,7 @@ title: Solutions to Bash challenges
 ---
 
 ```{toctree}
+:glob:
 10-compute-the-average/index
-cut-2/index
+cut-*/index
 ```

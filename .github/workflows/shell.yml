@@ -14,7 +14,7 @@
 name: ShellCheck
 on:
   push:
-    branches: [ main, 10-Bash---Compute-the-Average ]
+    branches: [ main ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
@@ -35,13 +35,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      - name: Run a one-line script
-        run: echo Hello, world!
-      - name: Test bash average
-        run: |
-          cd bash/10-compute-the-average;
-          for i in 00 01 02 03 04 05 06; do bash average.sh < input/input${i}.txt; printf "\n"; done
       - name: Run ShellCheck with action
         uses: ludeeus/action-shellcheck@master
-      - name: Run ShellCheck
-        run: shellcheck --format checkstyle -a -x bash/10-compute-the-average/*.sh

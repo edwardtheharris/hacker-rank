@@ -46,6 +46,8 @@ extensions = [
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+html_logo = '_static/img/hr-logo.svg'
+html_favicon = '_static/img/hr-logo.svg'
 html_static_path = ['_static']
 html_theme = 'alabaster'
 myst_dmath_double_inline=True
