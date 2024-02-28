@@ -26,7 +26,7 @@ The output should contain $N$ lines. Each line should contain just the first fou
 
 ### Sample Input
 
-```sh
+```{code-block} shell
 Hello
 World
 how are you
@@ -34,7 +34,7 @@ how are you
 
 ### Sample Output
 
-```sh
+```{code-block} shell
 Hell
 Worl
 how
