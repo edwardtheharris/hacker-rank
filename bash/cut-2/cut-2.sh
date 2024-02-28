@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-while read -r line; do
-  printf "%s\n" "${line:1:1}${line:6:1}"
+# shellcheck disable=SC2162
+while read line_txt; do
+    echo "${line_txt}" | cut -c 2,7
 done

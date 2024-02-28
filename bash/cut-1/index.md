@@ -4,6 +4,8 @@ authors: Xander Harris
 title: Cut #1
 ---
 
+[![Cut #1 | HackerRank](https://img.shields.io/badge/HackerRank-green?style=for-the-badge&logo=hackerrank&label=Cut%201)](https://www.hackerrank.com/challenges/text-processing-cut-1/problem?isFullScreen=true)
+
 ## Problem
 
 Given $N$ lines of input, print the $3rd$ character from each line as a new
