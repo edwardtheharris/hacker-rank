@@ -12,6 +12,8 @@ title: Hacker Rank Challenges
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/edwardtheharris/hacker-rank/shell.yml?branch=main&style=flat-square&logo=gnubash&label=ShellCheck)
 
 ```{toctree}
+:maxdepth: 2
+
 bash/index
 c-plus-plus/index
 python/index

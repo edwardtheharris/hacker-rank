@@ -104,6 +104,11 @@ jobs:
     # manually (see below)
     - name: Autobuild
       uses: github/codeql-action/autobuild@v3
+    # - name: Install GNU C++ Compiler
+    #   run: |
+    #     sudo apt-get -y update
+    #     sudo apt-get -y install g++
+    #     make -C c-plus-plus/a-very-big-sum/
     ###
     # - ℹ️ Command-line programs to run using the OS shell.
     # - 📚 See [here](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun)
