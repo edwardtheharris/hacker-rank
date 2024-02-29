@@ -1,10 +1,11 @@
 ---
-abstract: The first head of a text file problem from HackerRank.
+abstract: The second head of a text file problem from HackerRank.
 authors: Xander Harris
-title: Head of a Text File 1
+date: 2024-02-29
+title: Head of a Text File 2
 ---
 
-[![Head of a Text File #1 | HackerRank](https://img.shields.io/badge/Head%20of%20a%20Text%20File%201-green?style=for-the-badge&logo=hackerrank&label=HackerRank)](https://www.hackerrank.com/challenges/text-processing-head-1/)
+[![Head of a Text File #2 | HackerRank](https://img.shields.io/badge/Head%20of%20a%20Text%20File%202-green?style=for-the-badge&logo=hackerrank&label=HackerRank)](https://www.hackerrank.com/challenges/text-processing-head-2/)
 
 ## Problem
 
