@@ -31,11 +31,14 @@ exclude_patterns = [
     '_build',
     'Thumbs.db',
     '.DS_Store',
-    '.venv/*'
+    '.venv/*',
+    '.tmp/*',
+    '.pytest_cache/*',
 ]
 
 extensions = [
     'myst_parser',
+    'sphinx_design',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.githubpages',
@@ -49,7 +52,7 @@ extensions = [
 html_logo = '_static/img/hr-logo.svg'
 html_favicon = '_static/img/hr-logo.svg'
 html_static_path = ['_static']
-html_theme = 'alabaster'
+html_theme = 'sphinx_nefertiti'
 myst_dmath_double_inline=True
 myst_enable_extensions = [
     "amsmath",

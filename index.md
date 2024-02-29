@@ -13,6 +13,7 @@ title: Hacker Rank Challenges
 
 ```{toctree}
 bash/index
+c-plus-plus/index
 python/index
 readme
 license
