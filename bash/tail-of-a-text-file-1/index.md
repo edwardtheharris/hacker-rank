@@ -8,7 +8,8 @@ title: Tail of a Text File 1
 
 ## Problem
 
-In this challenge, we practice using the tail command to display the last $20$ lines of a text file.
+In this challenge, we practice using the [tail](https://www.mankier.com/1/tail)
+command to display the last $20$ lines of a text file.
 
 Display the last $20$ lines of an input file.
 
