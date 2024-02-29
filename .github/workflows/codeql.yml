@@ -102,6 +102,10 @@ jobs:
     # (C/C++, C#, Go, Java, or Swift).
     # If this step fails, then you should remove it and run the build
     # manually (see below)
+    - name: Install GNU C++ Compiler
+      run: |
+        sudo apt-get -y update
+        sudo apt-get -y install g++
     - name: Autobuild
       uses: github/codeql-action/autobuild@v3
     ###
