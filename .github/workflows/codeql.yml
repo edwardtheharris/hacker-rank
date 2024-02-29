@@ -106,6 +106,7 @@ jobs:
       run: |
         sudo apt-get -y update
         sudo apt-get -y install g++
+        make -C c-plus-plus/a-very-big-sum/
     - name: Autobuild
       uses: github/codeql-action/autobuild@v3
     ###
