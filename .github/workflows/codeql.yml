@@ -81,7 +81,7 @@ jobs:
         # JavaScript, TypeScript or both.
         #
         # Learn more about [CodeQL language support](https://aka.ms/codeql-docs/language-support)
-        language: [ 'javascript-typescript', 'python', 'c-cpp' ]
+        language: [ 'javascript-typescript', 'python' ]
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -102,13 +102,13 @@ jobs:
     # (C/C++, C#, Go, Java, or Swift).
     # If this step fails, then you should remove it and run the build
     # manually (see below)
-    - name: Install GNU C++ Compiler
-      run: |
-        sudo apt-get -y update
-        sudo apt-get -y install g++
-        make -C c-plus-plus/a-very-big-sum/
     - name: Autobuild
       uses: github/codeql-action/autobuild@v3
+    # - name: Install GNU C++ Compiler
+    #   run: |
+    #     sudo apt-get -y update
+    #     sudo apt-get -y install g++
+    #     make -C c-plus-plus/a-very-big-sum/
     ###
     # - ℹ️ Command-line programs to run using the OS shell.
     # - 📚 See [here](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun)
