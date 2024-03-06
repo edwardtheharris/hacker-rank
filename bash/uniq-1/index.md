@@ -1,7 +1,7 @@
 ---
 abstract: The Uniq Command 1 problem from HackerRank.
 authors: Xander Harris
-date: 2024-03-04
+date: 2024-03-05
 title: Uniq Command 1
 ---
 

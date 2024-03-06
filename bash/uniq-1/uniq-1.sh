@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 # shellcheck disable=SC2162
-tr "[=(=]" "[=[=]" | tr "[=)=]" "[=]=]" -
+uniq < /dev/stdin
