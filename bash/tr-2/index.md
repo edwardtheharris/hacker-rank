@@ -1,5 +1,5 @@
 ---
-abstract: The first `tr` problem from HackerRank.
+abstract: The second `tr` problem from HackerRank.
 authors: Xander Harris
 date: 2024-03-04
 title: tr 2

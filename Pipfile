@@ -11,9 +11,13 @@ sphinx-autobuild = "*"
 sphinx-design = "*"
 sphinx-nefertiti = "*"
 sphinxcontrib-autoyaml = "*"
+gitpython = "*"
 
 [dev-packages]
 pytest = "*"
 pytest-sphinx = "*"
 pylint = "*"
 pytest-pylint = "*"
+semver = "*"
+ipython = "*"
+loguru = "*"
