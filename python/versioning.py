@@ -37,7 +37,7 @@ def write_new_version(c_lines: list):
     """Save the updated release version."""
     with pathlib.Path('../conf.py').open('w', encoding='utf-8') as c_fh:
         c_fh.writelines(c_lines)
-    return
+
 
 
 if __name__ == '__main__':
