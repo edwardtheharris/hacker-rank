@@ -53,3 +53,6 @@ Philadelphia, Pennsylvania[11]  1,536,471   5   Houston-Sugar Land-Baytown, TX M
 :language: shell
 :caption: cut-9.sh
 ```
+
+```{index} cut; print ending fields from a line
+```

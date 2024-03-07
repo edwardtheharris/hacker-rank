@@ -8,7 +8,8 @@ title: Cut 8
 
 ## Problem
 
-Given a sentence, identify and display its first three words. Assume that the space (' ') is the only delimiter between words.
+Given a sentence, identify and display its first three words. Assume that the
+space (' ') is the only delimiter between words.
 
 ### Input Format
 
@@ -22,7 +23,9 @@ A text file with lines of ASCII text only. Each line has exactly one sentence.
 
 ### Output Format
 
-The output should contain $N$ lines. For each input sentence, identify and display its first three words. Assume that the space (' ') is the only delimiter between words.
+The output should contain $N$ lines. For each input sentence, identify
+and display its first three words. Assume that the space (' ') is the only
+delimiter between words.
 
 ### Sample Input
 
@@ -49,4 +52,7 @@ Henry Hudson's 1609<br />
 ```{literalinclude} cut-8.sh
 :language: shell
 :caption: cut-8.sh
+```
+
+```{index} cut; print specific words
 ```

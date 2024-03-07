@@ -8,7 +8,8 @@ title: Cut 7
 
 ## Problem
 
-Given a sentence, identify and display its fourth word. Assume that the space (' ') is the only delimiter between words.
+Given a sentence, identify and display its fourth word. Assume that the
+space (' ') is the only delimiter between words.
 
 ### Input Format
 
@@ -24,7 +25,8 @@ A text file with lines of ASCII text only. Each line has exactly one sentence.
 
 The output should contain $N$ lines.
 
-For each input sentence, identify and display its fourth word. Assume that the space (' ') is the only delimiter between words.
+For each input sentence, identify and display its fourth word. Assume that
+the space (' ') is the only delimiter between words.
 
 ### Sample Input
 
@@ -46,4 +48,7 @@ World
 ```{literalinclude} cut-7.sh
 :language: shell
 :caption: cut-7.sh
+```
+
+```{index} cut; print a specific word
 ```

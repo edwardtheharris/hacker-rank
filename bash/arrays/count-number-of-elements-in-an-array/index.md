@@ -50,7 +50,7 @@ Norway
 
 There are 10 elements in the array - i.e. the given list has the names of 10 countries.
 
-```{index} shell; arrays
+```{index} shell; arrays; display count of elements
 ```
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>

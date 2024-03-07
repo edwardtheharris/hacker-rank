@@ -57,7 +57,7 @@ The entire array has been displayed.
 :caption: read-in-an-array.sh
 ```
 
-```{index} shell; arrays
+```{index} shell; arrays; iterating
 ```
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>

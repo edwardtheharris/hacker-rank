@@ -45,3 +45,6 @@ ow are
 :language: shell
 :caption: cut-3.sh
 ```
+
+```{index} cut; print a range of characters from a line
+```

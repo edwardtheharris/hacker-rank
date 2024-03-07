@@ -49,3 +49,6 @@ w
 :language: shell
 :caption: cut-1.sh
 ```
+
+```{index} cut; print a specific character from a line
+```

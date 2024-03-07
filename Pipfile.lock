@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c9020f740d110491ec2ea258be0ff3c6c2b51c7baa7a6ae4673b925c0fb1129e"
+            "sha256": "f3a3d9892878db400ab82a746bd518380cf7d0c966a2462d99a9e45eabdc86b4"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -29,6 +29,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.14.0"
+        },
+        "beautifulsoup4": {
+            "hashes": [
+                "sha256:74e3d1928edc070d21748185c46e3fb33490f22f52a3addee9aee0f4f7781051",
+                "sha256:b80878c9f40111313e55da8ba20bdba06d8fa3969fc68304167741bbf9e082ed"
+            ],
+            "markers": "python_full_version >= '3.6.0'",
+            "version": "==4.12.3"
         },
         "certifi": {
             "hashes": [
@@ -457,6 +465,14 @@
             ],
             "version": "==2.2.0"
         },
+        "soupsieve": {
+            "hashes": [
+                "sha256:5663d5a7b3bfaeee0bc4372e7fc48f9cff4940b3eec54a6451cc5299f1097690",
+                "sha256:eaa337ff55a1579b6549dc679565eac1e3d000563bcb1c8ab0d0fefbc0c2cdc7"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==2.5"
+        },
         "sphinx": {
             "hashes": [
                 "sha256:1e09160a40b956dc623c910118fa636da93bd3ca0b9876a7b3df90f07d691560",
@@ -491,6 +507,32 @@
             ],
             "index": "pypi",
             "version": "==0.2.3"
+        },
+        "sphinx-pyscript": {
+            "hashes": [
+                "sha256:3d863627e8180bd028b9b6251c0b3ebef5a02ed007c43542344e17b2d5603967",
+                "sha256:e8d2ffec4f60fb24804b7e5946fa4e8fd923d03228c17cfd858f202dc0803972"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7'",
+            "version": "==0.1.0"
+        },
+        "sphinx-tippy": {
+            "hashes": [
+                "sha256:bc5a012dd13d079d2049727617b4c52f7fb9779510f1784571bab1550c73e621",
+                "sha256:e1004bc0bf0463274c603065ea961f88b14cd2616a1438264f1fedfc280db1aa"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==0.4.1"
+        },
+        "sphinx-togglebutton": {
+            "hashes": [
+                "sha256:9647ba7874b7d1e2d43413d8497153a85edc6ac95a3fea9a75ef9c1e08aaae2b",
+                "sha256:ab0c8b366427b01e4c89802d5d078472c427fa6e9d12d521c34fa0442559dc7a"
+            ],
+            "index": "pypi",
+            "version": "==0.3.2"
         },
         "sphinxcontrib-applehelp": {
             "hashes": [
@@ -549,6 +591,24 @@
             "markers": "python_version >= '3.9'",
             "version": "==1.1.10"
         },
+        "sphinxext-opengraph": {
+            "hashes": [
+                "sha256:b3b230cc6a5b5189139df937f0d9c7b23c7c204493b22646273687969dcb760e",
+                "sha256:dd2868a1e7c9497977fbbf44cc0844a42af39ca65fe1bb0272518af225d06fc5"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==0.9.1"
+        },
+        "sphinxext-rediraffe": {
+            "hashes": [
+                "sha256:651dcbfae5ffda9ffd534dfb8025f36120e5efb6ea1a33f5420023862b9f725d",
+                "sha256:9e430a52d4403847f4ffb3a8dd6dfc34a9fe43525305131f52ed899743a5fd8c"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.6'",
+            "version": "==0.2.7"
+        },
         "tornado": {
             "hashes": [
                 "sha256:02ccefc7d8211e5a7f9e8bc3f9e5b0ad6262ba2fbb683a6443ecc804e5224ce0",
@@ -589,6 +649,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==20.25.1"
+        },
+        "wheel": {
+            "hashes": [
+                "sha256:177f9c9b0d45c47873b619f5b650346d632cdc35fb5e4d25058e09c9e581433d",
+                "sha256:c45be39f7882c9d34243236f2d63cbd58039e360f85d0913425fbd7ceea617a8"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==0.42.0"
         }
     },
     "develop": {

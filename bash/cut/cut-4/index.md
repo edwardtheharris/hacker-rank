@@ -46,3 +46,6 @@ how
 :language: shell
 :caption: cut-4.sh
 ```
+
+```{index} cut; print the beginning of a line of text
+```

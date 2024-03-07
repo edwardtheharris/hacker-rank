@@ -48,3 +48,6 @@ oe
 :language: shell
 :caption: cut-2.sh
 ```
+
+```{index} cut; print specific characters from a line
+```

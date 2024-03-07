@@ -50,7 +50,7 @@ Explanation
 
 The element at index $3$ in the list is `Netherlands`.
 
-```{index} shell; arrays
+```{index} shell; arrays; display a specific element
 ```
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>

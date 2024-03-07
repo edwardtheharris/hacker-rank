@@ -50,3 +50,6 @@ ird of all the battles of the Revolutionary War took place in New York.<br />
 :language: shell
 :caption: cut-6.sh
 ```
+
+```{index} cut; print the end of a line
+```
