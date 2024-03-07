@@ -5,7 +5,7 @@ date: 2024-03-05
 title: Uniq Command 1
 ---
 
-[![Uniq Command 1 | HackerRank](https://img.shields.io/badge/HackerRank-green?style=for-the-badge&logo=hackerrank&label=uniq%201)](https://www.hackerrank.com/challenges/text-processing-tr-1)
+[![Uniq Command 1 | HackerRank](https://img.shields.io/badge/HackerRank-green?style=for-the-badge&logo=hackerrank&label=uniq%201)](https://www.hackerrank.com/challenges/text-processing-in-linux-the-uniq-command-1)
 
 ## Problem
 
