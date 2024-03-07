@@ -56,6 +56,12 @@ Namibia Nauru Nepal Netherlands NewZealand Nicaragua Niger Nigeria NorthKorea No
 
 The entire concatenated array has been displayed.
 
+```{admonition} No Newline
+The `read` command expects input that ends with a newline, which is not provided
+in this challenge, so the solution is considerably more complicated
+than would otherwise be necessary.
+```
+
 ## Solution
 
 ```{literalinclude} concatenate-an-array-to-itself.sh
