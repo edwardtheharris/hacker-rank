@@ -41,3 +41,6 @@ int i=[int]5.8
 :language: shell
 :caption: tr-1.sh
 ```
+
+```{index} shell: tr-1
+```

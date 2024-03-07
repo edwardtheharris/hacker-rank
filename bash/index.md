@@ -6,6 +6,13 @@ title: Solutions to Bash challenges
 
 ```{toctree}
 :glob:
+:maxdepth: 2
 
 **/index
+```
+
+```{index} bash; shell
+```
+
+```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
 ```
