@@ -56,7 +56,7 @@ aa is repeated thrice
 
 ## Solution
 
-```{literalinclude} uniq-1.sh
+```{literalinclude} uniq-2.sh
 :language: shell
-:caption: uniq-1.sh
+:caption: uniq-2.sh
 ```
