@@ -44,5 +44,8 @@ Given a text file, remove the consecutive repetitions of any line.
 :caption: uniq-1.sh
 ```
 
-```{index} uniq; shell: uniq-1
+```{index} command; uniq-1
+```
+
+```{index} shell; uniq-1
 ```

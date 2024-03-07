@@ -63,5 +63,8 @@ aa is repeated thrice (if we ignore case - AA, Aa are the same as 'aa')
 :caption: uniq-3.sh
 ```
 
-```{index} uniq; shell: uniq-3
+```{index} command; uniq-3
+```
+
+```{index} shell; uniq-3
 ```

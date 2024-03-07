@@ -6,6 +6,7 @@ title: Solutions to Bash challenges
 
 ```{toctree}
 :glob:
+:maxdepth: 2
 
 **/index
 ```

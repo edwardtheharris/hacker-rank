@@ -10,5 +10,11 @@ title: Solutions to cut challenges
 **/index
 ```
 
+```{index} cut; shell
+```
+
+```{index} command; cut
+```
+
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
 ```
