@@ -49,3 +49,16 @@ Namibia Nauru Nepal Netherlands NewZealand Nicaragua Niger Nigeria NorthKorea No
 ### Explanation
 
 The entire array has been displayed.
+
+## Solution
+
+```{literalinclude} read-in-an-array.sh
+:language: shell
+:caption: read-in-an-array.sh
+```
+
+```{index} shell; arrays
+```
+
+```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
+```
