@@ -12,6 +12,11 @@ sphinx-design = "*"
 sphinx-nefertiti = "*"
 sphinxcontrib-autoyaml = "*"
 gitpython = "*"
+sphinxext-rediraffe = "*"
+sphinxext-opengraph = "*"
+sphinx-pyscript = "*"
+sphinx-tippy = "*"
+sphinx-togglebutton = "*"
 
 [dev-packages]
 pytest = "*"

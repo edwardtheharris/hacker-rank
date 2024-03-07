@@ -1,17 +1,17 @@
 ---
-abstract: The count the number of elements in an  array problem from HackerRank.
+abstract: The display an element of an array problem from HackerRank.
 authors: Xander Harris
 date: 2024-03-07
-title: Count the Number of Elements in an Array
+title: Display an Element of an Array
 ---
 
 [![Count the Number of Elements in an Array | HackerRank](https://img.shields.io/badge/HackerRank-green?style=for-the-badge&logo=hackerrank&label=count%20the%20number%20of%20elements%20in%20an%20array)](https://www.hackerrank.com/challenges/bash-tutorials-read-in-an-array/)
 
 ## Problem
 
-[Count the number of elements in an array](https://www.hackerrank.com/challenges/bash-tutorials-count-the-number-of-elements-in-an-array/problem?isFullScreen=true)
+[Display an element an array](https://www.hackerrank.com/challenges/bash-tutorials-display-the-third-element-of-an-array/problem?isFullScreen=true)
 
-Given a list of countries, each on a new line, your task is to read them into an array and then display the count of elements in that array.
+Given a list of countries, each on a new line, your task is to read them into an array and then display the element indexed at $3$. Note that indexing starts from $0$.
 
 ### Recommended References
 
@@ -23,7 +23,7 @@ A list of country names. The only characters present in the country names will b
 
 ### Output Format
 
-A single integer - the number of elements in the array.
+The element at index $3$ of the array (one string).
 
 ### Sample Input
 
@@ -43,14 +43,14 @@ Norway
 ### Sample Output
 
 ```{code-block} shell
-10
+Netherlands
 ```
 
-### Explanation
+Explanation
 
-There are 10 elements in the array - i.e. the given list has the names of 10 countries.
+The element at index $3$ in the list is `Netherlands`.
 
-```{index} shell; arrays; display count of elements
+```{index} shell; arrays; display a specific element
 ```
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>

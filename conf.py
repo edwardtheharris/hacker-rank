@@ -73,6 +73,9 @@ myst_enable_extensions = [
 ]
 myst_title_to_header = True
 project = 'Hacker Rank Challenges'
+rst_epilog = """
+.. sectionauthor:: Xander Harris <xandertheharris@gmail.com>
+"""
 release = '0.0.1'
 show_authors=True
 source_suffix = {

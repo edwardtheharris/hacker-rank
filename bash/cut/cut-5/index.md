@@ -51,3 +51,6 @@ The output should contain $N$ lines. For each line in the input, print the first
 :language: shell
 :caption: cut-5.sh
 ```
+
+```{index} cut; print certain fields from a line of text
+```

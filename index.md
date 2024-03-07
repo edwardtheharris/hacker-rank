@@ -13,10 +13,17 @@ title: Hacker Rank Challenges
 
 ```{toctree}
 :maxdepth: 2
+:caption: HackerRank Challenges
 
 bash/index
 c-plus-plus/index
 python/index
+```
+
+```{toctree}
+:maxdepth: 1
+:caption: Repository Minutiae
+
 readme
 license
 cicd

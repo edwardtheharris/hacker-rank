@@ -1,19 +1,18 @@
 ---
-abstract: HackerRank Cut Challenges
+abstract: HackerRank `cut` Challenges
 authors: Xander Harris
-title: Solutions to cut challenges
+date: 2024-03-07
+title: Solutions to `cut` challenges
 ---
 
 ```{toctree}
+:caption: cut
 :glob:
 
-**/index
+cut-*/index
 ```
 
 ```{index} cut; shell
-```
-
-```{index} command; cut
 ```
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
