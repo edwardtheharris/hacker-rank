@@ -60,3 +60,6 @@ aa is repeated thrice
 :language: shell
 :caption: uniq-2.sh
 ```
+
+```{index} single; shell: uniq
+```

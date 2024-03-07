@@ -43,3 +43,6 @@ Given a text file, remove the consecutive repetitions of any line.
 :language: shell
 :caption: uniq-1.sh
 ```
+
+```{index} single; shell: uniq
+```
