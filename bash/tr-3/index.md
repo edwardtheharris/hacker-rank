@@ -41,3 +41,6 @@ how are you
 :language: shell
 :caption: tr-3.sh
 ```
+
+```{index} shell: tr-1
+```

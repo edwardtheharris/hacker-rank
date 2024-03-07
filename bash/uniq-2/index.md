@@ -61,5 +61,5 @@ aa is repeated thrice
 :caption: uniq-2.sh
 ```
 
-```{index} single; shell: uniq
+```{index} uniq; shell: uniq-2
 ```

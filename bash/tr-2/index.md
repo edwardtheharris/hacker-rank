@@ -42,3 +42,6 @@ W
 :language: shell
 :caption: tr-2.sh
 ```
+
+```{index} shell: tr-1
+```

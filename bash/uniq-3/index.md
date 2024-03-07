@@ -58,10 +58,10 @@ aa is repeated thrice (if we ignore case - AA, Aa are the same as 'aa')
 
 ## Solution
 
-```{literalinclude} uniq-4.sh
+```{literalinclude} uniq-3.sh
 :language: shell
-:caption: uniq-4.sh
+:caption: uniq-3.sh
 ```
 
-```{index} single; shell: uniq
+```{index} uniq; shell: uniq-3
 ```

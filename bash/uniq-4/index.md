@@ -53,5 +53,8 @@ The same holds true for 03 - it is succeeded and preceded by different lines, so
 :caption: uniq-4.sh
 ```
 
-```{index} single; shell: uniq
+```{index} command; uniq-4
+```
+
+```{index} shell; uniq-4
 ```

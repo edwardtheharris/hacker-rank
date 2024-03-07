@@ -9,3 +9,9 @@ title: Solutions to Bash challenges
 
 **/index
 ```
+
+```{index} bash; shell
+```
+
+```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
+```
