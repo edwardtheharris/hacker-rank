@@ -92,7 +92,7 @@ Where all the treasure of thy lusty days;
 
 We retain only those lines which have at least one of the following words:
 
-```{code-block} shell
+```{card} Explanation
 the
 that
 then
