@@ -1,46 +1,65 @@
 ---
-abstract: The third `tr` problem from HackerRank.
+abstract: The third `paste` problem from HackerRank.
 authors: Xander Harris
-date: 2024-03-04
-title: tr 3
+date: 2024-03-07
+title: paste 3
 ---
 
-[![tr 3 | HackerRank](https://img.shields.io/badge/HackerRank-green?style=for-the-badge&logo=hackerrank&label=tr%203)](https://www.hackerrank.com/challenges/text-processing-tr-3)
+[![paste 3 | HackerRank](https://img.shields.io/badge/HackerRank-green?style=for-the-badge&logo=hackerrank&label=paste%203)](https://www.hackerrank.com/challenges/paste-3)
 
 ## Problem
 
-In a given fragment of text, replace all sequences of multiple spaces with just one space.
+[Paste - 3](https://www.hackerrank.com/challenges/paste-3/problem?isFullScreen=true)
+
+Given a CSV file where each row contains the name of a city and its state
+separated by a comma, your task is to replace the newlines in the file with
+tabs as demonstrated in the sample.
 
 ### Input Format
 
-A block of ASCII text.
+You are given a CSV file where each row contains the name of a city and its
+state separated by a comma.
 
 ### Output Format
 
-Replace all sequences of multiple spaces with just one space.
+Replace the newlines in the input with tabs as demonstrated in the sample.
 
 ### Sample Input
 
 ```{code-block} shell
-He  llo
-Wor  ld
-how  are  you
+Albany, N.Y.
+Albuquerque, N.M.
+Anchorage, Alaska
+Asheville, N.C.
+Atlanta, Ga.
+Atlantic City, N.J.
+Austin, Texas
+Baltimore, Md.
+Baton Rouge, La.
+Billings, Mont.
+Birmingham, Ala.
+Bismarck, N.D.
+Boise, Idaho
+Boston, Mass.
+Bridgeport, Conn.
 ```
 
 ### Sample Output
 
 ```{code-block} shell
-He llo
-Wor ld
-how are you
+Albany, N.Y.    Albuquerque, N.M.   Anchorage, Alaska   Asheville, N.C.Atlanta, Ga. Atlantic City, N.J. Austin, Texas   Baltimore, Md.  Baton Rouge, La.    Billings, Mont. Birmingham, Ala.    Bismarck, N.D.  Boise, Idaho    Boston, Mass.   Bridgeport, Conn.
 ```
+
+### Explanation
+
+The delimiter between consecutive rows of data has been transformed from the newline to a tab.
 
 ## Solution
 
-```{literalinclude} tr-3.sh
+```{literalinclude} paste-3.sh
 :language: shell
-:caption: tr-3.sh
+:caption: paste-3.sh
 ```
 
-```{index} tr; replace multiple spaces with a single space
+```{index} paste; replace multiple newlines with tabs
 ```
