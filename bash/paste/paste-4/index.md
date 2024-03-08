@@ -61,9 +61,9 @@ The given input file has been reshaped as required.
 
 ## Solution
 
-```{literalinclude} tr-3.sh
+```{literalinclude} paste-4.sh
 :language: shell
-:caption: tr-3.sh
+:caption: paste-4.sh
 ```
 
 ```{index} tr; replace multiple spaces with a single space
