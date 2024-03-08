@@ -30,6 +30,16 @@ cut/index
 ```
 
 ```{toctree}
+:caption: paste
+:maxdepth: 2
+
+paste/index
+```
+
+```{index} bash; paste
+```
+
+```{toctree}
 :caption: sort
 :maxdepth: 2
 
