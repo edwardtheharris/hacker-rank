@@ -30,6 +30,16 @@ cut/index
 ```
 
 ```{toctree}
+:caption: grep
+:maxdepth: 2
+
+grep/index
+```
+
+```{index} bash; grep
+```
+
+```{toctree}
 :caption: paste
 :maxdepth: 2
 
