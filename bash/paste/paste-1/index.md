@@ -5,11 +5,11 @@ date: 2024-03-04
 title: paste 1
 ---
 
-[![paste 1 | HackerRank](https://img.shields.io/badge/HackerRank-green?style=for-the-badge&logo=hackerrank&label=paste%201)](https://www.hackerrank.com/challenges/paste-1/problem?isFullScreen=true)
+[![paste 1 | HackerRank](https://img.shields.io/badge/HackerRank-green?style=for-the-badge&logo=hackerrank&label=paste%201)](https://www.hackerrank.com/challenges/paste-1/)
 
 ## Problem
 
-[Paste - 1](https://www.hackerrank.com/challenges/paste-1/problem?isFullScreen=true)
+[Paste - 1](https://www.hackerrank.com/challenges/paste-1/)
 
 In this challenge, we practice using the paste command to merge lines of a given file.
 
@@ -62,5 +62,5 @@ The delimiter between consecutive rows of data has been transformed from the new
 :caption: paste-1.sh
 ```
 
-```{index} paste; replace specific characters
+```{index} paste; replace newlines with semi-colons
 ```
