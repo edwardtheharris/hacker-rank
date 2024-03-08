@@ -28,7 +28,7 @@ Before using grep it is recommended that one should become familiar with regular
 
 Given a text file, which will be piped to your command through STDIN, use grep to display all those lines which contain any of the following words in them:
 
-```{code-block} shell
+```{card} Current Task
 the
 that
 then
@@ -97,4 +97,11 @@ the
 that
 then
 those
+```
+
+## Solution
+
+```{literalinclude} grep-a.sh
+:language: shell
+:caption: grep-a.sh
 ```
