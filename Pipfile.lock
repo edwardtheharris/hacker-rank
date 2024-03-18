@@ -502,11 +502,11 @@
         },
         "sphinx-nefertiti": {
             "hashes": [
-                "sha256:6b04fa8fe779dac06cde8f2fd39ac192a484cb29f824cd40c8e35eb1fdc193c1",
-                "sha256:89cae1f5f9f9419f14d07046a8979a88c47311a6299ef29817bf4af8e4923bd9"
+                "sha256:9c88385b18a7d7bf97a96829f96629019664650e62f38ea89451ba10aa71b80c",
+                "sha256:d46836390b6c0951e6391c6b547a9a20edc616be2abcec54eb46c4ee06e8f417"
             ],
             "index": "pypi",
-            "version": "==0.3.0"
+            "version": "==0.3.2"
         },
         "sphinx-pyscript": {
             "hashes": [
