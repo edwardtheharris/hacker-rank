@@ -926,12 +926,12 @@
         },
         "pytest-sphinx": {
             "hashes": [
-                "sha256:542823b7d493b067a0d36bf1359db5f7ae2217e007190edad7201c44145cf451",
-                "sha256:9add29fb7de87c241100216d9787d4ad2a93db91eced02e914a696b7a9a7a776"
+                "sha256:118a5575066550fffb0f4d891c5bdb94c429d821a1ed90e3703c476eb37cb62f",
+                "sha256:33fa2afd95b773a73074a6ce72abd3f2d47649aea4290c1e266895eeb823e643"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==0.6.0"
+            "version": "==0.6.2"
         },
         "semver": {
             "hashes": [
