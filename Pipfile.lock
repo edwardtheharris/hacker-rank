@@ -897,12 +897,12 @@
         },
         "ipython": {
             "hashes": [
-                "sha256:2dcaad9049f9056f1fef63514f176c7d41f930daa78d05b82a176202818f2c14",
-                "sha256:3c86f284c8f3d8f2b6c662f885c4889a91df7cd52056fd02b7d8d6195d7f56e9"
+                "sha256:07232af52a5ba146dc3372c7bf52a0f890a23edf38d77caef8d53f9cdc2584c1",
+                "sha256:7468edaf4f6de3e1b912e57f66c241e6fd3c7099f2ec2136e239e142e800274d"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==8.22.2"
+            "version": "==8.23.0"
         },
         "isort": {
             "hashes": [
@@ -931,11 +931,11 @@
         },
         "matplotlib-inline": {
             "hashes": [
-                "sha256:f1f41aab5328aa5aaea9b16d083b128102f8712542f819fe7e6a420ff581b311",
-                "sha256:f887e5f10ba98e8d2b150ddcf4702c1e5f8b3a20005eb0f74bfdbd360ee6f304"
+                "sha256:8423b23ec666be3d16e16b60bdd8ac4e86e840ebd1dd11a30b9f117f2fa0ab90",
+                "sha256:df192d39a4ff8f21b1895d72e6a13f5fcc5099f00fa84384e0ea28c2cc0653ca"
             ],
-            "markers": "python_version >= '3.5'",
-            "version": "==0.1.6"
+            "markers": "python_version >= '3.8'",
+            "version": "==0.1.7"
         },
         "mccabe": {
             "hashes": [
@@ -955,11 +955,11 @@
         },
         "parso": {
             "hashes": [
-                "sha256:8c07be290bb59f03588915921e29e8a50002acaf2cdc5fa0e0114f91709fafa0",
-                "sha256:c001d4636cd3aecdaf33cbb40aebb59b094be2a74c556778ef5576c175e19e75"
+                "sha256:a418670a20291dacd2dddc80c377c5c3791378ee1e8d12bffc35420643d43f18",
+                "sha256:eb3a7b58240fb99099a345571deecc0f9540ea5f4dd2fe14c2a99d6b281ab92d"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==0.8.3"
+            "version": "==0.8.4"
         },
         "pexpect": {
             "hashes": [
@@ -1094,11 +1094,11 @@
         },
         "traitlets": {
             "hashes": [
-                "sha256:2e5a030e6eff91737c643231bfcf04a65b0132078dad75e4936700b213652e74",
-                "sha256:8585105b371a04b8316a43d5ce29c098575c2e477850b62b848b964f1444527e"
+                "sha256:8cdd83c040dab7d1dee822678e5f5d100b514f7b72b01615b26fc5718916fdf9",
+                "sha256:fcdf85684a772ddeba87db2f398ce00b40ff550d1528c03c14dbf6a02003cd80"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==5.14.1"
+            "version": "==5.14.2"
         },
         "wcwidth": {
             "hashes": [
