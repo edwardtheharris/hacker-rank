@@ -552,12 +552,12 @@
         },
         "sphinx-tippy": {
             "hashes": [
-                "sha256:bc5a012dd13d079d2049727617b4c52f7fb9779510f1784571bab1550c73e621",
-                "sha256:e1004bc0bf0463274c603065ea961f88b14cd2616a1438264f1fedfc280db1aa"
+                "sha256:255abee0aed8085fdb9ab0cc595cd7a45748ae7f4662156e500a17a3f73ad63d",
+                "sha256:572b0e001baec9b03e2b19ec4e9760ca1a853f4c3226b5cea251f477b2c2b096"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==0.4.1"
+            "version": "==0.4.3"
         },
         "sphinx-togglebutton": {
             "hashes": [
