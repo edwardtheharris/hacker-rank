@@ -526,12 +526,12 @@
         },
         "sphinx-design": {
             "hashes": [
-                "sha256:1af1267b4cea2eedd6724614f19dcc88fe2e15aff65d06b2f6252cee9c4f4c1e",
-                "sha256:e8e513acea6f92d15c6de3b34e954458f245b8e761b45b63950f65373352ab00"
+                "sha256:e9bd07eecec82eb07ff72cb50fc3624e186b04f5661270bc7b62db86c7546e95",
+                "sha256:ec8e3c5c59fed4049b3a5a2e209360feab31829346b5f6a0c7c342b894082192"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.8'",
-            "version": "==0.5.0"
+            "markers": "python_version >= '3.9'",
+            "version": "==0.6.0"
         },
         "sphinx-nefertiti": {
             "hashes": [
