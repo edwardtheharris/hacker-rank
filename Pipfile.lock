@@ -32,11 +32,11 @@
         },
         "babel": {
             "hashes": [
-                "sha256:08706bdad8d0a3413266ab61bd6c34d0c28d6e1e7badf40a2cebe67644e2e1fb",
-                "sha256:8daf0e265d05768bc6c7a314cf1321e9a123afc328cc635c18622a2f30a04413"
+                "sha256:368b5b98b37c06b7daf6696391c3240c938b37767d4584413e8438c5c435fa8b",
+                "sha256:d1f3554ca26605fe173f3de0c65f750f5a42f924499bf134de6423582298e316"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==2.15.0"
+            "version": "==2.16.0"
         },
         "beautifulsoup4": {
             "hashes": [
@@ -535,11 +535,11 @@
         },
         "sphinx-nefertiti": {
             "hashes": [
-                "sha256:511ae3b47d42b62132ffdd511bcfee3eaed9c493f94979e873fd7ce1ca517978",
-                "sha256:707cb8a7d2d5b092484474ec022c750950b01c8df3c3eb98ab3156e97b25fe23"
+                "sha256:b1c8e1b7ad69aef2b7c132dbb074b10939d23c378d9098bb5da135682a22c84b",
+                "sha256:d7ecbe96cb0242674f964a8fd80d51ffebde8a8a28937ea2ee4a68ab0ab7453c"
             ],
             "index": "pypi",
-            "version": "==0.4.0"
+            "version": "==0.4.1"
         },
         "sphinx-pyscript": {
             "hashes": [
