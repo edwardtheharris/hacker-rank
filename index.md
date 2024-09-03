@@ -56,4 +56,9 @@ python
    Python is an interpreted language that was designed to be readable on the
    premise that computer code is read far more often than it is written.
    You can learn more about Python at [python.org](https://python.org/).
+
+sed
+   [Sed](http://en.wikipedia.org/wiki/Sed) is a popular utility which enables
+   quick parsing and transformation of text. You can find the reference manual
+   [here](https://www.gnu.org/software/sed/manual/html_node/index.html#Top).
 ```

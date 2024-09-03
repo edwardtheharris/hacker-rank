@@ -62,6 +62,16 @@ sort/index
 ```
 
 ```{toctree}
+:caption: sed
+:maxdepth: 2
+
+sed/index
+```
+
+```{index} bash; sed
+```
+
+```{toctree}
 :caption: text
 :maxdepth: 2
 
