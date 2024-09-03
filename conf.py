@@ -52,7 +52,7 @@ extensions = [
 html_logo = '_static/img/hr-logo.svg'
 html_favicon = '_static/img/hr-logo.svg'
 html_static_path = ['_static']
-html_theme = 'sphinx_nefertiti'
+html_theme = 'sphinx_book_theme'
 myst_dmath_double_inline=True
 myst_enable_extensions = [
     "amsmath",
@@ -79,6 +79,7 @@ rst_epilog = """
 release = '0.0.1'
 show_authors=True
 source_suffix = {
-    '.md': 'markdown'
+    '.md': 'markdown',
+    '.rst': 'restructuredText'
 }
 templates_path = ['_templates']

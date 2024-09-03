@@ -1,11 +1,14 @@
 ---
 abstract: A collection of problems and solutions from HackerRank.
-authors: Xander Harris
-title: Hacker Rank Challenges Readme
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
+date: 2024-09-03
+title: Readme
 ---
 
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/edwardtheharris/hacker-rank/shell.yml?branch=main&style=flat-square&logo=gnubash&label=ShellCheck)](https://github.com/edwardtheharris/hacker-rank/actions/workflows/shell.yml)
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/edwardtheharris/hacker-rank/pylint.yml?branch=main&style=flat-square&logo=python&label=PyLint)](https://github.com/edwardtheharris/hacker-rank/actions/workflows/pylint.yml)
+[![shell](https://img.shields.io/github/actions/workflow/status/edwardtheharris/hacker-rank/shell.yml?branch=main&style=flat-square&logo=gnubash&label=ShellCheck)](https://github.com/edwardtheharris/hacker-rank/actions/workflows/shell.yml)
+[![pylint](https://img.shields.io/github/actions/workflow/status/edwardtheharris/hacker-rank/pylint.yml?branch=main&style=flat-square&logo=python&label=PyLint)](https://github.com/edwardtheharris/hacker-rank/actions/workflows/pylint.yml)
 [![wakatime](https://wakatime.com/badge/github/edwardtheharris/hacker-rank.svg)](https://wakatime.com/badge/github/edwardtheharris/hacker-rank)
 
 And their related solutions, starting with Bash.

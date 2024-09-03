@@ -1,7 +1,9 @@
 ---
 abstract: A list of Linux challenges completed on HackerRank.
-authors: Xander Harris
-title: Solutions to Bash challenges
+authors:
+    - name: Xander Harris
+      email: xandertheharris@gmail.com
+title: Bash challenges
 ---
 
 The best place to learn about BASH in particular and shell scripting in general

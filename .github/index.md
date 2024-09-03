@@ -1,6 +1,8 @@
 ---
 abstract: Basic information about the CI/CD processes in this repo.
-authors: Xander Harris
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
 date: 2024-02-19
 title: GitHub Actions configuration
 ---
@@ -22,6 +24,13 @@ run a lot of pipelines for free.
 The CodeQL workflow provided by GitHub is actually pretty good also.
 
 ```{autoyaml} .github/workflows/codeql.yml
+```
+
+### documentation
+
+This workflow produces the GitHub Pages site.
+
+```{autoyaml} .github/workflows/documentation.yml
 ```
 
 ### pylint
