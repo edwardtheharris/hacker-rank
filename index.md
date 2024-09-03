@@ -4,12 +4,14 @@ abstract: >-
    sphinx-quickstart on Wed Feb  7 14:33:54 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-authors: Xander Harris
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
 date: 2024-02-07
 title: Hacker Rank Challenges
 ---
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/edwardtheharris/hacker-rank/shell.yml?branch=main&style=flat-square&logo=gnubash&label=ShellCheck)
+![shell](https://img.shields.io/github/actions/workflow/status/edwardtheharris/hacker-rank/shell.yml?branch=main&style=flat-square&logo=gnubash&label=ShellCheck)
 
 ```{toctree}
 :maxdepth: 2
@@ -26,11 +28,32 @@ python/index
 
 readme
 license
-cicd
+.github/index
 ```
 
 ## Indices and tables
 
-* {ref}`genindex`
-* {ref}`modindex`
-* {ref}`search`
+- {ref}`genindex`
+- {ref}`modindex`
+- {ref}`search`
+
+## Glossary
+
+```{glossary}
+bash
+   Bourne Again SHell, aka the best shell to use for accessing Linux machines.
+   The reference manual is available
+   [here](https://www.gnu.org/software/bash/manual/bash.html).
+
+c++
+   This is an implementation of C that includes some object-oriented concepts.
+
+hacker-rank
+   HackerRank is the website that provides the challenges completed in this
+   repository.
+
+python
+   Python is an interpreted language that was designed to be readable on the
+   premise that computer code is read far more often than it is written.
+   You can learn more about Python at [python.org](https://python.org/).
+```
