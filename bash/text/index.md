@@ -2,7 +2,7 @@
 abstract: HackerRank Shell text Challenges
 authors: Xander Harris
 date: 2024-03-07
-title: Solutions to HackerRank Shell text Challenges
+title: Shell text
 ---
 
 ```{toctree}

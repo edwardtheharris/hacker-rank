@@ -2,7 +2,7 @@
 abstract: HackerRank `cut` Challenges
 authors: Xander Harris
 date: 2024-03-07
-title: Solutions to `cut` challenges
+title: Shell (`cut`)
 ---
 
 ```{toctree}

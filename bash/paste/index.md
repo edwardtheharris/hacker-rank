@@ -1,7 +1,7 @@
 ---
 abstract: HackerRank Shell `paste` Challenges
 authors: Xander Harris
-title: Solutions to HackerRank Shell `paste` Challenges
+title: Shell (`paste`)
 ---
 
 ```{toctree}

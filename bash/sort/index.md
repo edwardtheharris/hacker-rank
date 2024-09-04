@@ -1,7 +1,7 @@
 ---
 abstract: HackerRank Shell `sort` Challenges
 authors: Xander Harris
-title: Solutions to HackerRank Shell `sort` Challenges
+title: Shell (`sort`)
 ---
 
 ```{toctree}

@@ -1,7 +1,9 @@
 ---
 abstract: HackerRank Shell `tr` Challenges
-authors: Xander Harris
-title: Solutions to HackerRank Shell `tr` Challenges
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
+title: Shell (`tr`)
 ---
 
 ```{toctree}

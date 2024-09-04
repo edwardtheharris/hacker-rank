@@ -2,7 +2,7 @@
 abstract: HackerRank Shell `grep` Challenges
 authors: Xander Harris
 date: 2024-03-07
-title: Solutions to HackerRank Shell `grep` Challenges
+title: Shell (`grep`)
 ---
 
 ```{toctree}
