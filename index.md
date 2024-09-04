@@ -49,7 +49,7 @@ c++
    This is an implementation of C that includes some object-oriented concepts.
 
 grep
-   grep prints lines that contain a match for one or more patterns. You can
+   `grep` prints lines that contain a match for one or more patterns. You can
    find the reference manual
    [here](https://www.gnu.org/software/grep/manual/grep.html).
 
