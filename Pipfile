@@ -15,6 +15,7 @@ sphinx-pyscript = "*"
 sphinx-tippy = "*"
 sphinx-togglebutton = "*"
 sphinxcontrib-autoyaml = "*"
+sphinxcontrib-youtube = "*"
 
 [dev-packages]
 ipython = "*"

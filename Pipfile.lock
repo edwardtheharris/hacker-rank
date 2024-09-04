@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "588b8c2d4fe4911f69aa7f186c558d8a1bd16a4d0f0e80b82431ebfbaf193c01"
+            "sha256": "eaa10ea077de725eae70c98c473e0abf87477cae770465788ba763995d833b4e"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -674,6 +674,14 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==1.1.5"
+        },
+        "sphinxcontrib-youtube": {
+            "hashes": [
+                "sha256:de9cb454f066d580a1e7ad64efae7dd9e12c1b1567a31faa330b1aeaeed40460",
+                "sha256:eb7871c8af47fd2b5c9727615354b7f95bce554be8be45b9fa8e5bc022f88059"
+            ],
+            "index": "pypi",
+            "version": "==1.4.1"
         },
         "tornado": {
             "hashes": [

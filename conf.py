@@ -44,6 +44,7 @@ extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.intersphinx',
     'sphinxcontrib.autoyaml',
+    'sphinxcontrib.youtube',
 ]
 
 # -- Options for HTML output -------------------------------------------------
@@ -80,6 +81,6 @@ release = '0.0.1'
 show_authors=True
 source_suffix = {
     '.md': 'markdown',
-    '.rst': 'restructuredText'
+    '.rst': 'restructuredtext'
 }
 templates_path = ['_templates']
