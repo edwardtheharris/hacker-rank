@@ -8,19 +8,13 @@ date: 2024-02-07
 title: grep command 1
 ---
 
-[![grep #1](https://img.shields.io/badge/grep_%231-hackerrank?style=flat&logo=hackerrank&label=HackerRank)](https://www.hackerrank.com/challenges/text-processing-in-linux-the-grep-command-1/problem?isFullScreen=true)
+[![grep #2](https://img.shields.io/badge/grep_%232-hackerrank?style=flat&logo=hackerrank&label=HackerRank)](https://www.hackerrank.com/challenges/text-processing-in-linux-the-grep-command-2/problem?isFullScreen=true)
 
 ## Objective
 
-In this challenge, we practice using the {term}`grep` command to find specified
-strings or regular expressions.
+In this challenge, we practice using the grep command to find specified strings or regular expressions.
 
 ### Resources
-
-Here's a useful video on the topic:
-
-```{youtube} WX5Zfflvdt0
-```
 
 {term}`grep` is a multi-purpose search tool that is used to find specified
 strings or regular expressions. A variety of options exist that makes it
@@ -42,9 +36,9 @@ More details about common examples of grep usage can be found
 ## Task
 
 You are given a text file that will be piped into your command through `STDIN`.
-Use {term}`grep` to display all the lines that contain the word $the$ in them.
-The search should be sensitive to case. Display only those lines of the input
-file that contain the word 'the'.
+Use grep to display all those lines that contain the word the in them.
+The search should NOT be sensitive to case.
+Display only those lines of the input file that contain the word 'the'.
 
 ### Input Format
 
@@ -52,9 +46,9 @@ A text file will be piped into your command through `STDIN`.
 
 ### Output Format
 
-Output only those lines that contain the word 'the'. The search should be case
-sensitive. The relative ordering of the lines in the output should be the same
-as it was in the input.
+Output only those lines that contain the word 'the'. The search should NOT be
+case sensitive. The relative ordering of the lines in the output should be the
+same as it was in the input.
 
 ### Sample Input
 
@@ -99,15 +93,18 @@ Where all the treasure of thy lusty days;
 
 ### Explanation
 
-We have retained and displayed only those lines that contain the word 'the'.
-A little bit of extra care might be required to avoid retaining cases where
-'the' is a suffix or prefix of some other word within the sentences!
+We have retained only those lines which contain the word 'the'. Do remember,
+that in this problem we're trying to make a case insensitive search. This means
+that your command should also be able to capture 'The', 'thE' and so on. A
+little bit of extra care might be required to avoid retaining cases where 'the'
+is a suffix or prefix of some other word within the sentences!
 
 ## Solution
 
-This is a very simple solution requiring only that {term}`grep` be used.
+The key to this solution is to add the `-i` (case insensitive) and `-w`
+(match only instances surrounded by word boundaries) flags to the command.
 
-```{literalinclude} /bash/grep/grep-1/grep-1.sh
+```{literalinclude} /bash/grep/grep-2/grep-2.sh
 ```
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
