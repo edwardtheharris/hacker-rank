@@ -9,6 +9,8 @@ date: 2024-02-07
 title: Sed command 3
 ---
 
+[![sed #3](https://img.shields.io/badge/sed_%233-hackerrank?style=flat&logo=hackerrank&label=HackerRank)](https://www.hackerrank.com/challenges/text-processing-in-linux-the-sed-command-3/problem?isFullScreen=true)
+
 ## Overview
 
 [Sed](http://en.wikipedia.org/wiki/Sed) is a popular utility which enables
