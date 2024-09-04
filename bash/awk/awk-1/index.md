@@ -5,7 +5,7 @@ abstract: >-
 authors:
   - name: Xander Harris
     email: xandertheharris@gmail.com
-date: 2024-02-07
+date: 2024-09-04
 title: awk command 1
 ---
 
@@ -78,9 +78,9 @@ Only $2$ scores have been provided for student B and student C.
 
 ## Solution
 
-This requires the use of the word-boundary special character (`\b`)  of regular
-expressions.
+This is a very simple {term}`awk` program that checks the number of fields
+per records and produces output if that number is a number other than $4$.
 
-```{literalinclude} /bash/sed/sed-1/sed-1.sh
+```{literalinclude} /bash/awk/awk-1/awk-1.sh
 :language: shell
 ```
