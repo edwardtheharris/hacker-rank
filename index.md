@@ -40,6 +40,11 @@ license
 ## Glossary
 
 ```{glossary}
+awk
+   A program that you can use to select particular records in a file and
+   perform operations upon them. The reference manual is available
+   [here](https://www.gnu.org/software/gawk/manual/gawk.html).
+
 bash
    Bourne Again SHell, aka the best shell to use for accessing Linux machines.
    The reference manual is available
