@@ -123,4 +123,8 @@ reversed.
 This problem is solved easily with some groups and back references.
 
 ```{literalinclude} /bash/sed/sed-5/sed-5.sh
-:l
+:language: shell
+```
+
+```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
+```
