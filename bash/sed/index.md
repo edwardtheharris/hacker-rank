@@ -5,11 +5,15 @@ authors:
   - name: Xander Harris
     email: xandertheharris@gmail.com
 date: 2024-02-07
-title: Sed
+title: Shell (`sed`)
 ---
 
 ```{toctree}
 :caption: sed challenges
+:glob:
 
-sed-3/index
+sed*/index
+```
+
+```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
 ```

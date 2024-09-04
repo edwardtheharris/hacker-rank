@@ -142,7 +142,8 @@ brackets {}. The search and replacement has been done regardless of case.
 ## Solution
 
 The key here is the case-sensitivity flag of {term}`sed`, or `I`, which is
-placed at the end of the regular expression passed to the `-e` option.
+placed at the end of the regular expression passed to the `-e` option. You
+will also need to pass the global flag, or `g` to the regular expression.
 
 ```{literalinclude} /bash/sed/sed-3/sed-3.sh
 :language: shell

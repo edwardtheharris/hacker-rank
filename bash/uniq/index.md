@@ -1,7 +1,9 @@
 ---
 abstract: HackerRank Shell `uniq` Challenges
-authors: Xander Harris
-title: Solutions to HackerRank Shell `uniq` Challenges
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
+title: Shell (`uniq`)
 ---
 
 ```{toctree}

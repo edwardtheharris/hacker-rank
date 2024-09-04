@@ -62,7 +62,7 @@ sort/index
 ```
 
 ```{toctree}
-:caption: sed
+:caption: {term}`sed`
 :maxdepth: 2
 
 sed/index

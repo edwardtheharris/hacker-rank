@@ -1,7 +1,7 @@
 ---
 abstract: HackerRank Shell Array Challenges
 authors: Xander Harris
-title: Solutions to HackerRank Shell Array Challenges
+title: Shell Arrays
 ---
 
 ```{toctree}

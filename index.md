@@ -61,4 +61,15 @@ sed
    [Sed](http://en.wikipedia.org/wiki/Sed) is a popular utility which enables
    quick parsing and transformation of text. You can find the reference manual
    [here](https://www.gnu.org/software/sed/manual/html_node/index.html#Top).
+
+   Additional resources can be found at the following links.
+
+   - [Sed: An Introduction and Tutorial](http://www.grymoire.com/Unix/Sed.html#uh-10a)
+   - [The TLDP Guide](http://tldp.org/LDP/abs/html/x23170.html)
+   - [Some Practical Examples](http://www.folkstalk.com/2012/01/sed-command-in-unix-examples.html)
+   - [This StackOverflow question](http://stackoverflow.com/questions/2232200/regular-expression-in-sed-for-masking-credit-card)
+   - [TheGeekStuff](http://www.thegeekstuff.com/2009/10/unix-sed-tutorial-advanced-sed-substitution-examples/)
+```
+
+```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
 ```
