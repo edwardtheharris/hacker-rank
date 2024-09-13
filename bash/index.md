@@ -10,6 +10,16 @@ The best place to learn about BASH in particular and shell scripting in general
 is the
 [GNU Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html).
 
+## {term}`awk`
+
+```{toctree}
+:caption: awk
+
+awk/index
+```
+
+## {term}`arrays`
+
 ```{toctree}
 :caption: arrays
 :glob:
@@ -90,6 +100,8 @@ tr/index
 
 ```{index} bash; tr
 ```
+
+## {term}`uniq`
 
 ```{toctree}
 :caption: uniq

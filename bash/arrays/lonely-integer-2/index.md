@@ -1,6 +1,8 @@
 ---
-abstract: The first `sort` problem from HackerRank.
-authors: Xander Harris
+abstract: The Lonely Integer shell problem from HackerRank.
+authors:
+    - name: Xander Harris
+      email: xandertheharris@gmail.com
 date: 2024-03-04
 title: Lonely Integer
 ---
