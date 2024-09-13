@@ -9,13 +9,20 @@ title: sort 7
 
 ## Problem
 
-You are given a file of pipe-delimited weather data (TSV). There is no header column in this data file. The first five columns of this data are (a) the name of the city (b) the average monthly temperature in Jan (in Fahrenheit). (c) the average monthly temperature in April (in Fahrenheit). (d) the average monthly temperature in July (in Fahrenheit). (e) the average monthly temperature in October (in Fahrenheit).
+You are given a file of pipe-delimited weather data (TSV). There is no header
+column in this data file. The first five columns of this data are (a) the name
+of the city (b) the average monthly temperature in Jan (in Fahrenheit). (c) the
+average monthly temperature in April (in Fahrenheit). (d) the average monthly
+temperature in July (in Fahrenheit). (e) the average monthly temperature in
+October (in Fahrenheit).
 
-You need to sort this file in descending order of the second column (i.e. the average monthly temperature in January).
+You need to sort this file in descending order of the second column (i.e. the
+average monthly temperature in January).
 
 ### Input Format
 
-A text file with multiple lines of pipe-delimited data. The first five fields have been explained above
+A text file with multiple lines of pipe-delimited data. The first five fields
+have been explained above
 
 ### Output Format
 
@@ -63,7 +70,8 @@ Bismarck, N.D.|10.2|43.3|70.4|45.2|16.84|96|44.3|64
 
 ### Explanation
 
-The data has been sorted in descending order of the average monthly temperature in January (i.e, the second column).
+The data has been sorted in descending order of the average monthly temperature
+in January (i.e, the second column).
 
 ## Solution
 
