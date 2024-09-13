@@ -40,6 +40,11 @@ license
 ## Glossary
 
 ```{glossary}
+arrays
+   Arrays in Bash can one-dimensional or associative depending on the syntax.
+   More information is available
+   [here](https://www.gnu.org/software/bash/manual/html_node/Arrays.html).
+
 awk
    A program that you can use to select particular records in a file and
    perform operations upon them. The reference manual is available
@@ -79,6 +84,11 @@ sed
    - [Some Practical Examples](http://www.folkstalk.com/2012/01/sed-command-in-unix-examples.html)
    - [This StackOverflow question](http://stackoverflow.com/questions/2232200/regular-expression-in-sed-for-masking-credit-card)
    - [TheGeekStuff](http://www.thegeekstuff.com/2009/10/unix-sed-tutorial-advanced-sed-substitution-examples/)
+
+uniq
+   `uniq` is a shell command that parses lists of lines and outputs non-repeated
+   values. More information is available
+   [here](https://www.gnu.org/software/coreutils/manual/html_node/The-uniq-command.html).
 ```
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
