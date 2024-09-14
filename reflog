@@ -1,0 +1,327 @@
+7448255 (HEAD -> main, origin/main, origin/HEAD) Merge pull request #189 from edwardtheharris/179-functions-and-fractals
+404345a (origin/179-functions-and-fractals, 179-functions-and-fractals) Solve the fractal tree problem
+b6b1017 Merge pull request #188 from edwardtheharris/103-remove-the-first-capital-letter-from-each-element
+8525054 Solve the first capital problem
+7576136 Merge pull request #187 from edwardtheharris/102-filter-an-array-with-patterns
+69f23d2 Solve filter an array
+7ab9be2 Merge pull request #186 from edwardtheharris/180-lonely-integer
+0f976eb Solve lonely integer
+0b30cd0 Merge pull request #178 from edwardtheharris/164-awk-4
+b4012a5 Solve awk  #4
+8a9d791 Merge pull request #177 from edwardtheharris/163-awk-3
+f95a763 Solve awk #3
+43afc0d Merge pull request #176 from edwardtheharris/105-awk-2
+a552f6c Solve awk #2
+ea96a2d Merge pull request #175 from edwardtheharris/104-awk-1
+001f2d7 Solve awk #1
+0884c59 Merge pull request #174 from edwardtheharris/165-grep-3
+d5330f4 Solve grep #3
+4cfb919 Merge pull request #173 from edwardtheharris/166-grep-2
+89d7617 Solve grep #2
+79d9bfd Merge pull request #172 from edwardtheharris/106-grep-1
+df517a5 Solve grep #1
+bab057e Merge pull request #171 from edwardtheharris/161-sed-5
+5f8bb09 Merge branch 'main' into 161-sed-5
+1069e30 Fix incorrect docs
+698c22a Merge pull request #170 from edwardtheharris/161-sed-5
+dde311d Solve sed #5
+79d569b Merge pull request #169 from edwardtheharris/160-sed-4
+edfde4b Complete sed #4
+330efb6 Merge pull request #168 from edwardtheharris/162-sed-2
+0dd2b4d Complete sed #2
+f7b0977 Merge pull request #167 from edwardtheharris/159-sed-1
+21f562d Complete sed 1 challenge
+7d1bbaa Merge pull request #158 from edwardtheharris/154-sed-command-3
+507e29d Post PyLint Results
+a116643 Merge pull request #157 from edwardtheharris/154-sed-command-3
+3d5d178 Add sed folder and first challenge
+84a1828 Merge pull request #156 from edwardtheharris/155-modernize-docs-a-bit
+3bf53a2 Adjust settings, content for docs
+94f6dd5 Merge pull request #152 from edwardtheharris/dependabot/pip/pylint-3.2.7
+02d7fb7 Bump pylint from 3.2.6 to 3.2.7
+8403382 Merge pull request #153 from edwardtheharris/dependabot/pip/ipython-8.27.0
+daa5a17 Bump ipython from 8.26.0 to 8.27.0
+30873c9 Merge pull request #150 from edwardtheharris/dependabot/pip/myst-parser-4.0.0
+8827359 Merge branch 'main' into dependabot/pip/myst-parser-4.0.0
+aa4e270 Merge pull request #151 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.4.1
+808f44a Bump sphinx-nefertiti from 0.4.0 to 0.4.1
+8811d0d Bump myst-parser from 3.0.1 to 4.0.0
+3132790 Merge pull request #149 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.4.0
+c8ef945 Bump sphinx-nefertiti from 0.3.4 to 0.4.0
+f246a32 Merge pull request #148 from edwardtheharris/dependabot/pip/sphinx-design-0.6.1
+74c983d Bump sphinx-design from 0.6.0 to 0.6.1
+2a376cf Merge pull request #147 from edwardtheharris/dependabot/pip/pytest-8.3.2
+8405162 Bump pytest from 8.3.1 to 8.3.2
+1a6457e Merge pull request #145 from edwardtheharris/dependabot/pip/pytest-8.3.1
+be0c53f Bump pytest from 8.2.2 to 8.3.1
+99ca954 Merge pull request #144 from edwardtheharris/dependabot/pip/sphinx-7.4.7
+fbc748d Bump sphinx from 7.4.0 to 7.4.7
+63bdf8b Merge pull request #146 from edwardtheharris/dependabot/pip/pylint-3.2.6
+2c80ce7 Bump pylint from 3.2.5 to 3.2.6
+0542682 Merge pull request #143 from edwardtheharris/dependabot/pip/sphinx-7.4.0
+1e8b986 Bump sphinx from 7.3.7 to 7.4.0
+8cdad1c Merge pull request #141 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.3.4
+c57a1d2 Bump sphinx-nefertiti from 0.3.3 to 0.3.4
+0f18292 Merge pull request #135 from edwardtheharris/dependabot/pip/pipenv-2024.0.1
+e7e118d Bump pipenv from 2023.12.1 to 2024.0.1
+d390afd Merge pull request #140 from edwardtheharris/dependabot/pip/pylint-3.2.5
+2851195 Bump pylint from 3.1.0 to 3.2.5
+54ecbd0 Merge pull request #139 from edwardtheharris/dependabot/pip/ipython-8.26.0
+bacc1a1 Bump ipython from 8.24.0 to 8.26.0
+351e533 Merge pull request #134 from edwardtheharris/dependabot/pip/sphinx-tippy-0.4.3
+f745543 Bump sphinx-tippy from 0.4.1 to 0.4.3
+8d593ff Merge pull request #138 from edwardtheharris/dependabot/pip/sphinx-design-0.6.0
+5edc7de Bump sphinx-design from 0.5.0 to 0.6.0
+aa955d7 Merge pull request #125 from edwardtheharris/dependabot/pip/myst-parser-3.0.1
+933889e Bump myst-parser from 2.0.0 to 3.0.1
+7a3c222 Merge pull request #124 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.4.16
+ff6bf76 Merge pull request #127 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.3.3
+5d665c2 Bump sphinx-autobuild from 2024.4.13 to 2024.4.16
+b6f87ed Bump sphinx-nefertiti from 0.3.2 to 0.3.3
+ac2d186 Merge pull request #132 from edwardtheharris/dependabot/pip/pytest-8.2.2
+14a8787 Bump pytest from 8.1.1 to 8.2.2
+31dff79 Merge pull request #133 from edwardtheharris/dependabot/pip/pip-6c020453d7
+528e6fa Bump the pip group with 3 updates
+580492d Merge pull request #126 from edwardtheharris/dependabot/pip/ipython-8.24.0
+9e4e3a4 Bump ipython from 8.23.0 to 8.24.0
+7b458fa Merge pull request #118 from edwardtheharris/dependabot/pip/gitpython-3.1.43
+8c577a8 Merge branch 'main' into dependabot/pip/gitpython-3.1.43
+590014c Merge pull request #117 from edwardtheharris/dependabot/pip/ipython-8.23.0
+1ee33c1 Bump ipython from 8.22.2 to 8.23.0
+7e30cb6 Merge pull request #121 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.4.13
+fb50e2f Bump gitpython from 3.1.42 to 3.1.43
+86f91de Merge branch 'main' into dependabot/pip/sphinx-autobuild-2024.4.13
+7e1abd6 Merge pull request #120 from edwardtheharris/dependabot/pip/idna-3.7
+42a7186 Bump sphinx-autobuild from 2024.2.4 to 2024.4.13
+055fb79 Bump idna from 3.6 to 3.7
+847f536 Merge pull request #122 from edwardtheharris/dependabot/pip/pytest-sphinx-0.6.3
+04360f3 Bump pytest-sphinx from 0.6.0 to 0.6.3
+9f0ec67 Merge pull request #116 from edwardtheharris/dependabot/pip/pytest-cov-5.0.0
+fef8527 Bump pytest-cov from 4.1.0 to 5.0.0
+d845271 Merge pull request #115 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.3.2
+d834da3 Bump sphinx-nefertiti from 0.3.0 to 0.3.2
+8827385 Merge pull request #107 from edwardtheharris/dependabot/pip/pytest-8.1.1
+ea484d9 Merge branch 'main' into dependabot/pip/pytest-8.1.1
+0b7e944 Merge pull request #108 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.3.0
+c3db0ac Bump sphinx-nefertiti from 0.2.3 to 0.3.0
+964fb15 Bump pytest from 8.0.2 to 8.1.1
+7822b26 Merge pull request #101 from edwardtheharris/72-grep-b
+a4c4e3e grep b
+88a0b48 Merge pull request #100 from edwardtheharris/95-grep-a
+43dd794 grep a
+480c490 grep a
+48a064d Merge pull request #99 from edwardtheharris/79-paste-4
+e2aa625 paste 4
+4439c94 paste 4
+0412a5d Merge branch 'main' of github.com:edwardtheharris/hacker-rank
+c2691aa Merge pull request #98 from edwardtheharris/80-paste-3
+d9ca5e3 paste 3
+66ca72a paste 3
+6e094ec Merge branch 'main' of github.com:edwardtheharris/hacker-rank
+f0cc7d0 Merge pull request #97 from edwardtheharris/77-paste-2
+571c910 paste 2
+f66a77a paste 2
+8f1e53e Hey @edwardtheharris! - What do you think you're doing?
+bfd60d0 Merge pull request #96 from edwardtheharris/78-paste-1
+e696a7c paste 1
+8f6bb4e Merge pull request #94 from edwardtheharris/82-slice-an-array
+e8c8bb2 slice an array
+597b07b Merge branch 'main' into 82-slice-an-array
+4c7d479 slice an array
+89ed1c0 Merge pull request #93 from edwardtheharris/83-concatenate-an-array-with-itself
+a9b7075 concatenate an array with itself
+cf6fd81 concatenate an array with itself
+372670b Merge pull request #92 from edwardtheharris/84-display-an-element-of-an-array
+975dbb7 display an element of an array
+7acd6de display an element of an array
+7512beb Merge pull request #91 from edwardtheharris/85-count-the-number-of-elements-in-an-array
+1268834 count the number of elements in an array
+bb31a8e Merge pull request #90 from edwardtheharris/81-read-in-an-array
+97464cb read in an array
+6c78615 Merge pull request #89 from edwardtheharris/76-uniq-command-4
+f6a4fac uniq command 4
+60db926 uniq command 4
+23db6e1 uniq command 4
+b585018 Merge pull request #88 from edwardtheharris/75-uniq-command-3
+fbc132b uniq command 3
+18b3911 uniq command 3
+01386f7 Merge pull request #87 from edwardtheharris/74-uniq-command-2
+0575e75 uniq command 2
+5fbba30 Merge pull request #86 from edwardtheharris/73-uniq-command-1
+0b10ad6 uniq command 1
+023f2c9 uniq command 1
+a8b8f46 Some minor adjustments
+b78f372 Merge pull request #71 from edwardtheharris/68-sort-command-7
+5638305 Sort Command 7
+1d4c940 Merge pull request #70 from edwardtheharris/67-sort-command-6
+6d56318 Sort command 6
+7f8b7df Merge pull request #69 from edwardtheharris/66-sort-command-5
+d33d769 Sort command 5
+823d799 Merge pull request #65 from edwardtheharris/64-sort-command-4
+55bbcb7 Sort command 4
+f31ccd4 Merge pull request #63 from edwardtheharris/62-sort-command-3
+c58e2e3 Sort command 3
+f2d4c7f Merge pull request #61 from edwardtheharris/60-sort-command-2
+7d54a0d Sort Command 2
+106200e Merge pull request #59 from edwardtheharris/58-sort-command-1
+030b5d4 Sort Command 1
+082e596 Merge pull request #57 from edwardtheharris/56-tr-command-3
+320741f TR Command 3
+f57a1e2 Merge pull request #55 from edwardtheharris/54-tr-command-2
+74fc15e Cut Command 2
+e420083 Merge pull request #53 from edwardtheharris/52-tr-command-1
+688b5d1 tr Command One
+126a6a2 Merge pull request #51 from edwardtheharris/dependabot/pip/pytest-8.1.0
+b75315b Bump pytest from 8.0.2 to 8.1.0
+c01009f Merge pull request #50 from edwardtheharris/47-tail-of-a-text-file-2
+cb4dbf1 Tail of a Text File 2
+ead5eca Merge branch 'main' of github.com:edwardtheharris/hacker-rank
+b2994c1 Merge pull request #49 from edwardtheharris/48-tail-of-a-text-file-1
+ac7b412 Tail of a Text File
+494e75c See #
+0a9cf1a Merge pull request #46 from edwardtheharris/45-middle-of-a-text-file
+4d6e08e Middle of a Text File
+812b9e6 Middle of a Text File
+a409775 Middle of a Text File
+141b9cc Middle of a Text File
+f9c30fa Merge branch '45-middle-of-a-text-file' of
+ce7b890 Middle of a Text File
+5b65946 Merge branch 'main' into 45-middle-of-a-text-file
+d2dfe4c Middle of a Text File
+ef9b0a3 Merge pull request #44 from edwardtheharris/42-head-of-a-text-file-2
+bf92da6 See #
+5431b54 Head of a text file 2
+26fe886 Head of a text file 2
+1c4212f Merge pull request #43 from edwardtheharris/41-head-of-a-text-file-1
+6d1af24 Head of a text file 1
+69d6354 Merge pull request #40 from edwardtheharris/35-cut-9-hackerrank
+ff8971a Closes #35
+7efea9b Merge pull request #39 from edwardtheharris/34-cut-8-hackerrank
+701d94f Closes #34
+5f89871 Closes #34
+63d547a Merge pull request #38 from edwardtheharris/33-cut-7-hackerrank
+f41c5cc Closes #33
+85daf3c Merge pull request #37 from edwardtheharris/32-cut-6-hackerrank
+a469ed4 Closes #32
+85174a7 Merge pull request #36 from edwardtheharris/31-cut-5---hackerrank
+374f9fa Cut #5 | HackerRank
+b3d2bc1 Cut #5 | HackerRank
+5ce9dc2 Merge pull request #30 from edwardtheharris/29-cut-4-|-hackerrank
+0caab4d Cut #4 | HackerRank
+ad0d6e4 Cut #4 | HackerRank
+4766ed8 Merge pull request #28 from edwardtheharris/27-cut-3-|-hackerrank
+4ac42f5 Cut #3 | HackerRank
+bfd80d4 Merge pull request #26 from edwardtheharris/25-cut-2-hackerrank
+b48d131 Closes #25
+bffe8ff See #25
+d804d27 Merge pull request #13 from edwardtheharris/12-cut-1-input-and-string-mangling
+4603fbe Cut 1 input and strig mangling
+406a790 See #12
+9cf171d See #12
+b50db9a Merge branch 'main' of
+4b39817 Merge pull request #24 from edwardtheharris/22-a-very-big-sum
+be0cdf4 Merge branch '22-a-very-big-sum' of github.com:edwardtheharris/hacker-rank into 22-a-very-big-sum
+7f53b24 See #22
+21fd0e4 Merge branch 'main' into 22-a-very-big-sum
+6e6c7c2 See #22
+596e89a See #22
+48b096f See #22
+8954706 Add test stubs
+61e16f7 Merge pull request #23 from edwardtheharris/dependabot/pip/pytest-8.0.2
+242417f Bump pytest from 8.0.1 to 8.0.2
+de8fa81  a very big sum
+2d9c184 Merge pull request #21 from edwardtheharris/20-adjust-docs
+5717b38  adjust docs
+709d02e  adjust docs
+7e47953 Merge pull request #19 from edwardtheharris/3-compare-the-triplets
+13fa5e6  compare the triplets
+8b1d6aa  compare the triplets
+f59173c  compare the triplets
+23d7a46  compare the triplets
+0fc7a66 Merge pull request #18 from edwardtheharris/3-Regression---Features-and-Labels
+843f7ca  Regression   Features and Labels
+d6494b8  compare the triplets
+a57e98d Merge branch 'main' of
+70912dc Merge pull request #17 from edwardtheharris/5-enable-pages
+f55d41d  enable pages
+c016c1d  enable pages
+fe754cf  enable pages
+148f2f0  enable pages
+cec244d  cut 1 input and string mangling
+d992ac6 Merge branch 'main' of github.com:edwardtheharris/hacker-rank into 12-cut-1-input-and-string-mangling
+39180ed  cut 1 input and string mangling
+02cce0f Merge pull request #16 from edwardtheharris/6-simple-array-sum
+5881235  simple array sum
+461f56c  simple array sum
+83e5e1d Merge branch 'main' of github.com:edwardtheharris/hacker-rank into 6-simple-array-sum
+56d1769 Merge pull request #15 from edwardtheharris/7-cut-2
+576a02b  simple array sum
+142cc4f  simple array sum
+69c8268  simple array sum
+e3b3a29  simple array sum
+06d835c  simple array sum
+c085280  simple array sum
+b226fd1  simple array sum
+fb872a5  simple array sum
+3764af8  simple array sum
+ce4dc08  simple array sum
+eaa5b68  cut 2
+de5708a All but 1  cut 2
+c6bc4cd Merge pull request #14 from edwardtheharris/8-python-basic-certificate
+2906d14  python basic certificate
+96c50fa  python basic certificate
+8f7f6ad  python basic certificate
+3eb1b48  python basic certificate
+12a75b9  python basic certificate
+251a394  python basic certificate
+3d426af  python basic certificate
+fdf66f7  python basic certificate
+2324452  python basic certificate
+4f49964  python basic certificate
+a65e105  python basic certificate
+732b4bd  python basic certificate
+d1d835e  python basic certificate
+2a437f2  python basic certificate
+4853667  python basic certificate
+cdbdf01  python basic certificate
+feb8915  cut 1 input and string mangling
+4cf44b3  cut 1 input and string mangling
+999a31d Check the shell  cut 1 input and string mangling
+6949875  cut 1 input and string mangling
+a571216 Merge branch 'main' of
+b063f20 Merge pull request #11 from edwardtheharris/10-Bash---Compute-the-Average
+2a99cd9 Add readme
+99205eb Add branch to run
+c272222 Add working solution
+17d0950 Merge branch 'main'
+b0fab6a Create shell.yml
+2d13f70 Use echo not printf
+d05960e Use bc for addition also
+0fc488a Add scale
+b635f0d Update calculation
+be9b2a3 Add floating point calculation
+a74ff96 Read from stdin
+a8c8725 Get a sum of items
+a6d2106 Start on solution, move input file
+78225ff Add inputs and outputs
+5700b49 Move some files around
+5a055d4 Merge pull request #9 from edwardtheharris/1-Regression---Intro-and-Data
+b28a59b Merge branch '1-Regression---Intro-and-Data' of
+6d9ca0f Add new files
+c4b260a Begin features
+3512b8d Merge pull request #4 from edwardtheharris/1-Regression---Intro-and-Data
+4cc338b Merge pull request #2 from edwardtheharris/master
+4a54496 Merge branch '1-Regression---Intro-and-Data' into master
+36bfd51 Fix project name
+d052d02 Add transformations
+ad13c63 Calculate high / low percentage
+42f9b72 Additional df transformations
+22f2838 Update intro readme
+478ab57 Update Pipfile, import quandl and run first query
+3605384 Add iPython notebook
+5d40b9d Update readme some more
+1582871 (origin/develop) Add regression definition
+18dce92 Add .lock to ignore.
+d0ceeb0 Add Pipfile, regression package
+070258e Iitial commit
+749140e Initial commit
