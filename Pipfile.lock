@@ -895,12 +895,12 @@
         },
         "ipython": {
             "hashes": [
-                "sha256:3910c4b54543c2ad73d06579aa771041b7d5707b033bd488669b4cf544e3b363",
-                "sha256:b0340d46a933d27c657b211a329d0be23793c36595acf9e6ef4164bc01a1804c"
+                "sha256:0188a1bd83267192123ccea7f4a8ed0a78910535dbaa3f37671dca76ebd429c8",
+                "sha256:40b60e15b22591450eef73e40a027cf77bd652e757523eebc5bd7c7c498290eb"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.8'",
-            "version": "==8.12.3"
+            "markers": "python_version >= '3.10'",
+            "version": "==8.29.0"
         },
         "isort": {
             "hashes": [
@@ -971,7 +971,7 @@
                 "sha256:7236d1e080e4936be2dc3e326cec0af72acf9212a7e1d060210e70a47e253523",
                 "sha256:ee7d41123f3c9911050ea2c2dac107568dc43b2d3b0c7557a33212c398ead30f"
             ],
-            "markers": "sys_platform != 'win32'",
+            "markers": "sys_platform != 'win32' and sys_platform != 'emscripten'",
             "version": "==4.9.0"
         },
         "pickleshare": {
@@ -999,11 +999,11 @@
         },
         "prompt-toolkit": {
             "hashes": [
-                "sha256:0d7bfa67001d5e39d02c224b663abc33687405033a8c422d0d675a5a13361d10",
-                "sha256:1e1b29cb58080b1e69f207c893a1a7bf16d127a5c30c9d17a25a5d77792e5360"
+                "sha256:d6623ab0477a80df74e646bdbc93621143f5caf104206aa29294d53de1a03d90",
+                "sha256:f49a827f90062e411f1ce1f854f2aedb3c23353244f8108b89283587397ac10e"
             ],
             "markers": "python_full_version >= '3.7.0'",
-            "version": "==3.0.47"
+            "version": "==3.0.48"
         },
         "ptyprocess": {
             "hashes": [
