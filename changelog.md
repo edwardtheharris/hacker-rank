@@ -1,3 +1,12 @@
+---
+abstract: Hacker Rank challenges changelog.
+date: 2025-09-17
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
+title: Hacker Rank Changelog
+---
+
 ## [unreleased]
 
 ### unreleased - 💼 Other
@@ -1332,7 +1341,10 @@
 - Dependabot[bot] <support@github.com>
 - Merge pull request #126 from edwardtheharris/dependabot/pip/ipython-8.24.0
 - Bump the pip group with 3 updates
-- Bumps the pip group with 3 updates: [requests](https://github.com/psf/requests), [tornado](https://github.com/tornadoweb/tornado) and [urllib3](https://github.com/urllib3/urllib3).
+- Bumps the pip group with 3 updates:
+    [requests](https://github.com/psf/requests),
+    [tornado](https://github.com/tornadoweb/tornado) and
+    [urllib3](https://github.com/urllib3/urllib3).
 - Updates `requests` from 2.31.0 to 2.32.2
 - - [Release notes](https://github.com/psf/requests/releases)
 - - [Changelog](https://github.com/psf/requests/blob/main/HISTORY.md)
