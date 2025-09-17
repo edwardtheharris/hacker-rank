@@ -7,24 +7,24 @@
 # See https://keats.github.io/tera/docs/#introduction
 body = """
 ---
-abstract: Changelog for the Hacker Rank challenges.
-authors:
-  - name: Xandwer Harris
-    email: xandertheharris@gmail.com
-date:
-title: Hacker Rank Challenges Changelog
+abstract: Changelog for the Hacker Rank challenges.\
+authors:\
+  - name: Xander Harris\
+    email: xandertheharris@gmail.com\
+date: 2025-09-17\
+title: Hacker Rank Challenges Changelog\
 ---
 {% if version %}\
-## [{{ version | trim_start_matches(pat="v") }}] - {{ timestamp | date(format="%Y-%m-%d") }}
+## [{{ version | trim_start_matches(pat="v") }}] - {{ timestamp | date(format="%Y-%m-%d") }}\
 {% else %}\
-## [unreleased]
+## [unreleased]\
 {% endif %}\
-{% for group, commits in commits | group_by(attribute="group") %}
-### {{ group | striptags | trim | upper_first }}
-    {% for commit in commits %}
-- {% if commit.scope %}*({{ commit.scope }})* {% endif %}\
-            {% if commit.breaking %}[**breaking**] {% endif %}\
-- {{ commit.message | upper_first }}\
+{% for group, commits in commits | group_by(attribute="group") %}\
+### {{ group | striptags | trim | upper_first }}\
+    {% for commit in commits %}\
+    - {% if commit.scope %}*({{ commit.scope }})* {% endif %}\
+      {% if commit.breaking %}[**breaking**] {% endif %}\
+        - {{ commit.message | upper_first }}\
     {% endfor %}
 {% endfor %}
 """
