@@ -1,17 +1,19 @@
 ## [unreleased]
 
-### 💼 Other
+### unreleased - 💼 Other
 
 - Bump sphinx from 6.2.1 to 8.0.2
 - Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 6.2.1 to 8.0.2.
 - - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
 - - [Changelog](https://github.com/sphinx-doc/sphinx/blob/v8.0.2/CHANGES.rst)
 - - [Commits](https://github.com/sphinx-doc/sphinx/compare/v6.2.1...v8.0.2)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx
--   dependency-type: direct:production
--   update-type: version-update:semver-major
+- dependency-type: direct:production
+- update-type: version-update:semver-major
 - ...
 - Dependabot[bot] <support@github.com>
 - Update ignore
@@ -21,11 +23,13 @@
 - Bumps [ipython](https://github.com/ipython/ipython) from 8.12.3 to 8.27.0.
 - - [Release notes](https://github.com/ipython/ipython/releases)
 - - [Commits](https://github.com/ipython/ipython/compare/8.12.3...8.27.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: ipython
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
+- dependency-type: direct:development
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Update ignore
@@ -36,11 +40,13 @@
 - - [Release notes](https://github.com/executablebooks/MyST-Parser/releases)
 - - [Changelog](https://github.com/executablebooks/MyST-Parser/blob/master/CHANGELOG.md)
 - - [Commits](https://github.com/executablebooks/MyST-Parser/compare/v3.0.1...v4.0.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: myst-parser
--   dependency-type: direct:production
--   update-type: version-update:semver-major
+- dependency-type: direct:production
+- update-type: version-update:semver-major
 - ...
 - Dependabot[bot] <support@github.com>
 - Update
@@ -53,11 +59,13 @@
 - - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
 - - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
 - - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.5.0...v0.6.1)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-design
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
+- dependency-type: direct:production
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Update
@@ -68,11 +76,13 @@
 - - [Release notes](https://github.com/executablebooks/sphinx-book-theme/releases)
 - - [Changelog](https://github.com/executablebooks/sphinx-book-theme/blob/master/CHANGELOG.md)
 - - [Commits](https://github.com/executablebooks/sphinx-book-theme/compare/v1.0.1...v1.1.3)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-book-theme
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
+- dependency-type: direct:production
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Update
@@ -83,11 +93,13 @@
 - - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
 - - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
 - - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.5.0...v0.6.1)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-design
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
+- dependency-type: direct:production
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Bump myst-parser from 3.0.1 to 4.0.0
@@ -95,11 +107,13 @@
 - - [Release notes](https://github.com/executablebooks/MyST-Parser/releases)
 - - [Changelog](https://github.com/executablebooks/MyST-Parser/blob/master/CHANGELOG.md)
 - - [Commits](https://github.com/executablebooks/MyST-Parser/compare/v3.0.1...v4.0.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: myst-parser
--   dependency-type: direct:production
--   update-type: version-update:semver-major
+- dependency-type: direct:production
+- update-type: version-update:semver-major
 - ...
 - Dependabot[bot] <support@github.com>
 - Bump sphinx-autobuild from 2021.3.14 to 2024.10.3
@@ -107,11 +121,13 @@
 - - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
 - - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
 - - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2021.03.14...2024.10.03)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-autobuild
--   dependency-type: direct:production
--   update-type: version-update:semver-major
+- dependency-type: direct:production
+- update-type: version-update:semver-major
 - ...
 - Dependabot[bot] <support@github.com>
 - Bump tornado from 6.4.1 to 6.4.2 in the pip group
@@ -119,11 +135,13 @@
 - Updates `tornado` from 6.4.1 to 6.4.2
 - - [Changelog](https://github.com/tornadoweb/tornado/blob/v6.4.2/docs/releases.rst)
 - - [Commits](https://github.com/tornadoweb/tornado/compare/v6.4.1...v6.4.2)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: tornado
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-type: indirect
+- dependency-group: pip
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #199 from edwardtheharris/dependabot/pip/pip-661d9d4597
@@ -133,11 +151,13 @@
 - Bumps [ipython](https://github.com/ipython/ipython) from 8.12.3 to 8.30.0.
 - - [Release notes](https://github.com/ipython/ipython/releases)
 - - [Commits](https://github.com/ipython/ipython/compare/8.12.3...8.30.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: ipython
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
+- dependency-type: direct:development
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #200 from edwardtheharris/dependabot/pip/ipython-8.30.0
@@ -207,40 +227,42 @@
 - - [Release notes](https://github.com/pypa/virtualenv/releases)
 - - [Changelog](https://github.com/pypa/virtualenv/blob/main/docs/changelog.rst)
 - - [Commits](https://github.com/pypa/virtualenv/compare/20.26.4...20.26.6)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: h11
--   dependency-version: 0.16.0
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-version: 0.16.0
+- dependency-type: indirect
+- dependency-group: pip
 - - dependency-name: jinja2
--   dependency-version: 3.1.6
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-version: 3.1.6
+- dependency-type: indirect
+- dependency-group: pip
 - - dependency-name: requests
--   dependency-version: 2.32.4
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-version: 2.32.4
+- dependency-type: indirect
+- dependency-group: pip
 - - dependency-name: setuptools
--   dependency-version: 78.1.1
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-version: 78.1.1
+- dependency-type: indirect
+- dependency-group: pip
 - - dependency-name: starlette
--   dependency-version: 0.47.2
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-version: 0.47.2
+- dependency-type: indirect
+- dependency-group: pip
 - - dependency-name: tornado
--   dependency-version: '6.5'
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-version: '6.5'
+- dependency-type: indirect
+- dependency-group: pip
 - - dependency-name: urllib3
--   dependency-version: 2.5.0
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-version: 2.5.0
+- dependency-type: indirect
+- dependency-group: pip
 - - dependency-name: virtualenv
--   dependency-version: 20.26.6
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-version: 20.26.6
+- dependency-type: indirect
+- dependency-group: pip
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #210 from edwardtheharris/dependabot/pip/pip-16b9b4af00
@@ -251,11 +273,13 @@
 - - [Release notes](https://github.com/executablebooks/sphinx-book-theme/releases)
 - - [Changelog](https://github.com/executablebooks/sphinx-book-theme/blob/master/CHANGELOG.md)
 - - [Commits](https://github.com/executablebooks/sphinx-book-theme/compare/v1.0.1...v1.1.3)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-book-theme
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
+- dependency-type: direct:production
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge branch 'main' of
@@ -297,9 +321,10 @@
 - Closes #214
 - Add cliff toml
 - Closes #217
+
 ## [0.0.1] - 2024-09-14
 
-### 💼 Other
+### [0.0.1] - 💼 Other
 
 - Initial commit
 - Iitial commit
@@ -368,174 +393,174 @@
 - Merge branch 'main' of
 - Edwardtheharris/hacker-rank
 - See #10
--  cut 1 input and string mangling
+- cut 1 input and string mangling
 - See #12
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Check the shell
--  cut 1 input and string mangling
+- cut 1 input and string mangling
 - See #12
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  cut 1 input and string mangling
+- cut 1 input and string mangling
 - See #12
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  cut 1 input and string mangling
+- cut 1 input and string mangling
 - See #12
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  cut 1 input and string mangling
+- cut 1 input and string mangling
 - See #12
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  python basic certificate
+- python basic certificate
 - See #8
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #14 from edwardtheharris/8-python-basic-certificate
 - 8 python basic certificate
 - Closes #8
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - All but 1
--  cut 2
+- cut 2
 - See #7
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  cut 2
+- cut 2
 - See #7
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #15 from edwardtheharris/7-cut-2
@@ -543,132 +568,132 @@
 - See #7
 - Merge branch 'main' of github.com:edwardtheharris/hacker-rank into 6-simple-array-sum
 - See #6
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  simple array sum
+- simple array sum
 - See #6
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #16 from edwardtheharris/6-simple-array-sum
 - 6 simple array sum
 - Closes #6
 - Merge branch 'main' of github.com:edwardtheharris/hacker-rank into 12-cut-1-input-and-string-mangling
--  cut 1 input and string mangling
+- cut 1 input and string mangling
 - See #12
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  cut 1 input and string mangling
+- cut 1 input and string mangling
 - See #12
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Begin features
 - See #3
--  enable pages
+- enable pages
 - See #5
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  enable pages
+- enable pages
 - See #5
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  enable pages
+- enable pages
 - See #5
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  enable pages
+- enable pages
 - See #5
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #17 from edwardtheharris/5-enable-pages
--  enable pages
+- enable pages
 - Closes #5
 - Merge branch 'main' of
 - Edwardtheharris/hacker-rank into 3-compare-the-triplets
 - See #3
--  compare the triplets
+- compare the triplets
 - See #3
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  Regression   Features and Labels
+- Regression   Features and Labels
 - See #3
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #18 from edwardtheharris/3-Regression---Features-and-Labels
--  Regression   Features and Labels
--  compare the triplets
+- Regression   Features and Labels
+- compare the triplets
 - See #3
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  compare the triplets
+- compare the triplets
 - See #3
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  compare the triplets
+- compare the triplets
 - See #3
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  compare the triplets
+- compare the triplets
 - See #3
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #19 from edwardtheharris/3-compare-the-triplets
 - 3 compare the triplets
 - Closes #3
--  adjust docs
+- adjust docs
 - See #20
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
--  adjust docs
+- adjust docs
 - See #20
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #21 from edwardtheharris/20-adjust-docs
 - 20 adjust docs
 - Closes #20
--  a very big sum
+- a very big sum
 - See #22
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Add test stubs
 - See #22
 - See #22
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - See #22
-- @edwardtheharrris - xandertheharris@gmail.com
+- @edwardtheharrris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - See #22
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - See #22
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Bump pytest from 8.0.1 to 8.0.2
@@ -676,11 +701,13 @@
 - - [Release notes](https://github.com/pytest-dev/pytest/releases)
 - - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
 - - [Commits](https://github.com/pytest-dev/pytest/compare/8.0.1...8.0.2)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pytest
--   dependency-type: direct:development
--   update-type: version-update:semver-patch
+- dependency-type: direct:development
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #23 from edwardtheharris/dependabot/pip/pytest-8.0.2
@@ -695,27 +722,27 @@
 - 12-cut-1-input-and-string-mangling
 - See #12
 - See #12
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - See #12
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Cut 1 input and strig mangling
 - Closes #12
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #13 from edwardtheharris/12-cut-1-input-and-string-mangling
 - 12 cut 1 input and string mangling
 - Closes #12
 - See #25
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Closes #25
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #26 from edwardtheharris/25-cut-2-hackerrank
@@ -723,7 +750,7 @@
 - Closes #25
 - Cut #3 | HackerRank
 - Closes #27
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #28 from edwardtheharris/27-cut-3-|-hackerrank
@@ -731,12 +758,12 @@
 - Closes #27
 - Cut #4 | HackerRank
 - See #29
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Cut #4 | HackerRank
 - See #29
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #30 from edwardtheharris/29-cut-4-|-hackerrank
@@ -744,12 +771,12 @@
 - Closes #29
 - Cut #5 | HackerRank
 - See #31
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Cut #5 | HackerRank
 - See #31
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #36 from edwardtheharris/31-cut-5---hackerrank
@@ -757,26 +784,26 @@
 - Closes #31
 - Closes #32
 - Cut #6 | HackerRank
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #37 from edwardtheharris/32-cut-6-hackerrank
 - Closes #32
 - Closes #33
 - Cut #7 | HackerRank
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #38 from edwardtheharris/33-cut-7-hackerrank
 - Closes #33
 - Closes #34
 - Cut #8 | HackerRank
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Closes #34
 - Cut #8 HackerRank
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #39 from edwardtheharris/34-cut-8-hackerrank
@@ -784,14 +811,14 @@
 - Closes #34
 - Closes #35
 - Cut #9 | HackerRank
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #40 from edwardtheharris/35-cut-9-hackerrank
 - Closes #35
 - Head of a text file 1
 - Closes #41
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #43 from edwardtheharris/41-head-of-a-text-file-1
@@ -799,26 +826,26 @@
 - Closes #41
 - Head of a text file 2
 - Closes #42
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Head of a text file 2
 - Closes #42
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - See #
-- @ - xandertheharris@gmail.com
+- @ - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Middle of a Text File
 - Closes #45
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Middle of a Text File
 - See #45
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #44 from edwardtheharris/42-head-of-a-text-file-2
@@ -831,34 +858,34 @@
 - See #45
 - Middle of a Text File
 - See #45
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Middle of a Text File
 - Closes #45
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Middle of a Text File
 - Closes #45
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Middle of a Text File
 - Closes #45
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #46 from edwardtheharris/45-middle-of-a-text-file
 - Middle of a Text File
 - Closes #45
 - See #
-- @ - xandertheharris@gmail.com
+- @ - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Tail of a Text File
 - Closes #48
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #49 from edwardtheharris/48-tail-of-a-text-file-1
@@ -868,7 +895,7 @@
 - See #48
 - Tail of a Text File 2
 - Closes #47
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #50 from edwardtheharris/47-tail-of-a-text-file-2
@@ -879,17 +906,19 @@
 - - [Release notes](https://github.com/pytest-dev/pytest/releases)
 - - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
 - - [Commits](https://github.com/pytest-dev/pytest/compare/8.0.2...8.1.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pytest
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
+- dependency-type: direct:development
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #51 from edwardtheharris/dependabot/pip/pytest-8.1.0
 - Tr Command One
 - Closes #52
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #53 from edwardtheharris/52-tr-command-1
@@ -897,7 +926,7 @@
 - Closes #52
 - Cut Command 2
 - Closes #54
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #55 from edwardtheharris/54-tr-command-2
@@ -905,7 +934,7 @@
 - Closes #54
 - TR Command 3
 - Closes #56
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #57 from edwardtheharris/56-tr-command-3
@@ -913,7 +942,7 @@
 - Closes #56
 - Sort Command 1
 - Closes #58
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #59 from edwardtheharris/58-sort-command-1
@@ -921,7 +950,7 @@
 - Closes #58
 - Sort Command 2
 - Closes #60
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #61 from edwardtheharris/60-sort-command-2
@@ -929,7 +958,7 @@
 - Closes #60
 - Sort command 3
 - Closes #62
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #63 from edwardtheharris/62-sort-command-3
@@ -937,7 +966,7 @@
 - Closes #62
 - Sort command 4
 - Closes #64
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #65 from edwardtheharris/64-sort-command-4
@@ -945,7 +974,7 @@
 - Closes #64
 - Sort command 5
 - Closes #66
-- @edwardtheharris  - xandertheharris@gmail.com
+- @edwardtheharris  - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #69 from edwardtheharris/66-sort-command-5
@@ -953,7 +982,7 @@
 - Closes #66
 - Sort command 6
 - Closes #67
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #70 from edwardtheharris/67-sort-command-6
@@ -961,7 +990,7 @@
 - Closes #67
 - Sort Command 7
 - Closes #68
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #71 from edwardtheharris/68-sort-command-7
@@ -969,17 +998,17 @@
 - Closes #68
 - Some minor adjustments
 - Closes #73
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Uniq command 1
 - See #73
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Uniq command 1
 - See #73
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #86 from edwardtheharris/73-uniq-command-1
@@ -987,7 +1016,7 @@
 - Closes #73
 - Uniq command 2
 - See #74
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #87 from edwardtheharris/74-uniq-command-2
@@ -995,12 +1024,12 @@
 - Closes #74
 - Uniq command 3
 - See #75
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Uniq command 3
 - See #75
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #88 from edwardtheharris/75-uniq-command-3
@@ -1008,17 +1037,17 @@
 - Closes #75
 - Uniq command 4
 - See #76
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Uniq command 4
 - See #76
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Uniq command 4
 - See #76
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #89 from edwardtheharris/76-uniq-command-4
@@ -1026,7 +1055,7 @@
 - Closes #76
 - Read in an array
 - See #81
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #90 from edwardtheharris/81-read-in-an-array
@@ -1034,7 +1063,7 @@
 - Closes #90
 - Count the number of elements in an array
 - See #85
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #91 from edwardtheharris/85-count-the-number-of-elements-in-an-array
@@ -1042,12 +1071,12 @@
 - Closes #85
 - Display an element of an array
 - See #84
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Display an element of an array
 - See #84
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #92 from edwardtheharris/84-display-an-element-of-an-array
@@ -1055,17 +1084,17 @@
 - Closes #84
 - Slice an array
 - See #82
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Concatenate an array with itself
 - See #83
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Concatenate an array with itself
 - See #83
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #93 from edwardtheharris/83-concatenate-an-array-with-itself
@@ -1074,7 +1103,7 @@
 - Merge branch 'main' into 82-slice-an-array
 - Slice an array
 - See #82
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #94 from edwardtheharris/82-slice-an-array
@@ -1082,7 +1111,7 @@
 - Closes #82
 - Paste 1
 - See #78
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #96 from edwardtheharris/78-paste-1
@@ -1093,12 +1122,12 @@
 - Fix it or GitHub will murder 1 kitten for every commityou attempt to make to main.Changelog: kitten killer
 - Paste 2
 - See #77
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Paste 2
 - See #77
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #97 from edwardtheharris/77-paste-2
@@ -1107,12 +1136,12 @@
 - Merge branch 'main' of github.com:edwardtheharris/hacker-rank
 - Paste 3
 - See #80
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Paste 3
 - See #80
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #98 from edwardtheharris/80-paste-3
@@ -1121,12 +1150,12 @@
 - Merge branch 'main' of github.com:edwardtheharris/hacker-rank
 - Paste 4
 - See #79
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Paste 4
 - See #79
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #99 from edwardtheharris/79-paste-4
@@ -1134,12 +1163,12 @@
 - Closes #79
 - Grep a
 - See #95
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Grep a
 - See #95
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #100 from edwardtheharris/95-grep-a
@@ -1147,7 +1176,7 @@
 - Closes #95
 - Grep b
 - See #72
-- @edwardtheharris - xandertheharris@gmail.com
+- @edwardtheharris - <xandertheharris@gmail.com>
 - Xander Harris
 - Changed
 - Merge pull request #101 from edwardtheharris/72-grep-b
@@ -1158,11 +1187,13 @@
 - - [Release notes](https://github.com/pytest-dev/pytest/releases)
 - - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
 - - [Commits](https://github.com/pytest-dev/pytest/compare/8.0.2...8.1.1)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pytest
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
+- dependency-type: direct:development
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Bump sphinx-nefertiti from 0.2.3 to 0.3.0
@@ -1170,11 +1201,13 @@
 - - [Release notes](https://github.com/danirus/sphinx-nefertiti/releases)
 - - [Changelog](https://github.com/danirus/sphinx-nefertiti/blob/main/ChangeLog.md)
 - - [Commits](https://github.com/danirus/sphinx-nefertiti/compare/0.2.3...0.3.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-nefertiti
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
+- dependency-type: direct:production
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #108 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.3.0
@@ -1185,11 +1218,13 @@
 - - [Release notes](https://github.com/danirus/sphinx-nefertiti/releases)
 - - [Changelog](https://github.com/danirus/sphinx-nefertiti/blob/main/ChangeLog.md)
 - - [Commits](https://github.com/danirus/sphinx-nefertiti/compare/0.3.0...0.3.2)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-nefertiti
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
+- dependency-type: direct:production
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #115 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.3.2
@@ -1197,11 +1232,13 @@
 - Bumps [pytest-cov](https://github.com/pytest-dev/pytest-cov) from 4.1.0 to 5.0.0.
 - - [Changelog](https://github.com/pytest-dev/pytest-cov/blob/master/CHANGELOG.rst)
 - - [Commits](https://github.com/pytest-dev/pytest-cov/compare/v4.1.0...v5.0.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pytest-cov
--   dependency-type: direct:development
--   update-type: version-update:semver-major
+- dependency-type: direct:development
+- update-type: version-update:semver-major
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #116 from edwardtheharris/dependabot/pip/pytest-cov-5.0.0
@@ -1210,11 +1247,13 @@
 - - [Release notes](https://github.com/thisch/pytest-sphinx/releases)
 - - [Changelog](https://github.com/thisch/pytest-sphinx/blob/master/CHANGELOG.md)
 - - [Commits](https://github.com/thisch/pytest-sphinx/compare/v0.6.0...v0.6.3)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pytest-sphinx
--   dependency-type: direct:development
--   update-type: version-update:semver-patch
+- dependency-type: direct:development
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #122 from edwardtheharris/dependabot/pip/pytest-sphinx-0.6.3
@@ -1223,10 +1262,12 @@
 - - [Release notes](https://github.com/kjd/idna/releases)
 - - [Changelog](https://github.com/kjd/idna/blob/master/HISTORY.rst)
 - - [Commits](https://github.com/kjd/idna/compare/v3.6...v3.7)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: idna
--   dependency-type: indirect
+- dependency-type: indirect
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #120 from edwardtheharris/dependabot/pip/idna-3.7
@@ -1235,11 +1276,13 @@
 - - [Release notes](https://github.com/gitpython-developers/GitPython/releases)
 - - [Changelog](https://github.com/gitpython-developers/GitPython/blob/main/CHANGES)
 - - [Commits](https://github.com/gitpython-developers/GitPython/compare/3.1.42...3.1.43)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: gitpython
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
+- dependency-type: direct:production
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Bump sphinx-autobuild from 2024.2.4 to 2024.4.13
@@ -1247,11 +1290,13 @@
 - - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
 - - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
 - - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.02.04...2024.04.13)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-autobuild
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
+- dependency-type: direct:production
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge branch 'main' into dependabot/pip/sphinx-autobuild-2024.4.13
@@ -1260,11 +1305,13 @@
 - Bumps [ipython](https://github.com/ipython/ipython) from 8.22.2 to 8.23.0.
 - - [Release notes](https://github.com/ipython/ipython/releases)
 - - [Commits](https://github.com/ipython/ipython/compare/8.22.2...8.23.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: ipython
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
+- dependency-type: direct:development
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #117 from edwardtheharris/dependabot/pip/ipython-8.23.0
@@ -1274,11 +1321,13 @@
 - Bumps [ipython](https://github.com/ipython/ipython) from 8.23.0 to 8.24.0.
 - - [Release notes](https://github.com/ipython/ipython/releases)
 - - [Commits](https://github.com/ipython/ipython/compare/8.23.0...8.24.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: ipython
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
+- dependency-type: direct:development
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #126 from edwardtheharris/dependabot/pip/ipython-8.24.0
@@ -1295,17 +1344,19 @@
 - - [Release notes](https://github.com/urllib3/urllib3/releases)
 - - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
 - - [Commits](https://github.com/urllib3/urllib3/compare/2.2.1...2.2.2)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: requests
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-type: indirect
+- dependency-group: pip
 - - dependency-name: tornado
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-type: indirect
+- dependency-group: pip
 - - dependency-name: urllib3
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-type: indirect
+- dependency-group: pip
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #133 from edwardtheharris/dependabot/pip/pip-6c020453d7
@@ -1314,11 +1365,13 @@
 - - [Release notes](https://github.com/pytest-dev/pytest/releases)
 - - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
 - - [Commits](https://github.com/pytest-dev/pytest/compare/8.1.1...8.2.2)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pytest
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
+- dependency-type: direct:development
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #132 from edwardtheharris/dependabot/pip/pytest-8.2.2
@@ -1327,11 +1380,13 @@
 - - [Release notes](https://github.com/danirus/sphinx-nefertiti/releases)
 - - [Changelog](https://github.com/danirus/sphinx-nefertiti/blob/main/ChangeLog.md)
 - - [Commits](https://github.com/danirus/sphinx-nefertiti/compare/0.3.2...0.3.3)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-nefertiti
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
+- dependency-type: direct:production
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #127 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.3.3
@@ -1341,11 +1396,13 @@
 - - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
 - - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
 - - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.04.13...2024.04.16)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-autobuild
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
+- dependency-type: direct:production
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #124 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.4.16
@@ -1355,11 +1412,13 @@
 - - [Release notes](https://github.com/executablebooks/MyST-Parser/releases)
 - - [Changelog](https://github.com/executablebooks/MyST-Parser/blob/master/CHANGELOG.md)
 - - [Commits](https://github.com/executablebooks/MyST-Parser/compare/v2.0.0...v3.0.1)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: myst-parser
--   dependency-type: direct:production
--   update-type: version-update:semver-major
+- dependency-type: direct:production
+- update-type: version-update:semver-major
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #125 from edwardtheharris/dependabot/pip/myst-parser-3.0.1
@@ -1368,11 +1427,13 @@
 - - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
 - - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
 - - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.5.0...v0.6.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-design
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
+- dependency-type: direct:production
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #138 from edwardtheharris/dependabot/pip/sphinx-design-0.6.0
@@ -1380,11 +1441,13 @@
 - Bumps [sphinx-tippy](https://github.com/chrisjsewell/sphinx-tippy) from 0.4.1 to 0.4.3.
 - - [Release notes](https://github.com/chrisjsewell/sphinx-tippy/releases)
 - - [Commits](https://github.com/chrisjsewell/sphinx-tippy/compare/v0.4.1...v0.4.3)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-tippy
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
+- dependency-type: direct:production
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #134 from edwardtheharris/dependabot/pip/sphinx-tippy-0.4.3
@@ -1392,11 +1455,13 @@
 - Bumps [ipython](https://github.com/ipython/ipython) from 8.24.0 to 8.26.0.
 - - [Release notes](https://github.com/ipython/ipython/releases)
 - - [Commits](https://github.com/ipython/ipython/compare/8.24.0...8.26.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: ipython
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
+- dependency-type: direct:development
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #139 from edwardtheharris/dependabot/pip/ipython-8.26.0
@@ -1404,11 +1469,13 @@
 - Bumps [pylint](https://github.com/pylint-dev/pylint) from 3.1.0 to 3.2.5.
 - - [Release notes](https://github.com/pylint-dev/pylint/releases)
 - - [Commits](https://github.com/pylint-dev/pylint/compare/v3.1.0...v3.2.5)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pylint
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
+- dependency-type: direct:development
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #140 from edwardtheharris/dependabot/pip/pylint-3.2.5
@@ -1417,11 +1484,13 @@
 - - [Release notes](https://github.com/pypa/pipenv/releases)
 - - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
 - - [Commits](https://github.com/pypa/pipenv/compare/v2023.12.1...v2024.0.1)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pipenv
--   dependency-type: direct:production
--   update-type: version-update:semver-major
+- dependency-type: direct:production
+- update-type: version-update:semver-major
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #135 from edwardtheharris/dependabot/pip/pipenv-2024.0.1
@@ -1430,11 +1499,13 @@
 - - [Release notes](https://github.com/danirus/sphinx-nefertiti/releases)
 - - [Changelog](https://github.com/danirus/sphinx-nefertiti/blob/main/ChangeLog.md)
 - - [Commits](https://github.com/danirus/sphinx-nefertiti/compare/0.3.3...0.3.4)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-nefertiti
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
+- dependency-type: direct:production
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #141 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.3.4
@@ -1443,11 +1514,13 @@
 - - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
 - - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
 - - [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.3.7...v7.4.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
+- dependency-type: direct:production
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #143 from edwardtheharris/dependabot/pip/sphinx-7.4.0
@@ -1455,11 +1528,13 @@
 - Bumps [pylint](https://github.com/pylint-dev/pylint) from 3.2.5 to 3.2.6.
 - - [Release notes](https://github.com/pylint-dev/pylint/releases)
 - - [Commits](https://github.com/pylint-dev/pylint/compare/v3.2.5...v3.2.6)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pylint
--   dependency-type: direct:development
--   update-type: version-update:semver-patch
+- dependency-type: direct:development
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #146 from edwardtheharris/dependabot/pip/pylint-3.2.6
@@ -1468,11 +1543,13 @@
 - - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
 - - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
 - - [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.4.0...v7.4.7)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
+- dependency-type: direct:production
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #144 from edwardtheharris/dependabot/pip/sphinx-7.4.7
@@ -1481,11 +1558,13 @@
 - - [Release notes](https://github.com/pytest-dev/pytest/releases)
 - - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
 - - [Commits](https://github.com/pytest-dev/pytest/compare/8.2.2...8.3.1)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pytest
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
+- dependency-type: direct:development
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #145 from edwardtheharris/dependabot/pip/pytest-8.3.1
@@ -1494,11 +1573,13 @@
 - - [Release notes](https://github.com/pytest-dev/pytest/releases)
 - - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
 - - [Commits](https://github.com/pytest-dev/pytest/compare/8.3.1...8.3.2)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pytest
--   dependency-type: direct:development
--   update-type: version-update:semver-patch
+- dependency-type: direct:development
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #147 from edwardtheharris/dependabot/pip/pytest-8.3.2
@@ -1507,11 +1588,13 @@
 - - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
 - - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
 - - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.6.0...v0.6.1)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-design
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
+- dependency-type: direct:production
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #148 from edwardtheharris/dependabot/pip/sphinx-design-0.6.1
@@ -1520,11 +1603,13 @@
 - - [Release notes](https://github.com/danirus/sphinx-nefertiti/releases)
 - - [Changelog](https://github.com/danirus/sphinx-nefertiti/blob/main/ChangeLog.md)
 - - [Commits](https://github.com/danirus/sphinx-nefertiti/compare/0.3.4...0.4.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-nefertiti
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
+- dependency-type: direct:production
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #149 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.4.0
@@ -1533,11 +1618,13 @@
 - - [Release notes](https://github.com/executablebooks/MyST-Parser/releases)
 - - [Changelog](https://github.com/executablebooks/MyST-Parser/blob/master/CHANGELOG.md)
 - - [Commits](https://github.com/executablebooks/MyST-Parser/compare/v3.0.1...v4.0.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: myst-parser
--   dependency-type: direct:production
--   update-type: version-update:semver-major
+- dependency-type: direct:production
+- update-type: version-update:semver-major
 - ...
 - Dependabot[bot] <support@github.com>
 - Bump sphinx-nefertiti from 0.4.0 to 0.4.1
@@ -1545,11 +1632,13 @@
 - - [Release notes](https://github.com/danirus/sphinx-nefertiti/releases)
 - - [Changelog](https://github.com/danirus/sphinx-nefertiti/blob/main/ChangeLog.md)
 - - [Commits](https://github.com/danirus/sphinx-nefertiti/compare/0.4.0...0.4.1)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: sphinx-nefertiti
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
+- dependency-type: direct:production
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #151 from edwardtheharris/dependabot/pip/sphinx-nefertiti-0.4.1
@@ -1561,11 +1650,13 @@
 - Bumps [ipython](https://github.com/ipython/ipython) from 8.26.0 to 8.27.0.
 - - [Release notes](https://github.com/ipython/ipython/releases)
 - - [Commits](https://github.com/ipython/ipython/compare/8.26.0...8.27.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: ipython
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
+- dependency-type: direct:development
+- update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #153 from edwardtheharris/dependabot/pip/ipython-8.27.0
@@ -1574,11 +1665,13 @@
 - Bumps [pylint](https://github.com/pylint-dev/pylint) from 3.2.6 to 3.2.7.
 - - [Release notes](https://github.com/pylint-dev/pylint/releases)
 - - [Commits](https://github.com/pylint-dev/pylint/compare/v3.2.6...v3.2.7)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pylint
--   dependency-type: direct:development
--   update-type: version-update:semver-patch
+- dependency-type: direct:development
+- update-type: version-update:semver-patch
 - ...
 - Dependabot[bot] <support@github.com>
 - Merge pull request #152 from edwardtheharris/dependabot/pip/pylint-3.2.7
