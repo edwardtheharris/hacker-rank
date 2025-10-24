@@ -16,6 +16,7 @@ sphinx-tippy = "*"
 sphinx-togglebutton = "*"
 sphinxcontrib-autoyaml = "*"
 sphinxcontrib-youtube = "*"
+poetry = "*"
 
 [dev-packages]
 ipython = "*"
