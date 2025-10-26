@@ -18,10 +18,10 @@ on:
     branches: ["main"]
 
 ###
-# ```{rubric} PyLint Jobs
+# ```{rubric} Black Jobs
 # ```
 # ---
-# Define the jobs that run in the PyLint workflow. Might like to add some
+# Define the jobs that run in the Black workflow. Might like to add some
 # reporting to the PR on the results from these at some point.
 #
 # ```{literalinclude} /.github/workflows/black.yml
