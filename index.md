@@ -18,6 +18,8 @@ title: Hacker Rank Challenges
 :caption: HackerRank Challenges
 
 bash/index
+docker/index
+c/index
 c-plus-plus/index
 python/index
 ```
