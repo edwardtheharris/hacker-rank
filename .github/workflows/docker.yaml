@@ -19,7 +19,7 @@ env:
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
-    # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
+    # Sets the permissions granted to the `PROJECT_PAT` for the actions in this job.
     permissions:
       contents: read
       packages: write
@@ -35,7 +35,7 @@ jobs:
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.PROJECT_PAT }}
       # This step uses [docker/metadata-action](https://github.com/docker/metadata-action#about) to extract tags and labels that will be applied to the specified image. The `id` "meta" allows the output of this step to be referenced in a subsequent step. The `images` value provides the base name for the tags and labels.
       - name: Extract metadata (tags, labels) for Docker
         id: meta
@@ -64,7 +64,7 @@ jobs:
           push-to-registry: true
   build-and-push-to-docker:
     runs-on: ubuntu-latest
-    # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
+    # Sets the permissions granted to the `PROJECT_PAT` for the actions in this job.
     permissions:
       contents: read
       packages: write
