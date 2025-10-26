@@ -36,7 +36,6 @@ jobs:
     strategy:
       matrix:
         python-version: ["3.11", "3.12", "3.13", "3.14"]
-
     steps:
       - uses: actions/checkout@main
         with:
@@ -52,10 +51,10 @@ jobs:
           pip install -r req
       - name: Analysing the code with pylint
         run: |
-          pylint python/**/*.py >> pylint-${{ matrix.python-version }}.xml
+          black */**pylint
+          >> pylint-${{ matrix.python-version }}.xml
       - name: Publish Test Results
-        uses: EnricoMi/publish-unit-test-result-action@v2
-        if: always()
+        uses: EnricoMi/publish-unit-test-result-action@45cb7880601f317e29f6c27209bf0baccb1330be1 if: always()
         with:
           comment_title: PyLint Results Python ${{ matrix.python-version }}
           check_name: pylint
