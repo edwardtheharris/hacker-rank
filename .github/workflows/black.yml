@@ -51,4 +51,4 @@ jobs:
           pip install -r req
       - name: Analysing the code with black
         run: |
-          black  *py **/**/py **/**/*py
+          black *.py python/*.py python/**/*.py
