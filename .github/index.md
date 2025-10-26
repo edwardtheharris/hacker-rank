@@ -30,7 +30,7 @@ This workflow produces the GitHub Pages site.
 
 I still like to run things through PyLint anyway.
 
-```{autoyaml} .github/workflows/pylint.yml
+```{autoyaml} .github/workflows/black.yml
 ```
 
 ### shell
