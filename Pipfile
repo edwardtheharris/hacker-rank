@@ -8,7 +8,6 @@ gitpython = "*"
 myst-parser = {extras = ["linkify"], version = "*"}
 poetry = "*"
 sphinx = "*"
-sphinx-autobuild = "*"
 sphinx-book-theme = "*"
 sphinx-design = "*"
 sphinx-pyscript = "*"
@@ -18,6 +17,7 @@ sphinxcontrib-autoyaml = "*"
 sphinxcontrib-youtube = "*"
 pipenv = "*"
 pre-commit = "*"
+sphinx-autobuild = "*"
 
 [dev-packages]
 black = "*"
