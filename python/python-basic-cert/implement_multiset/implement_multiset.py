@@ -3,6 +3,7 @@
 
 import os
 
+
 class Multiset:
     """This class implements a multiset."""
 
@@ -36,22 +37,23 @@ class Multiset:
         return ret_val
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
+
     def perform_operations(ops_list):
         """Perform operations with the multiset."""
         m = Multiset()
         ret_value = []
         for op_str in ops_list:
             elems = op_str.split()
-            if elems[0] == 'size':
+            if elems[0] == "size":
                 ret_value.append(len(m))
             else:
                 op, val = elems[0], int(elems[1])
-                if op == 'query':
+                if op == "query":
                     ret_value.append(val in m)
-                elif op == 'add':
+                elif op == "add":
                     m.add(val)
-                elif op == 'remove':
+                elif op == "remove":
                     m.remove(val)
         return ret_value
 
@@ -62,6 +64,6 @@ if __name__ == '__main__':
 
     result = perform_operations(operations)
 
-    with open(os.environ.get('OUTPUT_PATH'), 'w', encoding='utf-8') as fptr:
-        fptr.write('\n'.join(map(str, result)))
-        fptr.write('\n')
+    with open(os.environ.get("OUTPUT_PATH"), "w", encoding="utf-8") as fptr:
+        fptr.write("\n".join(map(str, result)))
+        fptr.write("\n")

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """This module reverses case and words in a sentence."""
 
+
 def reverse_words_order_and_swap_cases(sentence):
     """Reverse the case and order words in a sentence."""
     # Write your code here
@@ -13,7 +14,7 @@ def reverse_words_order_and_swap_cases(sentence):
     return ret_val
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     TEST_STR = "This is a regular sentence."
     RESULT = reverse_words_order_and_swap_cases(TEST_STR)
     print(RESULT)
