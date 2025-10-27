@@ -16,5 +16,11 @@ title: Test container build
 2. Run the thing.
 
   ```{code-block} shell
-  docker run -it -v $(pwd):/var/lib/test --name hr-test 
+  docker run -it -v $(pwd):/var/lib/test --name hr-test
   ```
+
+## Solutions
+
+```{toctree}
+staircase.c/index
+```
