@@ -1,5 +1,7 @@
 *.code*
+*.xml
 _build/
+reflog
 .venv/
 *.pyc
 __pycache__/

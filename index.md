@@ -26,6 +26,7 @@ python/index
 :maxdepth: 1
 :caption: Repository Minutiae
 
+changelog
 readme
 license
 .github/index
