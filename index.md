@@ -30,6 +30,7 @@ python/index
 
 changelog
 readme
+changelog
 license
 .github/index
 ```

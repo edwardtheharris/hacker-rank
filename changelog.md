@@ -25,11 +25,6 @@ title: Breeze Blocks Helm Repository Changelog
 ### 💼 Other - 0.0.1
 
 
-- Update changelog
-## [0.0.1] - 2025-10-27
-
-### 💼 Other
-
 - Initial commit
 - Iitial commit
 - Fix project name
