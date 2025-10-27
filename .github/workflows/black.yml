@@ -1,0 +1,53 @@
+###
+# ```{rubric} Black
+# ```
+# ---
+# This project uses black for formatting issues.
+#
+# ```{literalinclude} /.github/workflows/black.yml
+# :caption: .github/workflows/black.yml
+# :language: yaml
+# :start-at: "name: black\n"
+# :end-before: "###\n"
+# ```
+name: black
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+###
+# ```{rubric} Black Jobs
+# ```
+# ---
+# Define the jobs that run in the Black workflow. Might like to add some
+# reporting to the PR on the results from these at some point.
+#
+# ```{literalinclude} /.github/workflows/black.yml
+# :caption: .github/workflows/black.yml#jobs
+# :language: yaml
+# :start-at: "jobs:\n"
+# ```
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13", "3.14"]
+    steps:
+      - uses: actions/checkout@main
+        with:
+          fetch-depth: 0
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@main
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip pipenv
+          pipenv requirements --dev > req
+          pip install -r req
+      - name: Analysing the code with black
+        run: |
+          black *.py python/*.py python/**/*.py

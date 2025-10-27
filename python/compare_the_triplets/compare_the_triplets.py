@@ -4,6 +4,7 @@
 import os
 import pathlib
 
+
 class ScoreCompare:
     """Define a ScoreCompare object.
 
@@ -11,6 +12,7 @@ class ScoreCompare:
     :attribute list b: Another empty list.
     :attribute list scores: A list with two values initialized to 0.
     """
+
     a = []
     b = []
     scores = [0, 0]
@@ -34,6 +36,7 @@ class ScoreCompare:
         """Report the current score."""
         return self.scores
 
+
 def compare_triplets(a_trip, b_trip):
     """Compare sets of triplets to provide a score.
 
@@ -48,14 +51,15 @@ def compare_triplets(a_trip, b_trip):
 
     return sc_obj.scores
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     a = list(map(int, input().rstrip().split()))
 
     b = list(map(int, input().rstrip().split()))
 
     result = compare_triplets(a, b)
 
-    fpath = pathlib.Path(os.environ.get('OUTPUT_PATH'))
-    with fpath.open('w', encoding='utf-8') as fp_handle:
-        fp_handle.write(' '.join(map(str, result)))
-        fp_handle.write('\n')
+    fpath = pathlib.Path(os.environ.get("OUTPUT_PATH"))
+    with fpath.open("w", encoding="utf-8") as fp_handle:
+        fp_handle.write(" ".join(map(str, result)))
+        fp_handle.write("\n")

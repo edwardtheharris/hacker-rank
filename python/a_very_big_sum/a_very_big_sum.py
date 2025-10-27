@@ -26,7 +26,8 @@ def a_very_big_sum(ar_to_sum):
         raise TypeError("Please supply numeric values.") from type_error
     return ret_sum
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
 
     ar_count = int(input().strip())
 
@@ -34,6 +35,6 @@ if __name__ == '__main__':
 
     result = a_very_big_sum(ar)
 
-    fpath = pathlib.Path(os.environ.get('OUTPUT_PATH'))
-    with fpath.open('w', encoding='utf-8') as f_handle:
-        f_handle.write(str(result) + '\n')
+    fpath = pathlib.Path(os.environ.get("OUTPUT_PATH"))
+    with fpath.open("w", encoding="utf-8") as f_handle:
+        f_handle.write(str(result) + "\n")

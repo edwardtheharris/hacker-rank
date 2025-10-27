@@ -18,6 +18,8 @@ title: Hacker Rank Challenges
 :caption: HackerRank Challenges
 
 bash/index
+docker/index
+c/index
 c-plus-plus/index
 python/index
 ```
@@ -90,6 +92,13 @@ uniq
    values. More information is available
    [here](https://www.gnu.org/software/coreutils/manual/html_node/The-uniq-command.html).
 ```
+
+## Image repositories
+
+You can find the images required to run this code on GitHub and Docker.
+
+1. [hacker-rank ghcr](https://ghcr.io/edwardtheharris/hacker-rank:0.0.1)
+1. [hacker-rank docker](https://app.docker.com/accounts/edwardtheharris/settings/personal-access-tokens/copy?description=pat&scope=repo%3Aadmin&expiration=)
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
 ```
