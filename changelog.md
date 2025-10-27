@@ -3,7 +3,7 @@ abstract: Changelog for the dotfiles repository.
 title: Changelog
 ---
 <!--markdownlint-disable-->
-## [unreleased]
+## [0.0.1] - 2025-10-27
 
 ### 💼 Other
 
@@ -120,332 +120,11 @@ title: Changelog
 - Merge branch '244-001' of
 - Edwardtheharris/hacker-rank into 244-001
 - Closes #244
-## [0.0.2] - 2025-09-17
-
-### 💼 Other
-
-- Fix incorrect envrd
+- Update changelog for 0.0.1
 - Closes #244
-- Bump sphinx from 6.2.1 to 8.0.2
-- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 6.2.1 to 8.0.2.
-- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
-- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/v8.0.2/CHANGES.rst)
-- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v6.2.1...v8.0.2)
-- ---
-- Updated-dependencies:
-- - dependency-name: sphinx
--   dependency-type: direct:production
--   update-type: version-update:semver-major
-- ...
-- Dependabot[bot] <support@github.com>
-- Update ignore
-- Merge pull request #185 from edwardtheharris/dependabot/pip/sphinx-8.0.2
-- Bump sphinx from 6.2.1 to 8.0.2
-- Bump ipython from 8.12.3 to 8.27.0
-- Bumps [ipython](https://github.com/ipython/ipython) from 8.12.3 to 8.27.0.
-- - [Release notes](https://github.com/ipython/ipython/releases)
-- - [Commits](https://github.com/ipython/ipython/compare/8.12.3...8.27.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: ipython
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Update ignore
-- Merge pull request #183 from edwardtheharris/dependabot/pip/ipython-8.27.0
-- Bump ipython from 8.12.3 to 8.27.0
-- Bump myst-parser from 3.0.1 to 4.0.0
-- Bumps [myst-parser](https://github.com/executablebooks/MyST-Parser) from 3.0.1 to 4.0.0.
-- - [Release notes](https://github.com/executablebooks/MyST-Parser/releases)
-- - [Changelog](https://github.com/executablebooks/MyST-Parser/blob/master/CHANGELOG.md)
-- - [Commits](https://github.com/executablebooks/MyST-Parser/compare/v3.0.1...v4.0.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: myst-parser
--   dependency-type: direct:production
--   update-type: version-update:semver-major
-- ...
-- Dependabot[bot] <support@github.com>
-- Update
-- Update
-- Update lock
-- Merge pull request #182 from edwardtheharris/dependabot/pip/myst-parser-4.0.0
-- Bump myst-parser from 3.0.1 to 4.0.0
-- Bump sphinx-design from 0.5.0 to 0.6.1
-- Bumps [sphinx-design](https://github.com/executablebooks/sphinx-design) from 0.5.0 to 0.6.1.
-- - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
-- - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
-- - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.5.0...v0.6.1)
-- ---
-- Updated-dependencies:
-- - dependency-name: sphinx-design
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Update
-- Merge pull request #181 from edwardtheharris/dependabot/pip/sphinx-design-0.6.1
-- Bump sphinx-design from 0.5.0 to 0.6.1
-- Bump sphinx-book-theme from 1.0.1 to 1.1.3
-- Bumps [sphinx-book-theme](https://github.com/executablebooks/sphinx-book-theme) from 1.0.1 to 1.1.3.
-- - [Release notes](https://github.com/executablebooks/sphinx-book-theme/releases)
-- - [Changelog](https://github.com/executablebooks/sphinx-book-theme/blob/master/CHANGELOG.md)
-- - [Commits](https://github.com/executablebooks/sphinx-book-theme/compare/v1.0.1...v1.1.3)
-- ---
-- Updated-dependencies:
-- - dependency-name: sphinx-book-theme
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Update
-- Merge pull request #184 from edwardtheharris/dependabot/pip/sphinx-book-theme-1.1.3
-- Bump sphinx-book-theme from 1.0.1 to 1.1.3
-- Bump sphinx-design from 0.5.0 to 0.6.1
-- Bumps [sphinx-design](https://github.com/executablebooks/sphinx-design) from 0.5.0 to 0.6.1.
-- - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
-- - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
-- - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.5.0...v0.6.1)
-- ---
-- Updated-dependencies:
-- - dependency-name: sphinx-design
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Bump myst-parser from 3.0.1 to 4.0.0
-- Bumps [myst-parser](https://github.com/executablebooks/MyST-Parser) from 3.0.1 to 4.0.0.
-- - [Release notes](https://github.com/executablebooks/MyST-Parser/releases)
-- - [Changelog](https://github.com/executablebooks/MyST-Parser/blob/master/CHANGELOG.md)
-- - [Commits](https://github.com/executablebooks/MyST-Parser/compare/v3.0.1...v4.0.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: myst-parser
--   dependency-type: direct:production
--   update-type: version-update:semver-major
-- ...
-- Dependabot[bot] <support@github.com>
-- Bump sphinx-autobuild from 2021.3.14 to 2024.10.3
-- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2021.3.14 to 2024.10.3.
-- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
-- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
-- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2021.03.14...2024.10.03)
-- ---
-- Updated-dependencies:
-- - dependency-name: sphinx-autobuild
--   dependency-type: direct:production
--   update-type: version-update:semver-major
-- ...
-- Dependabot[bot] <support@github.com>
-- Bump tornado from 6.4.1 to 6.4.2 in the pip group
-- Bumps the pip group with 1 update: [tornado](https://github.com/tornadoweb/tornado).
-- Updates `tornado` from 6.4.1 to 6.4.2
-- - [Changelog](https://github.com/tornadoweb/tornado/blob/v6.4.2/docs/releases.rst)
-- - [Commits](https://github.com/tornadoweb/tornado/compare/v6.4.1...v6.4.2)
-- ---
-- Updated-dependencies:
-- - dependency-name: tornado
--   dependency-type: indirect
--   dependency-group: pip
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #199 from edwardtheharris/dependabot/pip/pip-661d9d4597
-- Bump tornado from 6.4.1 to 6.4.2 in the pip group
-- Closes #203
-- Bump ipython from 8.12.3 to 8.30.0
-- Bumps [ipython](https://github.com/ipython/ipython) from 8.12.3 to 8.30.0.
-- - [Release notes](https://github.com/ipython/ipython/releases)
-- - [Commits](https://github.com/ipython/ipython/compare/8.12.3...8.30.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: ipython
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #200 from edwardtheharris/dependabot/pip/ipython-8.30.0
-- Bump ipython from 8.12.3 to 8.30.0
-- Closes #201`
-- Add metadata workflow
-- Closes #201
-- Fix docs
-- Closes #201
-- Fix envrc
-- Closes #201
-- Fix project workflow
-- Closes #201
-- Fix index docs
-- Closes #201
-- Merge pull request #202 from edwardtheharris/201-bump-ipython-from-8123-to-8300-200
-- 201 bump ipython from 8123 to 8300 200
-- Closes #201
-- Merge branch 'main' into 203-bump-tornado-from-641-to-642-in-the-pip-group-199
-- Merge pull request #204 from edwardtheharris/203-bump-tornado-from-641-to-642-in-the-pip-group-199
-- 203 bump tornado from 641 to 642 in the pip group 199
-- Closes #203
-- Merge branch '205-bump-sphinx-autobuild-from-2021314-to-2024103-197' into dependabot/pip/sphinx-autobuild-2024.10.3
-- Merge pull request #197 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.10.3
-- Bump sphinx-autobuild from 2021.3.14 to 2024.10.3
-- Closes #205
-- Merge pull request #206 from edwardtheharris/205-bump-sphinx-autobuild-from-2021314-to-2024103-197
-- 205 bump sphinx autobuild from 2021314 to 2024103 197
-- Closes #205
-- Bump the pip group across 1 directory with 8 updates
-- Bumps the pip group with 7 updates in the / directory:
-- | Package | From | To |
-- | --- | --- | --- |
-- | [h11](https://github.com/python-hyper/h11) | `0.14.0` | `0.16.0` |
-- | [jinja2](https://github.com/pallets/jinja) | `3.1.4` | `3.1.6` |
-- | [requests](https://github.com/psf/requests) | `2.32.3` | `2.32.4` |
-- | [setuptools](https://github.com/pypa/setuptools) | `74.1.2` | `78.1.1` |
-- | [starlette](https://github.com/Kludex/starlette) | `0.39.2` | `0.47.2` |
-- | [tornado](https://github.com/tornadoweb/tornado) | `6.4.2` | `6.5` |
-- | [virtualenv](https://github.com/pypa/virtualenv) | `20.26.4` | `20.26.6` |
-- Updates `h11` from 0.14.0 to 0.16.0
-- - [Commits](https://github.com/python-hyper/h11/compare/v0.14.0...v0.16.0)
-- Updates `jinja2` from 3.1.4 to 3.1.6
-- - [Release notes](https://github.com/pallets/jinja/releases)
-- - [Changelog](https://github.com/pallets/jinja/blob/main/CHANGES.rst)
-- - [Commits](https://github.com/pallets/jinja/compare/3.1.4...3.1.6)
-- Updates `requests` from 2.32.3 to 2.32.4
-- - [Release notes](https://github.com/psf/requests/releases)
-- - [Changelog](https://github.com/psf/requests/blob/main/HISTORY.md)
-- - [Commits](https://github.com/psf/requests/compare/v2.32.3...v2.32.4)
-- Updates `setuptools` from 74.1.2 to 78.1.1
-- - [Release notes](https://github.com/pypa/setuptools/releases)
-- - [Changelog](https://github.com/pypa/setuptools/blob/main/NEWS.rst)
-- - [Commits](https://github.com/pypa/setuptools/compare/v74.1.2...v78.1.1)
-- Updates `starlette` from 0.39.2 to 0.47.2
-- - [Release notes](https://github.com/Kludex/starlette/releases)
-- - [Changelog](https://github.com/Kludex/starlette/blob/main/docs/release-notes.md)
-- - [Commits](https://github.com/Kludex/starlette/compare/0.39.2...0.47.2)
-- Updates `tornado` from 6.4.2 to 6.5
-- - [Changelog](https://github.com/tornadoweb/tornado/blob/master/docs/releases.rst)
-- - [Commits](https://github.com/tornadoweb/tornado/compare/v6.4.2...v6.5.0)
-- Updates `urllib3` from 2.2.3 to 2.5.0
-- - [Release notes](https://github.com/urllib3/urllib3/releases)
-- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
-- - [Commits](https://github.com/urllib3/urllib3/compare/2.2.3...2.5.0)
-- Updates `virtualenv` from 20.26.4 to 20.26.6
-- - [Release notes](https://github.com/pypa/virtualenv/releases)
-- - [Changelog](https://github.com/pypa/virtualenv/blob/main/docs/changelog.rst)
-- - [Commits](https://github.com/pypa/virtualenv/compare/20.26.4...20.26.6)
-- ---
-- Updated-dependencies:
-- - dependency-name: h11
--   dependency-version: 0.16.0
--   dependency-type: indirect
--   dependency-group: pip
-- - dependency-name: jinja2
--   dependency-version: 3.1.6
--   dependency-type: indirect
--   dependency-group: pip
-- - dependency-name: requests
--   dependency-version: 2.32.4
--   dependency-type: indirect
--   dependency-group: pip
-- - dependency-name: setuptools
--   dependency-version: 78.1.1
--   dependency-type: indirect
--   dependency-group: pip
-- - dependency-name: starlette
--   dependency-version: 0.47.2
--   dependency-type: indirect
--   dependency-group: pip
-- - dependency-name: tornado
--   dependency-version: '6.5'
--   dependency-type: indirect
--   dependency-group: pip
-- - dependency-name: urllib3
--   dependency-version: 2.5.0
--   dependency-type: indirect
--   dependency-group: pip
-- - dependency-name: virtualenv
--   dependency-version: 20.26.6
--   dependency-type: indirect
--   dependency-group: pip
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #210 from edwardtheharris/dependabot/pip/pip-16b9b4af00
-- Bump the pip group across 1 directory with 8 updates
-- Closes #211
-- Bump sphinx-book-theme from 1.0.1 to 1.1.3
-- Bumps [sphinx-book-theme](https://github.com/executablebooks/sphinx-book-theme) from 1.0.1 to 1.1.3.
-- - [Release notes](https://github.com/executablebooks/sphinx-book-theme/releases)
-- - [Changelog](https://github.com/executablebooks/sphinx-book-theme/blob/master/CHANGELOG.md)
-- - [Commits](https://github.com/executablebooks/sphinx-book-theme/compare/v1.0.1...v1.1.3)
-- ---
-- Updated-dependencies:
-- - dependency-name: sphinx-book-theme
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge branch 'main' of
-- Edwardtheharris/hacker-rank
-- Into dependabot/pip/sphinx-book-theme-1.1.3
-- Closes #205
-- Merge pull request #194 from edwardtheharris/dependabot/pip/sphinx-book-theme-1.1.3
-- Bump sphinx-book-theme from 1.0.1 to 1.1.3
-- Closes #207
-- Merge pull request #209 from edwardtheharris/207-bump-sphinx-book-theme-from-101-to-113-194
-- 207 bump sphinx book theme from 101 to 113 194
-- Closes #207
-- Merge branch 'main' of
-- Edwardtheharris/hacker-rank into
-- 211-bump-the-pip-group-across-1-directory-with-8-updates-210
-- Closes #211
-- Merge pull request #212 from edwardtheharris/211-bump-the-pip-group-across-1-directory-with-8-updates-210
-- 211 bump the pip group across 1 directory with 8 updates 210
-- Closes #211
-- Merge branch 'main' of
-- Edwardtheharris/hacker-rank
-- Into dependabot/pip/myst-parser-4.0.0
-- Closes #213
-- Merge pull request #192 from edwardtheharris/dependabot/pip/myst-parser-4.0.0
-- Bump myst-parser from 3.0.1 to 4.0.0
-- Closes #213
-- Merge pull request #215 from edwardtheharris/213-bump-myst-parser-from-301-to-400-192
-- 213 bump myst parser from 301 to 400 192
-- Closes #213
-- Merge branch 'main' of
-- Edwardtheharris/hacker-rank
-- Into dependabot/pip/sphinx-design-0.6.1
-- Closes #213
-- Merge pull request #191 from edwardtheharris/dependabot/pip/sphinx-design-0.6.1
-- Bump sphinx-design from 0.5.0 to 0.6.1
-- Closes #214
-- Merge pull request #216 from edwardtheharris/214-bump-sphinx-design-from-050-to-061-191
-- 214 bump sphinx design from 050 to 061 191
-- Closes #214
-- Add cliff toml
-- Closes #217
-- Add changelog
-- Closes #217
-- Merge pull request #218 from edwardtheharris/217-add-changelog-with-git-cliff
-- 217 add changelog with git cliff
-- Closes #217
-- Update ignore
-- Closes #219
-- Fix markdown errors
-- Closes #219
-- Merge pull request #220 from edwardtheharris/219-fix-markdown-issues
-- Update ignore
-- Closes #219
-- Update changelog
-- Closes #221
-- Fix changelog errors
-- Closes #221
-- Fix cliff settings
-- Closes #221
-- Fix clif config
-- Closes #221
-- Fix changelog generation
-- Merge pull request #222 from edwardtheharris/221-release-002
-- Update changelog'
-- Closes #221
-## [0.0.1] - 2024-09-14
+- Fix pylint error
+- Closes #242
+## [0.0.2] - 2025-09-17
 
 ### 💼 Other
 
@@ -1833,3 +1512,324 @@ title: Changelog
 - Merge pull request #189 from edwardtheharris/179-functions-and-fractals
 - Solve the fractal tree problem
 - Closes #179
+- Fix incorrect envrd
+- Closes #244
+- Bump sphinx from 6.2.1 to 8.0.2
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 6.2.1 to 8.0.2.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/v8.0.2/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v6.2.1...v8.0.2)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Update ignore
+- Merge pull request #185 from edwardtheharris/dependabot/pip/sphinx-8.0.2
+- Bump sphinx from 6.2.1 to 8.0.2
+- Bump ipython from 8.12.3 to 8.27.0
+- Bumps [ipython](https://github.com/ipython/ipython) from 8.12.3 to 8.27.0.
+- - [Release notes](https://github.com/ipython/ipython/releases)
+- - [Commits](https://github.com/ipython/ipython/compare/8.12.3...8.27.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ipython
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Update ignore
+- Merge pull request #183 from edwardtheharris/dependabot/pip/ipython-8.27.0
+- Bump ipython from 8.12.3 to 8.27.0
+- Bump myst-parser from 3.0.1 to 4.0.0
+- Bumps [myst-parser](https://github.com/executablebooks/MyST-Parser) from 3.0.1 to 4.0.0.
+- - [Release notes](https://github.com/executablebooks/MyST-Parser/releases)
+- - [Changelog](https://github.com/executablebooks/MyST-Parser/blob/master/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/MyST-Parser/compare/v3.0.1...v4.0.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: myst-parser
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Update
+- Update
+- Update lock
+- Merge pull request #182 from edwardtheharris/dependabot/pip/myst-parser-4.0.0
+- Bump myst-parser from 3.0.1 to 4.0.0
+- Bump sphinx-design from 0.5.0 to 0.6.1
+- Bumps [sphinx-design](https://github.com/executablebooks/sphinx-design) from 0.5.0 to 0.6.1.
+- - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
+- - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.5.0...v0.6.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-design
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Update
+- Merge pull request #181 from edwardtheharris/dependabot/pip/sphinx-design-0.6.1
+- Bump sphinx-design from 0.5.0 to 0.6.1
+- Bump sphinx-book-theme from 1.0.1 to 1.1.3
+- Bumps [sphinx-book-theme](https://github.com/executablebooks/sphinx-book-theme) from 1.0.1 to 1.1.3.
+- - [Release notes](https://github.com/executablebooks/sphinx-book-theme/releases)
+- - [Changelog](https://github.com/executablebooks/sphinx-book-theme/blob/master/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/sphinx-book-theme/compare/v1.0.1...v1.1.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-book-theme
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Update
+- Merge pull request #184 from edwardtheharris/dependabot/pip/sphinx-book-theme-1.1.3
+- Bump sphinx-book-theme from 1.0.1 to 1.1.3
+- Bump sphinx-design from 0.5.0 to 0.6.1
+- Bumps [sphinx-design](https://github.com/executablebooks/sphinx-design) from 0.5.0 to 0.6.1.
+- - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
+- - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.5.0...v0.6.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-design
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump myst-parser from 3.0.1 to 4.0.0
+- Bumps [myst-parser](https://github.com/executablebooks/MyST-Parser) from 3.0.1 to 4.0.0.
+- - [Release notes](https://github.com/executablebooks/MyST-Parser/releases)
+- - [Changelog](https://github.com/executablebooks/MyST-Parser/blob/master/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/MyST-Parser/compare/v3.0.1...v4.0.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: myst-parser
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump sphinx-autobuild from 2021.3.14 to 2024.10.3
+- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2021.3.14 to 2024.10.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2021.03.14...2024.10.03)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-autobuild
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump tornado from 6.4.1 to 6.4.2 in the pip group
+- Bumps the pip group with 1 update: [tornado](https://github.com/tornadoweb/tornado).
+- Updates `tornado` from 6.4.1 to 6.4.2
+- - [Changelog](https://github.com/tornadoweb/tornado/blob/v6.4.2/docs/releases.rst)
+- - [Commits](https://github.com/tornadoweb/tornado/compare/v6.4.1...v6.4.2)
+- ---
+- Updated-dependencies:
+- - dependency-name: tornado
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #199 from edwardtheharris/dependabot/pip/pip-661d9d4597
+- Bump tornado from 6.4.1 to 6.4.2 in the pip group
+- Closes #203
+- Bump ipython from 8.12.3 to 8.30.0
+- Bumps [ipython](https://github.com/ipython/ipython) from 8.12.3 to 8.30.0.
+- - [Release notes](https://github.com/ipython/ipython/releases)
+- - [Commits](https://github.com/ipython/ipython/compare/8.12.3...8.30.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ipython
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #200 from edwardtheharris/dependabot/pip/ipython-8.30.0
+- Bump ipython from 8.12.3 to 8.30.0
+- Closes #201`
+- Add metadata workflow
+- Closes #201
+- Fix docs
+- Closes #201
+- Fix envrc
+- Closes #201
+- Fix project workflow
+- Closes #201
+- Fix index docs
+- Closes #201
+- Merge pull request #202 from edwardtheharris/201-bump-ipython-from-8123-to-8300-200
+- 201 bump ipython from 8123 to 8300 200
+- Closes #201
+- Merge branch 'main' into 203-bump-tornado-from-641-to-642-in-the-pip-group-199
+- Merge pull request #204 from edwardtheharris/203-bump-tornado-from-641-to-642-in-the-pip-group-199
+- 203 bump tornado from 641 to 642 in the pip group 199
+- Closes #203
+- Merge branch '205-bump-sphinx-autobuild-from-2021314-to-2024103-197' into dependabot/pip/sphinx-autobuild-2024.10.3
+- Merge pull request #197 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.10.3
+- Bump sphinx-autobuild from 2021.3.14 to 2024.10.3
+- Closes #205
+- Merge pull request #206 from edwardtheharris/205-bump-sphinx-autobuild-from-2021314-to-2024103-197
+- 205 bump sphinx autobuild from 2021314 to 2024103 197
+- Closes #205
+- Bump the pip group across 1 directory with 8 updates
+- Bumps the pip group with 7 updates in the / directory:
+- | Package | From | To |
+- | --- | --- | --- |
+- | [h11](https://github.com/python-hyper/h11) | `0.14.0` | `0.16.0` |
+- | [jinja2](https://github.com/pallets/jinja) | `3.1.4` | `3.1.6` |
+- | [requests](https://github.com/psf/requests) | `2.32.3` | `2.32.4` |
+- | [setuptools](https://github.com/pypa/setuptools) | `74.1.2` | `78.1.1` |
+- | [starlette](https://github.com/Kludex/starlette) | `0.39.2` | `0.47.2` |
+- | [tornado](https://github.com/tornadoweb/tornado) | `6.4.2` | `6.5` |
+- | [virtualenv](https://github.com/pypa/virtualenv) | `20.26.4` | `20.26.6` |
+- Updates `h11` from 0.14.0 to 0.16.0
+- - [Commits](https://github.com/python-hyper/h11/compare/v0.14.0...v0.16.0)
+- Updates `jinja2` from 3.1.4 to 3.1.6
+- - [Release notes](https://github.com/pallets/jinja/releases)
+- - [Changelog](https://github.com/pallets/jinja/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/pallets/jinja/compare/3.1.4...3.1.6)
+- Updates `requests` from 2.32.3 to 2.32.4
+- - [Release notes](https://github.com/psf/requests/releases)
+- - [Changelog](https://github.com/psf/requests/blob/main/HISTORY.md)
+- - [Commits](https://github.com/psf/requests/compare/v2.32.3...v2.32.4)
+- Updates `setuptools` from 74.1.2 to 78.1.1
+- - [Release notes](https://github.com/pypa/setuptools/releases)
+- - [Changelog](https://github.com/pypa/setuptools/blob/main/NEWS.rst)
+- - [Commits](https://github.com/pypa/setuptools/compare/v74.1.2...v78.1.1)
+- Updates `starlette` from 0.39.2 to 0.47.2
+- - [Release notes](https://github.com/Kludex/starlette/releases)
+- - [Changelog](https://github.com/Kludex/starlette/blob/main/docs/release-notes.md)
+- - [Commits](https://github.com/Kludex/starlette/compare/0.39.2...0.47.2)
+- Updates `tornado` from 6.4.2 to 6.5
+- - [Changelog](https://github.com/tornadoweb/tornado/blob/master/docs/releases.rst)
+- - [Commits](https://github.com/tornadoweb/tornado/compare/v6.4.2...v6.5.0)
+- Updates `urllib3` from 2.2.3 to 2.5.0
+- - [Release notes](https://github.com/urllib3/urllib3/releases)
+- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/urllib3/urllib3/compare/2.2.3...2.5.0)
+- Updates `virtualenv` from 20.26.4 to 20.26.6
+- - [Release notes](https://github.com/pypa/virtualenv/releases)
+- - [Changelog](https://github.com/pypa/virtualenv/blob/main/docs/changelog.rst)
+- - [Commits](https://github.com/pypa/virtualenv/compare/20.26.4...20.26.6)
+- ---
+- Updated-dependencies:
+- - dependency-name: h11
+-   dependency-version: 0.16.0
+-   dependency-type: indirect
+-   dependency-group: pip
+- - dependency-name: jinja2
+-   dependency-version: 3.1.6
+-   dependency-type: indirect
+-   dependency-group: pip
+- - dependency-name: requests
+-   dependency-version: 2.32.4
+-   dependency-type: indirect
+-   dependency-group: pip
+- - dependency-name: setuptools
+-   dependency-version: 78.1.1
+-   dependency-type: indirect
+-   dependency-group: pip
+- - dependency-name: starlette
+-   dependency-version: 0.47.2
+-   dependency-type: indirect
+-   dependency-group: pip
+- - dependency-name: tornado
+-   dependency-version: '6.5'
+-   dependency-type: indirect
+-   dependency-group: pip
+- - dependency-name: urllib3
+-   dependency-version: 2.5.0
+-   dependency-type: indirect
+-   dependency-group: pip
+- - dependency-name: virtualenv
+-   dependency-version: 20.26.6
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #210 from edwardtheharris/dependabot/pip/pip-16b9b4af00
+- Bump the pip group across 1 directory with 8 updates
+- Closes #211
+- Bump sphinx-book-theme from 1.0.1 to 1.1.3
+- Bumps [sphinx-book-theme](https://github.com/executablebooks/sphinx-book-theme) from 1.0.1 to 1.1.3.
+- - [Release notes](https://github.com/executablebooks/sphinx-book-theme/releases)
+- - [Changelog](https://github.com/executablebooks/sphinx-book-theme/blob/master/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/sphinx-book-theme/compare/v1.0.1...v1.1.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-book-theme
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch 'main' of
+- Edwardtheharris/hacker-rank
+- Into dependabot/pip/sphinx-book-theme-1.1.3
+- Closes #205
+- Merge pull request #194 from edwardtheharris/dependabot/pip/sphinx-book-theme-1.1.3
+- Bump sphinx-book-theme from 1.0.1 to 1.1.3
+- Closes #207
+- Merge pull request #209 from edwardtheharris/207-bump-sphinx-book-theme-from-101-to-113-194
+- 207 bump sphinx book theme from 101 to 113 194
+- Closes #207
+- Merge branch 'main' of
+- Edwardtheharris/hacker-rank into
+- 211-bump-the-pip-group-across-1-directory-with-8-updates-210
+- Closes #211
+- Merge pull request #212 from edwardtheharris/211-bump-the-pip-group-across-1-directory-with-8-updates-210
+- 211 bump the pip group across 1 directory with 8 updates 210
+- Closes #211
+- Merge branch 'main' of
+- Edwardtheharris/hacker-rank
+- Into dependabot/pip/myst-parser-4.0.0
+- Closes #213
+- Merge pull request #192 from edwardtheharris/dependabot/pip/myst-parser-4.0.0
+- Bump myst-parser from 3.0.1 to 4.0.0
+- Closes #213
+- Merge pull request #215 from edwardtheharris/213-bump-myst-parser-from-301-to-400-192
+- 213 bump myst parser from 301 to 400 192
+- Closes #213
+- Merge branch 'main' of
+- Edwardtheharris/hacker-rank
+- Into dependabot/pip/sphinx-design-0.6.1
+- Closes #213
+- Merge pull request #191 from edwardtheharris/dependabot/pip/sphinx-design-0.6.1
+- Bump sphinx-design from 0.5.0 to 0.6.1
+- Closes #214
+- Merge pull request #216 from edwardtheharris/214-bump-sphinx-design-from-050-to-061-191
+- 214 bump sphinx design from 050 to 061 191
+- Closes #214
+- Add cliff toml
+- Closes #217
+- Add changelog
+- Closes #217
+- Merge pull request #218 from edwardtheharris/217-add-changelog-with-git-cliff
+- 217 add changelog with git cliff
+- Closes #217
+- Update ignore
+- Closes #219
+- Fix markdown errors
+- Closes #219
+- Merge pull request #220 from edwardtheharris/219-fix-markdown-issues
+- Update ignore
+- Closes #219
+- Update changelog
+- Closes #221
+- Fix changelog errors
+- Closes #221
+- Fix cliff settings
+- Closes #221
+- Fix clif config
+- Closes #221
+- Fix changelog generation
+- Merge pull request #222 from edwardtheharris/221-release-002
+- Update changelog'
+- Closes #221
