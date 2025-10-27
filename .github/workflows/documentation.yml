@@ -104,7 +104,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@main
         with:
-          path: "./deploy"
+          path: './deploy'
   ###
   # ```{rubric} Deploy the Pages site
   # ```
@@ -117,7 +117,7 @@ jobs:
   # ```
   pages:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
