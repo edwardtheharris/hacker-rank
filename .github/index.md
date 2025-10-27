@@ -19,6 +19,13 @@ Stay away from zero days with Dependabot.
 GitHub Actions provides a pretty complete CI/CD system and they'll let you
 run a lot of pipelines for free.
 
+### codeql
+
+The CodeQL workflow provided by GitHub is actually pretty good also.
+
+```{autoyaml} .github/workflows/codeql.yml
+```
+
 ### documentation
 
 This workflow produces the GitHub Pages site.
@@ -30,7 +37,7 @@ This workflow produces the GitHub Pages site.
 
 I still like to run things through PyLint anyway.
 
-```{autoyaml} .github/workflows/black.yml
+```{autoyaml} .github/workflows/pylint.yml
 ```
 
 ### shell
