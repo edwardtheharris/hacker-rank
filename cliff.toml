@@ -14,7 +14,7 @@ authors:
 date: 2025-09-17
 title: Hacker Rank Challenges Changelog
 ---
-
+<!--markdownlint-disable-->
 {% if version %}\
 
 ## [{{ version | trim_start_matches(pat="v") }}] - {{ timestamp | date(format="%Y-%m-%d") }}\
