@@ -67,7 +67,7 @@ jobs:
       - name: Lint the Markdown
         run: markdownlint-cli2 **/*.md *.md
       - name: Publish Test Results
-        uses: EnricoMi/publish-unit-test-result-action@v2
+        uses: EnricoMi/publish-unit-test-result-action@45cb7880601f317e29f6c27209bf0baccb1330be
         if: always()
         with:
           comment_title: MarkdownLint Results
@@ -107,7 +107,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@main
         with:
-          path: './deploy'
+          path: "./deploy"
   ###
   # ```{rubric} Deploy the Pages site
   # ```
@@ -120,7 +120,7 @@ jobs:
   # ```
   pages:
     needs: build
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
