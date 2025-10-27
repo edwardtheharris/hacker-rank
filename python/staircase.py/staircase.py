@@ -16,8 +16,12 @@ import sys
 
 def staircase(n):
     # Write your code here
-    for i in range(1, n + 1):
-        print(f"{i}")
+    ispace = " "
+    ihash = "#"
+    ilist = [ispace, ispace, ispace, ispace, ispace, ispace]
+    for index, value in enumerate(ilist):
+        ilist[:-index] = ihash
+        print(ilist)
 
 
 if __name__ == "__main__":
