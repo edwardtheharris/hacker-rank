@@ -3,29 +3,37 @@
 
 
 [changelog]
-header = """
----
-abstract: Changelog for the dotfiles repository.
-title: Changelog
----
-<!--markdownlint-disable-->
-"""
 # A Tera template to be rendered for each release in the changelog.
 # See https://keats.github.io/tera/docs/#introduction
 body = """
+---
+abstract: Changelog for the Hacker Rank challenges.
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
+date: 2025-09-17
+title: Hacker Rank Challenges Changelog
+---
+
 {% if version %}\
-    ## [{{ version | trim_start_matches(pat="v") }}] - {{ timestamp | date(format="%Y-%m-%d") }}
+
+## [{{ version | trim_start_matches(pat="v") }}] - {{ timestamp | date(format="%Y-%m-%d") }}\
+\
 {% else %}\
-    ## [unreleased]
+## [unreleased]\
+\
 {% endif %}\
-{% for group, commits in commits | group_by(attribute="group") %}
-    ### {{ group | striptags | trim | upper_first }}
-    {% for commit in commits %}
-        - {% if commit.scope %}*({{ commit.scope }})* {% endif %}\
-            {% if commit.breaking %}[**breaking**] {% endif %}\
-            {{ commit.message | upper_first }}\
+{% for group, commits in commits | group_by(attribute="group") %}\
+\
+### {{ group | striptags | trim | upper_first }}\
+\
+    {% for commit in commits %}\
+    -{% if commit.scope %}*({{ commit.scope }})* {% endif %}\
+      {% if commit.breaking %}[**breaking**] {% endif %}\
+      -{{ commit.message | upper_first }}\
     {% endfor %}
 {% endfor %}
+
 """
 # Remove leading and trailing whitespaces from the changelog's body.
 trim = true
@@ -37,8 +45,8 @@ postprocessors = [
   #{ pattern = '<REPO>', replace = "https://github.com/orhun/git-cliff" },
 ]
 # render body even when there are no releases to process
-# render_always = true
-# output file path
+#render_always = true
+#output file path
 output = "changelog.md"
 
 [git]
