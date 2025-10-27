@@ -29,6 +29,7 @@ python/index
 :caption: Repository Minutiae
 
 readme
+changelog
 license
 .github/index
 ```
