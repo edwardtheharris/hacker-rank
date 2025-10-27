@@ -3,128 +3,14 @@ abstract: Changelog for the dotfiles repository.
 title: Changelog
 ---
 <!--markdownlint-disable-->
-## [0.0.1] - 2025-10-27
+## [unreleased]
 
 ### 💼 Other
 
-- Bump pylint from 3.3.8 to 4.0.1
-- Bumps [pylint](https://github.com/pylint-dev/pylint) from 3.3.8 to 4.0.1.
-- - [Release notes](https://github.com/pylint-dev/pylint/releases)
-- - [Commits](https://github.com/pylint-dev/pylint/compare/v3.3.8...v4.0.1)
-- ---
-- Updated-dependencies:
-- - dependency-name: pylint
--   dependency-version: 4.0.1
--   dependency-type: direct:development
--   update-type: version-update:semver-major
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #227 from edwardtheharris/dependabot/pip/pylint-4.0.1
-- Bump pylint from 3.3.8 to 4.0.1
-- Closes #228
-- Merge pull request #229 from edwardtheharris/228-bump-pylint-from-338-to-401-227
-- 228 bump pylint from 338 to 401 227
-- Closes #228
-- Bump tomli from 2.2.1 to 2.3.0
-- Bumps [tomli](https://github.com/hukkin/tomli) from 2.2.1 to 2.3.0.
-- - [Changelog](https://github.com/hukkin/tomli/blob/master/CHANGELOG.md)
-- - [Commits](https://github.com/hukkin/tomli/compare/2.2.1...2.3.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: tomli
--   dependency-version: 2.3.0
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #224 from edwardtheharris/dependabot/pip/tomli-2.3.0
-- Bump tomli from 2.2.1 to 2.3.0
-- Closes #232
-- Bump ipython from 9.5.0 to 9.6.0
-- Bumps [ipython](https://github.com/ipython/ipython) from 9.5.0 to 9.6.0.
-- - [Release notes](https://github.com/ipython/ipython/releases)
-- - [Commits](https://github.com/ipython/ipython/compare/9.5.0...9.6.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: ipython
--   dependency-version: 9.6.0
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge branch '230-bump-ipython-from-950-to-960-226' into dependabot/pip/ipython-9.6.0
-- Merge pull request #226 from edwardtheharris/dependabot/pip/ipython-9.6.0
-- Bump ipython from 9.5.0 to 9.6.0
-- Closes #230
-- Merge pull request #231 from edwardtheharris/230-bump-ipython-from-950-to-960-226
-- 230 bump ipython from 950 to 960 226
-- Closes #230
-- Merge branch 'main' into 232-bump-tomli-from-221-to-230-224
-- Merge pull request #233 from edwardtheharris/232-bump-tomli-from-221-to-230-224
-- 232 bump tomli from 221 to 230 224
-- Closes #232
-- Update pipfile
-- Closes #236
-- Add dockerfile
-- Closes #239
-- Add plain old c
-- Closes #239
-- Add docker image build with attestation
-- Closes #299
-- Update Dockerfile
-- Closes #239
-- Add basic docker image
-- Closes #230
-- Lists should be sorted or its chaos
-- Closes #239
-- Update docker build
-- Closes #239
-- Fix python syntax, update pre-commit
-- Closes #239
-- Fix Pipfile
-- Closes #239
-- Fix bare url
-- Closes #239
-- Update commit shaw
-- Closes #239
-- Update black call
-- Closes #239
-- Update markdownlint
-- Closes #239
-- Pass black
-- Closes #239
-- Fix missing includes
-- Closes #239
-- Update project pat
-- Closes #239
-- Build and push on PRs
-- Closes #239
-- Fix pip
-- Closes #239
-- Add missing dockerfile reference
-- Closes #239
-- Update black workflows
-- Closes #239
-- Repair docker step
-- Closes #239
-- Fix first docker push
-- Closes #239
-- Update pipfile
-- Closes #239
-- Update build version
-- Update filename
-- Closes #239
-- Merge pull request #240 from edwardtheharris/239-add-a-simple-dockerfile-capable-of-building-and-testing-all-of-the-examples-here
-- 239 add a simple dockerfile capable of building and testing all of the examples here
-- Closes #240
-- Merge branch '244-001' of
-- Edwardtheharris/hacker-rank into 244-001
+- Merge pull request #246 from edwardtheharris/244-001
+- 244 001
 - Closes #244
-- Update changelog for 0.0.1
-- Closes #244
-- Fix pylint error
-- Closes #242
-## [0.0.2] - 2025-09-17
+## [0.0.1] - 2025-10-27
 
 ### 💼 Other
 
@@ -1833,3 +1719,122 @@ title: Changelog
 - Merge pull request #222 from edwardtheharris/221-release-002
 - Update changelog'
 - Closes #221
+- Bump pylint from 3.3.8 to 4.0.1
+- Bumps [pylint](https://github.com/pylint-dev/pylint) from 3.3.8 to 4.0.1.
+- - [Release notes](https://github.com/pylint-dev/pylint/releases)
+- - [Commits](https://github.com/pylint-dev/pylint/compare/v3.3.8...v4.0.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: pylint
+-   dependency-version: 4.0.1
+-   dependency-type: direct:development
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #227 from edwardtheharris/dependabot/pip/pylint-4.0.1
+- Bump pylint from 3.3.8 to 4.0.1
+- Closes #228
+- Merge pull request #229 from edwardtheharris/228-bump-pylint-from-338-to-401-227
+- 228 bump pylint from 338 to 401 227
+- Closes #228
+- Bump tomli from 2.2.1 to 2.3.0
+- Bumps [tomli](https://github.com/hukkin/tomli) from 2.2.1 to 2.3.0.
+- - [Changelog](https://github.com/hukkin/tomli/blob/master/CHANGELOG.md)
+- - [Commits](https://github.com/hukkin/tomli/compare/2.2.1...2.3.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: tomli
+-   dependency-version: 2.3.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #224 from edwardtheharris/dependabot/pip/tomli-2.3.0
+- Bump tomli from 2.2.1 to 2.3.0
+- Closes #232
+- Bump ipython from 9.5.0 to 9.6.0
+- Bumps [ipython](https://github.com/ipython/ipython) from 9.5.0 to 9.6.0.
+- - [Release notes](https://github.com/ipython/ipython/releases)
+- - [Commits](https://github.com/ipython/ipython/compare/9.5.0...9.6.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ipython
+-   dependency-version: 9.6.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '230-bump-ipython-from-950-to-960-226' into dependabot/pip/ipython-9.6.0
+- Merge pull request #226 from edwardtheharris/dependabot/pip/ipython-9.6.0
+- Bump ipython from 9.5.0 to 9.6.0
+- Closes #230
+- Merge pull request #231 from edwardtheharris/230-bump-ipython-from-950-to-960-226
+- 230 bump ipython from 950 to 960 226
+- Closes #230
+- Merge branch 'main' into 232-bump-tomli-from-221-to-230-224
+- Merge pull request #233 from edwardtheharris/232-bump-tomli-from-221-to-230-224
+- 232 bump tomli from 221 to 230 224
+- Closes #232
+- Update pipfile
+- Closes #236
+- Add dockerfile
+- Closes #239
+- Add plain old c
+- Closes #239
+- Add docker image build with attestation
+- Closes #299
+- Update Dockerfile
+- Closes #239
+- Add basic docker image
+- Closes #230
+- Lists should be sorted or its chaos
+- Closes #239
+- Update docker build
+- Closes #239
+- Fix python syntax, update pre-commit
+- Closes #239
+- Fix Pipfile
+- Closes #239
+- Fix bare url
+- Closes #239
+- Update commit shaw
+- Closes #239
+- Update black call
+- Closes #239
+- Update markdownlint
+- Closes #239
+- Pass black
+- Closes #239
+- Fix missing includes
+- Closes #239
+- Update project pat
+- Closes #239
+- Build and push on PRs
+- Closes #239
+- Fix pip
+- Closes #239
+- Add missing dockerfile reference
+- Closes #239
+- Update black workflows
+- Closes #239
+- Repair docker step
+- Closes #239
+- Fix first docker push
+- Closes #239
+- Update pipfile
+- Closes #239
+- Update build version
+- Update filename
+- Closes #239
+- Merge pull request #240 from edwardtheharris/239-add-a-simple-dockerfile-capable-of-building-and-testing-all-of-the-examples-here
+- 239 add a simple dockerfile capable of building and testing all of the examples here
+- Closes #240
+- Merge branch '244-001' of
+- Edwardtheharris/hacker-rank into 244-001
+- Closes #244
+- Update changelog for 0.0.1
+- Closes #244
+- Fix pylint error
+- Closes #242
+- Update changelog
+- Closes #244
