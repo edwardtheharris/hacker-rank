@@ -1,7 +1,7 @@
 ---
 abstract: >-
   This is the index of solutions to the HackerRank problem solving
-  problems implemented in Python.
+  problems implemented in Go.
 title: Problem Solving index
 ---
 

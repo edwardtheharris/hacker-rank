@@ -1,9 +1,9 @@
 ---
-abstract: This code implements a solution to the described problem in Python.
-title: Staircase in Python
+abstract: This code implements a solution to the described problem in Go.
+title: Staircase in Go
 ---
 
-## [Staircase.Python](https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true)
+## [Staircase.Go](https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true)
 
 ```{note}
 See
