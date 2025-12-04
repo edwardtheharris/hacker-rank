@@ -16,6 +16,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
   workflow_dispatch: {}
 
 ###
@@ -64,7 +67,7 @@ jobs:
       - name: Lint the Markdown
         run: markdownlint-cli2 **/*.md *.md
       - name: Publish Test Results
-        uses: EnricoMi/publish-unit-test-result-action@45cb7880601f317e29f6c27209bf0baccb1330be
+        uses: EnricoMi/publish-unit-test-result-action@v2
         if: always()
         with:
           comment_title: MarkdownLint Results

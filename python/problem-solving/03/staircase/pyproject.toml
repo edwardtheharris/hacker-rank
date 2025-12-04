@@ -1,0 +1,17 @@
+[project]
+name = "staircase"
+version = "0.0.1"
+description = "A solution to the staircase problem in Python."
+authors = [
+    {name = "Xander Harris",email = "xandertheharris@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
