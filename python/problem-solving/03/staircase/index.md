@@ -68,3 +68,9 @@ Constraints
 The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of $n=6$.
 
 [python.print](https://docs.python.org/3/library/functions.html#print)
+
+## Solved
+
+```{figure} Staircase.HackerRank.png
+:caption: 2025-12-04
+```
