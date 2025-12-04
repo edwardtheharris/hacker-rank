@@ -1,4 +1,4 @@
-A: Fail
-B: Fail
-C: Pass
-D: Pass
+A : Fail
+B : Fail
+C : Pass
+D : Pass
