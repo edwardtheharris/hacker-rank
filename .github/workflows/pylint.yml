@@ -53,7 +53,7 @@ jobs:
         run: |
           pylint python/**/*.py >> pylint-${{ matrix.python-version }}.xml
       - name: Publish Test Results
-        uses: EnricoMi/publish-unit-test-result-action@v2
+        uses: EnricoMi/publish-unit-test-result-action@34d7c956a59aed1bfebf31df77b8de55db9bbaaf
         if: always()
         with:
           comment_title: PyLint Results Python ${{ matrix.python-version }}
