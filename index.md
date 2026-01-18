@@ -28,7 +28,6 @@ python/index
 
 readme
 license
-.github/index
 ```
 
 ## Indices and tables
