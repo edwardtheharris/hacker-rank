@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 gitpython = "*"
 myst-parser = {extras = ["linkify"], version = "*"}
-pipenv = "*"
 sphinx = "*"
 sphinx-autobuild = "*"
 sphinx-book-theme = "*"
@@ -17,6 +16,8 @@ sphinx-togglebutton = "*"
 sphinxcontrib-autoyaml = "*"
 sphinxcontrib-youtube = "*"
 poetry = "*"
+pipenv = "*"
+pre-commit = "*"
 
 [dev-packages]
 ipython = "*"
