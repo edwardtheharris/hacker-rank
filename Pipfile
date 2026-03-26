@@ -17,6 +17,7 @@ sphinx-togglebutton = "*"
 sphinxcontrib-autoyaml = "*"
 sphinxcontrib-youtube = "*"
 poetry = "*"
+pre-commit = "*"
 
 [dev-packages]
 ipython = "*"
