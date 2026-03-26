@@ -94,12 +94,12 @@ jobs:
       - uses: actions/checkout@main
       - uses: actions/setup-python@main
         with:
-          python-version: 3.11
+          python-version: 3.14
           cache: pipenv
       - name: Setup pages
         uses: actions/configure-pages@main
       - name: Install pipenv
-        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
+        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python3.14
       - name: Install Python dependencies
         run: pipenv install
       - name: Build the static site
