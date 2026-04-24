@@ -1310,11 +1310,11 @@
         },
         "sphinxcontrib-youtube": {
             "hashes": [
-                "sha256:de9cb454f066d580a1e7ad64efae7dd9e12c1b1567a31faa330b1aeaeed40460",
-                "sha256:eb7871c8af47fd2b5c9727615354b7f95bce554be8be45b9fa8e5bc022f88059"
+                "sha256:541b5880096e0a8759f49711f45087c91d6992ff45f03c178e974c66c8f5e326",
+                "sha256:58d92bec536fbf029b642de3c9bbd32c7de307e0e13686015a0c0e91b7dfe3b8"
             ],
             "index": "pypi",
-            "version": "==1.4.1"
+            "version": "==1.5.0"
         },
         "starlette": {
             "hashes": [
