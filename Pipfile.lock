@@ -1851,11 +1851,11 @@
         },
         "decorator": {
             "hashes": [
-                "sha256:65f266143752f734b0a7cc83c46f4618af75b8c5911b00ccb61d0ac9b6da0360",
-                "sha256:d316bb415a2d9e2d2b3abcc4084c6502fc09240e292cd76a76afc106a1c8e04a"
+                "sha256:4cbcdd55a6efadb9dbea26b858f4fb3264567b52d69ca0d25b721b553f60ea82",
+                "sha256:f47fe6fdbd2edd623ecfe36875d37aba411624e2670dd395dddae1358689bb3c"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==5.2.1"
+            "version": "==5.3.1"
         },
         "dill": {
             "hashes": [
@@ -1883,12 +1883,12 @@
         },
         "ipython": {
             "hashes": [
-                "sha256:57f9d4639e20818d328d287c7b549af3d05f12486ea8f2e7f73e52a36ec4d201",
-                "sha256:7e834b6afc99f020e3f05966ced34792f40267d64cb1ea9043886dab0dde5967"
+                "sha256:6f27ff0f1d9ea050e0551f71568bc4b34d8aba579e8f111c5b4175f44ac6b4aa",
+                "sha256:8fd984a3372c14b12790b084ba6b5cff5678c0cb063244a0034f06a51f20d6c2"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.11'",
-            "version": "==9.13.0"
+            "version": "==9.14.0"
         },
         "ipython-pygments-lexers": {
             "hashes": [
@@ -1908,11 +1908,11 @@
         },
         "jedi": {
             "hashes": [
-                "sha256:4770dc3de41bde3966b02eb84fbcf557fb33cce26ad23da12c742fb50ecb11f0",
-                "sha256:a8ef22bde8490f57fe5c7681a3c83cb58874daf72b4784de3cce5b6ef6edb5b9"
+                "sha256:7bdd9c2634f56713299976f4cbd59cb3fa92165cc5e05ea811fb253480728b67",
+                "sha256:c3f4ccbd276696f4b19c54618d4fb18f9fc24b0aef02acf704b23f487daa1011"
             ],
-            "markers": "python_version >= '3.6'",
-            "version": "==0.19.2"
+            "markers": "python_version >= '3.10'",
+            "version": "==0.20.0"
         },
         "junit-xml-2": {
             "hashes": [
@@ -1932,11 +1932,11 @@
         },
         "matplotlib-inline": {
             "hashes": [
-                "sha256:d56ce5156ba6085e00a9d54fead6ed29a9c47e215cd1bba2e976ef39f5710a76",
-                "sha256:e1ee949c340d771fc39e241ea75683deb94762c8fa5f2927ec57c83c4dffa9fe"
+                "sha256:3c821cf1c209f59fb2d2d64abbf5b23b67bcb2210d663f9918dd851c6da1fcf6",
+                "sha256:72f3fe8fce36b70d4a5b612f899090cd0401deddc4ea90e1572b9f4bfb058c79"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==0.2.1"
+            "version": "==0.2.2"
         },
         "mccabe": {
             "hashes": [
@@ -1964,11 +1964,11 @@
         },
         "parso": {
             "hashes": [
-                "sha256:2b9a0332696df97d454fa67b81618fd69c35a7b90327cbe6ba5c92d2c68a7bfd",
-                "sha256:2c549f800b70a5c4952197248825584cb00f033b29c692671d3bf08bf380baff"
+                "sha256:a8926eb2a1b915486941fdbd31e86a4baf88fe8c210f25f2f35ecec5b574ca1c",
+                "sha256:eaaac4c9fdd5e9e8852dc778d2d7405897ec510f2a298071453e5e3a07914bb1"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==0.8.6"
+            "version": "==0.8.7"
         },
         "pathspec": {
             "hashes": [
@@ -2248,19 +2248,19 @@
         },
         "traitlets": {
             "hashes": [
-                "sha256:9ed0579d3502c94b4b3732ac120375cda96f923114522847de4b3bb98b96b6b7",
-                "sha256:b74e89e397b1ed28cc831db7aea759ba6640cb3de13090ca145426688ff1ac4f"
+                "sha256:4fead733f81cf1c4c938e06f8ca4633896833c9d89eff878159457f4d4392971",
+                "sha256:fb36a18867a6803deab09f3c5e0fa81bb7b26a5c9e82501c9933f759166eff40"
             ],
-            "markers": "python_version >= '3.8'",
-            "version": "==5.14.3"
+            "markers": "python_version >= '3.9'",
+            "version": "==5.15.0"
         },
         "wcwidth": {
             "hashes": [
-                "sha256:1a3a1e510b553315f8e146c54764f4fb6264ffad731b3d78088cdb1478ffbdad",
-                "sha256:cdc4e4262d6ef9a1a57e018384cbeb1208d8abbc64176027e2c2455c81313159"
+                "sha256:5d69154c429a82910e241c738cd0e2976fac8a2dd47a1a805f4afed1c0f136f2",
+                "sha256:90e3a7ea092341c44b99562e75d09e4d5160fe7a3974c6fb842a101a95e7eed0"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==0.6.0"
+            "version": "==0.7.0"
         }
     }
 }
