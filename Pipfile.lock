@@ -1177,11 +1177,11 @@
         },
         "snowballstemmer": {
             "hashes": [
-                "sha256:6cd7b3897da8d6c9ffb968a6781fa6532dce9c3618a4b127d920dab764a19064",
-                "sha256:6d5eeeec8e9f84d4d56b847692bacf79bc2c8e90c7f80ca4444ff8b6f2e52895"
+                "sha256:7e207fa178741da09cdee59d3ecec3827ad5f92b1fc5c9ff3755b639f71f5752",
+                "sha256:e07bbc54a0d798fe6010a12398422e62a8bfbba95c394fd0956ef58cb4d3e260"
             ],
-            "markers": "python_version not in '3.0, 3.1, 3.2'",
-            "version": "==3.0.1"
+            "markers": "python_version >= '3.3'",
+            "version": "==3.1.1"
         },
         "soupsieve": {
             "hashes": [
@@ -1263,12 +1263,12 @@
         },
         "sphinxcontrib-autoyaml": {
             "hashes": [
-                "sha256:50b0db1ad7ff888774609d3b8bdda7b008423af156aeb94a04d79e0be610b136",
-                "sha256:a380aa799b536d0c18393ae13d9097a183ab25585420d48999223fe735784973"
+                "sha256:8c6cb45afac75ee7e8f9d23ca3dbd26ce276589e75ba98d67dc661befbdfde5a",
+                "sha256:df0318b81e742b42b4b8af1a2694fd5777d87b8822006f026b79efb9083264bb"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.6'",
-            "version": "==1.1.3"
+            "version": "==1.2.0"
         },
         "sphinxcontrib-devhelp": {
             "hashes": [
