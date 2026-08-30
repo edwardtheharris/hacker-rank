@@ -17,8 +17,7 @@ import (
 
 func staircase(n int32) {
 	// Write your code here
-	int32 i := 0
-	for  i := 1; i <= n; i++ {
+	for i := 1; i <= n; i++ {
 		k := i - 1
 		st := [k]bytes{" "}
 		fmt.Println(st)
