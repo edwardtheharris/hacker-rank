@@ -1,4 +1,6 @@
 *.code*
+node_modules/
+package*
 *.xml
 .ansible
 _build/

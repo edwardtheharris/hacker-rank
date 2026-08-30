@@ -9,12 +9,6 @@ repos:
     rev: 25.1.0
     hooks:
       - id: black
-  - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.18.1
-    hooks:
-      - id: markdownlint-cli2
-        args:
-          - --fix
   - repo: https://github.com/ansible/ansible-lint
     rev: v25.5.0 # put latest release tag from https://github.com/ansible/ansible-lint/releases/
     hooks:
